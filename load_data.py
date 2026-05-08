@@ -16,25 +16,6 @@ DB = dict(
 DATASET_NAME = "Itaymanes K-QA"
 DATASET_DESC = "Dataset de perguntas e respostas médicas com 201 questões"
 
-# Maps full model name to (api_endpoint)
-API_ENDPOINTS = {
-    "Claude":    "https://api.anthropic.com/v1",
-    "GPT":       "https://api.openai.com/v1",
-    "gpt":       "https://api.openai.com/v1",
-    "Gemini":    "https://generativelanguage.googleapis.com/v1",
-    "Gemma":     "https://generativelanguage.googleapis.com/v1",
-    "Llama":     "https://api.meta.com/v1",
-    "llama":     "https://api.meta.com/v1",
-    "DeepSeek":  "https://api.deepseek.com/v1",
-    "deepseek":  "https://api.deepseek.com/v1",
-    "Kimi":      "https://api.moonshot.cn/v1",
-    "Nova":      "https://api.nova.ai/v1",
-    "phi":       "https://api.azure.com/openai/v1",
-    "qwen":      "https://dashscope.aliyuncs.com/api/v1",
-    "deep":      "https://api.deepseek.com/v1",
-}
-
-
 def parse_model(name: str) -> tuple[str, str]:
     """Split a raw model name into (nome_modelo, versao)."""
     # "Claude 4.6 Sonnet", "Gemini 3.0"
@@ -54,10 +35,6 @@ def parse_model(name: str) -> tuple[str, str]:
     if m:
         return m.group(1), m.group(2)
     return name, "unknown"
-
-
-def get_endpoint(nome: str) -> str:
-    return API_ENDPOINTS.get(nome, f"https://api.{nome.lower()}.com/v1")
 
 
 def main():
@@ -85,13 +62,12 @@ def main():
         model_id: dict[str, int] = {}
         for full_name in sorted({item["model_name"] for item in data}):
             nome, versao = parse_model(full_name)
-            endpoint = get_endpoint(nome)
             cur.execute(
-                "INSERT INTO modelos (nome_modelo, versao, tipo, api_endpoint) "
-                "VALUES (%s, %s, 'candidato', %s) "
+                "INSERT INTO modelos (nome_modelo, versao, tipo) "
+                "VALUES (%s, %s, 'candidato') "
                 "ON CONFLICT (nome_modelo, versao) DO NOTHING "
                 "RETURNING id_modelo",
-                (nome, versao, endpoint),
+                (nome, versao),
             )
             row = cur.fetchone()
             if not row:

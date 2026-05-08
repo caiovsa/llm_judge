@@ -6,7 +6,6 @@ CREATE TABLE modelos (
     nome_modelo  TEXT   NOT NULL,
     versao       TEXT   NOT NULL,
     tipo         TEXT   NOT NULL CHECK (tipo IN ('candidato', 'juiz')),
-    api_endpoint TEXT   NOT NULL,
 
     UNIQUE (nome_modelo, versao)
 );
