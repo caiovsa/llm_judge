@@ -80,3 +80,40 @@ Por padrão o script conecta em `localhost:5432`. Para usar outro host ou porta,
 ```bash
 DB_HOST=localhost DB_PORT=5432 DB_NAME=llm_judge DB_USER=llm_user DB_PASSWORD=llm_pass python load_data.py
 ```
+
+---
+
+## Restaurar a partir do dump
+
+O arquivo `dump.sql` contém um snapshot completo do banco (schema + dados).
+
+### Com Docker
+
+**1. Suba apenas o container do banco:**
+
+```bash
+docker compose up -d db
+```
+
+**2. Restaure o dump:**
+
+```bash
+docker exec -i llm_judge_db psql -U llm_user -d llm_judge < dump.sql
+```
+
+### Sem Docker (PostgreSQL local)
+
+**1. Crie o banco e o usuário** (se ainda não existirem):
+
+```sql
+CREATE USER llm_user WITH PASSWORD 'llm_pass';
+CREATE DATABASE llm_judge OWNER llm_user;
+```
+
+**2. Restaure o dump:**
+
+```bash
+psql -U llm_user -d llm_judge -f dump.sql
+```
+
+> Usar o dump é a forma mais rápida de ter o banco pronto — não é necessário rodar `load_data.py` depois.

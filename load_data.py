@@ -48,6 +48,11 @@ def main():
     cur = conn.cursor()
 
     try:
+        cur.execute("SELECT COUNT(*) FROM respostas_atividade_1")
+        if cur.fetchone()[0] > 0:
+            print("Dados já carregados. Nada a fazer.")
+            return
+
         # 1. Dataset
         cur.execute(
             "INSERT INTO datasets (nome_dataset, descricao) VALUES (%s, %s) "
