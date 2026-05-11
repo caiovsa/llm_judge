@@ -1,0 +1,1775 @@
+[
+  {
+    "question ": "(MC-NJ) - Step 1\nA 5-year-old boy is brought to the emergency department by his …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 5-year-old boy is brought to the emergency department by his …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 5-year-old boy is brought to the emergency department by his …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 80-year-old woman is brought to the emergency department (ED…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "C) Relationship with her family.[1]",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 80-year-old woman is brought to the emergency department (ED…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 80-year-old woman is brought to the emergency department (ED…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying the impact of glucocorticoids on le…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D) MAC-1",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying the impact of glucocorticoids on le…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying the impact of glucocorticoids on le…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 67-year-old man comes to the office because he is concerned a…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "B) “There's no need to worry",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 67-year-old man comes to the office because he is concerned a…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 67-year-old man comes to the office because he is concerned a…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 30-year-old woman comes to the office because of a 4-day hist…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "E) Toxic epidermal necrolysis",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 30-year-old woman comes to the office because of a 4-day hist…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 30-year-old woman comes to the office because of a 4-day hist…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman comes to the emergency department because o…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman comes to the emergency department because o…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman comes to the emergency department because o…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 2-week-old male newborn is brought to the office for a well-c…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D) Short palpebral fissures",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 2-week-old male newborn is brought to the office for a well-c…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 2-week-old male newborn is brought to the office for a well-c…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old boy is brought to the office by his parents to di…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "B) Epstein-Barr virus",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old boy is brought to the office by his parents to di…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old boy is brought to the office by his parents to di…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 14-year-old boy is brought to the emergency department by his…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A) BMI",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 14-year-old boy is brought to the emergency department by his…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 14-year-old boy is brought to the emergency department by his…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 38-year-old woman comes to the clinic to discuss results of a…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 38-year-old woman comes to the clinic to discuss results of a…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 38-year-old woman comes to the clinic to discuss results of a…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 36-year-old woman with hypertension comes to the office becau…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "B) Fetal lung/surfactant development",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 36-year-old woman with hypertension comes to the office becau…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 36-year-old woman with hypertension comes to the office becau…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman, gravida 1, para 1, comes to the office bec…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman, gravida 1, para 1, comes to the office bec…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman, gravida 1, para 1, comes to the office bec…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 68-year-old man is brought to the emergency department becaus…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 68-year-old man is brought to the emergency department becaus…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 68-year-old man is brought to the emergency department becaus…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 45-year-old woman comes to the emergency department because o…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 45-year-old woman comes to the emergency department because o…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 45-year-old woman comes to the emergency department because o…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn 87-year-old woman, gravida 6, para 6, is brought to the emer…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D) Urinary retention",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn 87-year-old woman, gravida 6, para 6, is brought to the emer…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn 87-year-old woman, gravida 6, para 6, is brought to the emer…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 25-year-old woman is admitted to the hospital because of a 2-…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D) Methimazole",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 25-year-old woman is admitted to the hospital because of a 2-…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 25-year-old woman is admitted to the hospital because of a 2-…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 16-year-old boy is brought to the emergency department becaus…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 16-year-old boy is brought to the emergency department becaus…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 16-year-old boy is brought to the emergency department becaus…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA previously healthy 29-year-old woman is admitted to the hospi…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA previously healthy 29-year-old woman is admitted to the hospi…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA previously healthy 29-year-old woman is admitted to the hospi…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 27-year-old primigravid woman comes to the physician for her …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D) HIV",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 27-year-old primigravid woman comes to the physician for her …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 27-year-old primigravid woman comes to the physician for her …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn investigator would like to decrease the incidence of type 2 …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn investigator would like to decrease the incidence of type 2 …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn investigator would like to decrease the incidence of type 2 …",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 70-year-old man comes to the clinic because of a 3-day histor…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 70-year-old man comes to the clinic because of a 3-day histor…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 70-year-old man comes to the clinic because of a 3-day histor…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the physician because of a 2-day h…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "D) Methylprednisolone",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the physician because of a 2-day h…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the physician because of a 2-day h…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B) 3",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "B) Emergency portacaval shunt is available only",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleed…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 42-year-old man comes to the office as a new patient. Three w…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "E) Opportunistic infection",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 42-year-old man comes to the office as a new patient. Three w…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 42-year-old man comes to the office as a new patient. Three w…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 40-year-old divorced woman comes to the office because of a 1…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Nova-Lite",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 40-year-old divorced woman comes to the office because of a 1…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Llama-3-8B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 40-year-old divorced woman comes to the office because of a 1…",
+    "options ": {},
+    "golden_answer ": "",
+    "model_name ": "Gemma-3-4B",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 30-year-old woman comes to the office because of a 4-day history of an\nincreasingly severe, painful rash over her body and in her mouth. The rash\nbegan over her trunk area but spread within a day to her face and\nextremities. Two days before development of the rash, she had flu-like\nsymptoms with muscle aches and fatigue as well as a nonproductive cough,\nsore throat, and runny nose. Ten days ago, she began treatment with\ntrimethoprim- sulfamethoxazole for a urinary tract infection; she takes no\nother medications. Temperature is 39.0°C (102.2°F), pulse is 120/min,\nrespirations are 25/min, and blood pressure is 165/105 mm Hg. Physical\nexamination shows diffuse brownish red macular exanthema with bullous\nlesions. Epidermis at an uninvolved site can be removed with mild\ntangential pressure. Examination of a biopsy specimen of one of the lesions\nshows necrosis of keratinocytes throughout the epidermis. There is\nminimal lymphocytic infiltration within the superficial dermis. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Erythema multiforme",
+      "B": "Linear IgA bullous dermatosis",
+      "C": "Pemphigus vulgaris",
+      "D": "Staphylococcal scalded skin syndrome",
+      "E": "Toxic epidermal necrolysis"
+    },
+    "golden_answer ": "E",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman comes to the emergency department because of a 3-\nhour history of fever, severe headache, light-headedness, dizziness,\nshaking chills, and muscle aches. Five hours ago, she was diagnosed with\nLyme disease and began doxycycline therapy. She has no other history of\nserious illness and takes no other medications. Menses occur at regular 28-\nday intervals. She is currently menstruating and using a tampon. She\nappears anxious. Temperature is 37.0°C (98.6°F), pulse is 120/min,\nrespirations are 30/min, and blood pressure is 90/60 mm Hg. Pulse\noximetry on room air shows an oxygen saturation of 94%. Physical\nexamination shows flushing and diaphoresis. Cardiopulmonary\nexamination shows no other abnormalities. Which of the following is the\nmost likely mechanism of this patient’s current condition?",
+    "options ": {
+      "A": "Exacerbation of infection by Borrelia burgdorferi",
+      "B": "Infection-mediated sepsis",
+      "C": "IgE-mediated allergic reaction to doxycycline",
+      "D": "Release of bacterial products producing acute inflammation",
+      "E": "Secretion of bacterial endotoxins"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 2-week-old male newborn is brought to the office for a well-child\nexamination. He was delivered following an uncomplicated, spontaneous\nvaginal delivery at 41 weeks' gestation. The mother has no history of\nserious illness and did not receive prenatal care. Her only medication is a\nprenatal vitamin. She has consumed large amounts of vodka nightly for 10\nyears. Which of the following examination findings is most likely to be\npresent in this patient?",
+    "options ": {
+      "A": "Hypospadias",
+      "B": "Limb hypoplasia",
+      "C": "Neck webbing",
+      "D": "Short palpebral fissures",
+      "E": "Spasticity"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old boy is brought to the office by his parents to discuss results\nof a biopsy done 3 days ago for a rapidly enlarging neck mass. He first\nnoted the mass 1 month ago. Two weeks ago, he was evaluated for an\nepisode of prolonged epistaxis and was found to have a right ear effusion,\nwhich was treated with amoxicillin-clavulanic acid. He has no other history\nof serious illness and takes no medications. Height is at the 10th percentile,\nweight is at the 50th percentile, and BMI is at the 75th percentile. Vital\nsigns are within normal limits. Physical examination shows a right ear\neffusion and a 4-cm, firm mass in the right posterior triangle of the neck.\nResults of a biopsy specimen show squamous epithelium with indistinct\ncell margins, enlarged atypical nuclei, and absent keratin formation. Which\nof the following infectious agents is the most likely underlying cause of this\npatient's current condition?",
+    "options ": {
+      "A": "Cytomegalovirus",
+      "B": "Epstein-Barr virus",
+      "C": "HIV",
+      "D": "Human herpesvirus 8"
+    },
+    "golden_answer ": "B",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 14-year-old boy is brought to the emergency department by his parents\nbecause of a 1-month history of intermittent right knee pain that has\nworsened during the past day. He rates his current pain as a 6 on a 10-point\nscale and says that it worsens when he walks and lessens when he sits.\nDuring the past 2 weeks, he has been walking 1 mile daily in preparation for\nparticipation in the school marching band. He has not taken any\nmedications for his pain. He sustained a right tibia and fibula fracture at the\nage of 8 years after a skateboarding accident, which was treated with\ninternal fixation and casting. He has asthma treated with inhaled\nbudesonide daily and inhaled albuterol as needed. His mother has type 2\ndiabetes mellitus, and his maternal grandmother has osteoporosis. The\npatient is 170 cm (5 ft 7 in; 77th percentile) tall and weighs 88 kg (195 lb;\n>95th percentile); BMI is 31 kg/m² (98th percentile). Temperature is 37.0°C\n(98.6°F), pulse is 95/min, and blood pressure is 130/80 mm Hg. Physical\nexamination shows hyperpigmented, thickened skin at the nape of the\nneck. There is tenderness to palpation of the anterior aspect of the right\nhip and limited range of motion on abduction, internal rotation, and flexion\nof the right hip. The left hip and knees are nontender; range of motion is\nfull in all directions. The remainder of the examination discloses no\nabnormalities. Which of the following factors in this patient’s history most\nincreased his risk for developing this condition?",
+    "options ": {
+      "A": "BMI",
+      "B": "Family history",
+      "C": "Medication use",
+      "D": "Previous fractures",
+      "E": "Recent physical activity"
+    },
+    "golden_answer ": "A",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 38-year-old woman comes to the clinic to discuss results of a biopsy\nspecimen of a mass in the right breast obtained 1 week ago. She has no\nhistory of serious illness and takes no medications. Vital signs are within\nnormal limits. Examination of the right breast shows a well-healing biopsy\nincision. The remainder of the examination discloses no abnormalities.\nResults of the biopsy specimen disclose ductal carcinoma in situ. The\nphysician informs the patient he has some bad news to share and tells her\nthe diagnosis. He explains her treatment options, including mastectomy,\nbreast-conserving surgery, radiation therapy, chemotherapy, and any\ncombination of these options. The patient appears afraid but listens\nattentively before responding, \"You're the doctor. My children are still little.\nTell me what I should do.\" In addition to expressing empathy, which of the\nfollowing is the most appropriate physician response?",
+    "options ": {
+      "A": "Risks abandonment; (C) premature directive without values elicitation;",
+      "B": "\"Before I make recommendations, can you tell me what you understand",
+      "C": "\"Given the stage of the cancer, I recommend mastectomy.\"",
+      "D": ", (E), (F), (G) may be relevant later, but first ensuring understanding is",
+      "E": "\"Would you like to discuss these options further with your family?\""
+    },
+    "golden_answer ": "B",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 36-year-old woman with hypertension comes to the office because she\nthinks she may be “going through early menopause.” She has not had a\nmenstrual period since her most recent office visit 6 months ago. During\nthis time, she also has been “gaining weight around the middle” despite\nincreased exercise; she has had a 6.3-kg (14-lb) weight gain. She has no\nother history of major medical illness. Her only medication is lisinopril. She\ndoes not smoke, drink alcohol, or use illicit drugs. She is 168 cm (5 ft 6 in)\ntall and weighs 107 kg (236 lb); BMI is 38 kg/m². Vital signs are within\nnormal limits. Examination shows a uterus consistent in size with a 24-\nweek gestation. Pelvic ultrasonography shows oligohydramnios and a fetus\nwith a misshapen cranium, pericardial effusion, small bladder, and\nechogenic bowel. The most likely cause of the fetal abnormalities in this\npatient’s pregnancy is interference with which of the following?",
+    "options ": {
+      "A": "Fetal lung/epithelial differentiation",
+      "B": "Fetal lung/surfactant development",
+      "C": "Fetal renal hemodynamics",
+      "D": "Maternal placental perfusion",
+      "E": "Maternal prostaglandin synthesis"
+    },
+    "golden_answer ": "C",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman, gravida 1, para 1, comes to the office because of a 2-\nweek history of palpitations and heat intolerance. She delivered her child 3\nmonths ago following an uncomplicated pregnancy and delivery. She is\nbreast- feeding. She has no history of serious illness and takes no\nmedications. She is 163 cm (5 ft 4 in) tall and weighs 54 kg (120 lb); BMI is 21\nkg/m². Temperature is 37°C (98.6°F), pulse is 106/min, respirations are 20/\nmin, and blood pressure is 124/68 mm Hg. Examination shows moist palms\nand bilateral lid lag. No exophthalmos is noted. The thyroid gland is\nenlarged and nontender. No murmurs are heard on cardiac examination.\nDeep tendon reflexes are 3+. Serum studies show an undetectable TSH\nconcentration, thyroxine (T₄) concentration of 20 μg/dL, and\ntriiodothyronine (T₃) concentration of 275 ng/dL. Which of the following is\nthe most likely mechanism of this patient's symptoms?",
+    "options ": {
+      "A": "Activation of mutations of TSH receptors",
+      "B": "Increased serum thyroglobulin concentration",
+      "C": "Ischemic injury to the hypothalamus",
+      "D": "Lymphocytic infiltration of the thyroid",
+      "E": "Presence of TSH receptor autoantibodies"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 68-year-old man is brought to the emergency department because of a\n2-day history of progressive lethargy and tremors. He has alcoholism and\nopiate, cocaine, and amphetamine use disorder, but he has abstained from\nalcohol and illicit substances during the past 2 weeks. He also has alcoholic\ncirrhosis. His only medication is a daily multivitamin. He previously drank\nsix 12-oz beers daily. He appears chronically ill and is somnolent.\nTemperature is 36.8°C (98.2°F), pulse is 100/min, respirations are 18/min,\nand blood pressure is 100/60 mm Hg. Pulse oximetry on room air shows an\noxygen saturation of 94%. Examination shows conjunctival icterus, ascites,\nand 2+ edema of the lower extremities. Cranial nerves are intact. Muscle\nstrength is 4/5 throughout. When he is awake, there is a postural and\naction tremor of the forearms and hands that is accompanied by a sudden,\nbrief loss of muscle strength. His speech is normal, and he is able to follow\nsimple commands. Serum total bilirubin concentration is 3 mg/dL. Blood\nand urine cultures grow no pathogens. Which of the following is most likely\nto improve this patient’s cognition and movement disorder?",
+    "options ": {
+      "A": "Intravenous vancomycin and cefepime therapy",
+      "B": "Intravenous vitamin B1 (thiamine) therapy",
+      "C": "Oral lactulose therapy",
+      "D": "Oral lorazepam therapy"
+    },
+    "golden_answer ": "C",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 45-year-old woman comes to the emergency department because of a 3-\nday history of progressive shortness of breath, cough productive of blood-\ntinged sputum, and fever. She also has a 3-month history of numbness of\nher left leg and tingling in her right arm. She has not had chills. She was\ndiagnosed with asthma 6 months ago; it is well controlled with inhaled\nbudesonide and albuterol as needed. She has no other history of serious\nillness and takes no other medications. She appears to be in mild\nrespiratory distress. Temperature is 38.1°C (100.6°F), pulse is 105/min and\nregular, respirations are 24/min, and blood pressure is 145/95 mm Hg.\nPulse oximetry on room air shows an oxygen saturation of 92%. Crackles\nare heard at the right lung base, and there are occasional diffuse wheezes.\nCardiac examination shows no abnormalities. On neurologic examination,\nsensation to pinprick is decreased over the lateral aspect of the left lower\nextremity and right upper extremity. Muscle strength is 5/5 throughout.\nBabinski sign is absent. Deep tendon reflexes are 2+ and symmetric. Which\nof the following is the most appropriate next step in diagnosis?",
+    "options ": {
+      "A": "CT angiography of the chest",
+      "B": "Determination of serum angiotensin-converting enzyme activity",
+      "C": "Measurement of serum IgE concentration",
+      "D": "Mesenteric angiography",
+      "E": "Serum antiglomerular basement membrane assay"
+    },
+    "golden_answer ": "F",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn 87-year-old woman, gravida 6, para 6, is brought to the emergency\ndepartment because of a 24-hour history of severe abdominal pain and an\ninability to void. She notes that for the past 2 months, she has had difficulty\nemptying her bladder, especially at the end of the day. Twenty years ago,\nshe underwent mastectomy for breast cancer; she has been cancer-free\nsince then. She has a 10-year history of osteoporosis. All of her children\nwere delivered vaginally without complications. Her only medication is\nalendronate. Examination shows the cervix protruding 7.5 cm from the\nvagina. After the cervix is replaced into the vagina, a urinary catheter\ndrains 700 mL of urine. Urinalysis shows no abnormalities. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Overactive bladder",
+      "B": "Overflow incontinence",
+      "C": "Stress incontinence",
+      "D": "Urinary retention",
+      "E": "Urinary tract infection"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 25-year-old woman is admitted to the hospital because of a 2-day history\nof fever, dizziness, light-headedness, chills, and shaking. She has\nhyperthyroidism, gastroesophageal reflux disease, and asthma. Her\nmedications are oral methimazole and omeprazole, and inhaled fluticasone,\nand she has been on the same dosages for 1 year. She is in the military\nreserve and will be deployed overseas next week. She began atovaquone-\nproguanil therapy 1 week ago and received the hepatitis A and yellow fever\nvaccines 2 weeks ago. She is not sexually active. She does not smoke\ncigarettes or drink alcohol. She appears ill but is not in acute distress.\nTemperature is 38.6°C (101.5°F), pulse is 110/min, respirations are 22/min,\nand blood pressure is 90/60 mm Hg. No wheezing is heard on auscultation.\nCardiac examination shows no abnormalities. Laboratory studies show:\nHemoglobin = 13.8 g/dL\nLeukocyte count = 1100/mm³\nSegmented neutrophils = 10%\nEosinophils = 10%\nLymphocytes = 40%\nMonocytes = 40%\nPlatelet count= 320,000/mm³\nPlatelet count 320,000/mm³\nResults of other laboratory studies are within the reference ranges. Which\nof the following is the most likely cause of this patient’s hematologic\nabnormality? Please choose the best option among the choices below.",
+    "options ": {
+      "A": "Atovaquone-proguanil",
+      "B": "Fluticasone",
+      "C": "Hepatitis A vaccine",
+      "D": "Methimazole",
+      "E": "Omeprazole"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 16-year-old boy is brought to the emergency department because of a 2-\nday history of fever, nausea, vomiting, headache, chills, and fatigue. He has\nnot had any sick contacts. He underwent splenectomy for traumatic injury\nat the age of 13 years. He has no other history of serious illness and takes\nno medications. He appears ill. His temperature is 39.2°C (102.5°F), pulse is\n130/min, respirations are 14/min, and blood pressure is 110/60 mm Hg. On\npulmonary examination, scattered crackles are heard bilaterally. Abdominal\nexamination shows a well-healed midline scar and mild, diffuse tenderness\nto palpation. Which of the following is the most appropriate next step in\nmanagement?",
+    "options ": {
+      "A": "Antibiotic therapy",
+      "B": "Antiemetic therapy",
+      "C": "CT scan of the chest",
+      "D": "X-ray of the abdomen",
+      "E": "Reassurance"
+    },
+    "golden_answer ": "A",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA previously healthy 29-year-old woman is admitted to the hospital\nbecause of a 1-day history of moderate headache, fever, and lethargy. Two\ndays ago, she underwent wisdom tooth extraction. She takes no\nmedications. She cannot remember her vaccination history. She does not\nsmoke cigarettes, drink alcohol, or use illicit drugs. She is a college student,\nlives in an apartment complex with other students, and eats all her meals in\nthe campus dining hall. She says her study partner had a “really bad fever”\nduring the past week. The patient appears sleepy. Temperature is 40.0°C\n(104.0°F), pulse is 140/min, and blood pressure is 90/40 mm Hg.\nExamination shows a diffuse purpuric rash over the trunk and all\nextremities. There is nuchal rigidity. Lungs are clear to auscultation. Heart\nsounds are normal. Neurologic examination shows no other focal findings.\nWhich of the following is most likely to have prevented this patient’s\ncurrent condition?",
+    "options ": {
+      "A": "Adherence to immunization guidelines",
+      "B": "Avoidance of eating meals in the campus dining hall",
+      "C": "Consistent hand washing",
+      "D": "Isolation of other students on campus with febrile illness",
+      "E": "are indicated for close contacts of an identified"
+    },
+    "golden_answer ": "A",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 27-year-old primigravid woman comes to the physician for her first\nprenatal visit 10 weeks after a home pregnancy test was positive. She feels\nwell, and her pregnancy has been uncomplicated. She previously used an\noral contraceptive but discontinued it 3 months ago. She has no history of\nsexually transmitted diseases. She is sexually active in a monogamous\nrelationship with a male partner who is the father. She has had five lifetime\nsexual partners. She has a pet cat. Examination shows a uterus consistent\nin size with a 10-week gestation. Testing for which of the following\ninfectious conditions is the most appropriate recommendation for this\npatient?",
+    "options ": {
+      "A": "Bacterial vaginosis",
+      "B": "Cytomegalovirus",
+      "C": "Epstein-Barr virus",
+      "D": "HIV",
+      "E": "Human papillomavirus"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn investigator would like to decrease the incidence of type 2 diabetes\nmellitus among adult patients with risk factors including obesity, decreased\nphysical activity, and family history of diabetes mellitus. A total of 200 men\nand women aged 30 to 64 years will be enrolled in a regular exercise\nprogram for 6 months. A nurse reviews the details of the study with each\nparticipant, and each participant signs an informed consent form. One\nmonth after the study begins, one of the participants asks to drop out of\nthe study. Which of the following represents the most appropriate next\nstep by this study participant?",
+    "options ": {
+      "A": "Complete the study because she signed the consent form",
+      "B": "Discuss withdrawal with the institutional review board",
+      "C": "Negotiate her withdrawal with the principal investigator",
+      "D": "Wait to withdraw until after the investigator consults with an ethics",
+      "E": "Withdraw from the study now"
+    },
+    "golden_answer ": "E",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 70-year-old man comes to the clinic because of a 3-day history of\nfatigue, dark urine, decreased urine output, mild pain with urination, and a\nlow-grade fever. He has gout, hypertension, and osteoarthritis. His\nmedications are allopurinol, hydrochlorothiazide, and acetaminophen.\nTemperature is 37.9°C (100.2°F), pulse is 88/min, respirations are 24/min,\nand blood pressure is 160/95 mm Hg. Pulse oximetry on room air shows an\noxygen saturation of 97%. Jugular venous pressure is 7 cm H2O (N=5–9).\nCardiopulmonary examination shows no abnormalities. Which of the\nfollowing is the most appropriate next step in management?",
+    "options ": {
+      "A": "does not address the problem;",
+      "B": "risk worsening retention-related hydronephrosis; empiric TMP-SMX",
+      "C": ".",
+      "D": "without confirming UTI and ruling out obstruction may delay appropriate",
+      "E": "is not first-line in suspected obstructive or prerenal AKI.[1][2][4]"
+    },
+    "golden_answer ": "C",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the physician because of a 2-day history of\nsevere pain and markedly decreased range of motion in her right elbow.\nShe has rheumatoid arthritis in her elbows, wrists, and hands. She reports\nepisodes of moderate pain approximately four times yearly. Previous\ntreatment with naproxen, methotrexate, and hydroxychloroquine has\nprovided moderate relief. Treatment with prednisone was begun after her\nmost recent episode 9 weeks ago. She has not had generalized fatigue or\nmuscle aches. She has no other history of serious illness. Her other\nmedications are naproxen, prednisone, and omeprazole. Temperature is\n38.4°C (101.1°F), pulse is 90/min, respirations are 12/min, and blood\npressure is 110/76 mm Hg. Range of motion of the wrists and ankles is\ndecreased; the right elbow is more severely limited by pain than the left\nelbow. There is warmth, tenderness, erythema, and edema of the right\nelbow. Fine-needle aspiration of the right elbow is performed. Gram stain\nof the fluid shows a leukocyte count of 60,000/mm3 and no organisms.\nWhich of the following is the most appropriate pharmacotherapy?",
+    "options ": {
+      "A": "Colchicine",
+      "B": "Infliximab",
+      "C": "Ketorolac",
+      "D": "Methylprednisolone",
+      "E": "Vancomycin"
+    },
+    "golden_answer ": "E",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nA 52-year-old man with hepatic cirrhosis comes to the emergency\ndepartment because of a 3-hour history of\nvomiting blood. Esophagogastroduodenoscopy confirms actively bleeding\nesophageal varices. Based on the abstract\nshown, the physician is considering an emergency portacaval shunt (EPCS)\nprocedure rather than endoscopic\nsclerotherapy (EST). According to the results in the abstract, approximately\nhow many patients must be treated with\nEPCS rather than EST to prevent one case of recurrent portal-systemic\nencephalopathy?",
+    "options ": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "10",
+      "E": "16"
+    },
+    "golden_answer ": "C",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nWhich of the following most strongly limits the generalizability of this\nstudy's findings?",
+    "options ": {
+      "A": "The allocation was concealed",
+      "B": "Emergency portacaval shunt is available only at specialty centers",
+      "C": "The follow-up period was too short",
+      "D": "The patients were not blinded",
+      "E": "Unmeasured confounders were not controlled by the study design"
+    },
+    "golden_answer ": "B",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nWhich of the following conclusions is most appropriate based on the\nresults presented in the table?",
+    "options ": {
+      "A": "The trials show superior survival with EPCS across Child-Pugh classes;",
+      "B": "Rationale:",
+      "C": "While outcomes worsen with higher Child class, the specific claim about",
+      "D": "Baseline distributions (including Child class) were similar, suggesting"
+    },
+    "golden_answer ": "B",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 42-year-old man comes to the office as a new patient. Three weeks ago,\nhe was hospitalized for treatment of community-acquired pneumonia and\ndiagnosed with HIV infection. He has no other history of serious illness and\ntakes no medications. Vital signs are within normal limits. Examination\nshows no abnormalities. CD4+ T-lymphocyte count is 490/mm³, and\nplasma HIV viral load is 45,000 copies/mL. Results of other laboratory\nstudies are within the reference ranges. Test results for syphilis and\nhepatitis B and C are negative. The patient agrees to begin antiretroviral\ntherapy. He asks what his long-term prognosis will be. With adherence to\nthe medication regimen, this patient is at greatest risk of death from which\nof the following?",
+    "options ": {
+      "A": ".",
+      "B": "Chronic kidney disease",
+      "C": "HIV-related malignancy",
+      "D": "Non–HIV-related malignancy",
+      "E": "Opportunistic infection"
+    },
+    "golden_answer ": "A",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 40-year-old divorced woman comes to the office because of a 1-year\nhistory of difficulty sleeping. She says she sometimes does not fall asleep\nbefore 2 AM and does not feel rested at 6:30 AM when she has to get up\nand get her children ready for school. Sometimes she wakes after 1 to 2\nhours of sleep and cannot fall back to sleep. On these occasions, she\ntypically gets up for about 30 minutes, does some housework, and smokes\na cigarette. She smokes one pack of cigarettes every three to four days. She\nworks in a customer service call center and says she enjoys helping people\nresolve their problems. She now finds her job much harder and less\nenjoyable because she feels tired and sleepy. She says she would take a nap\nif she could, but she picks her children up as soon as she leaves work and\nspends the evening doing homework with them, making their dinner, and\npreparing lunches for the following day. By 9 PM, the children are in bed so\nshe eats her own dinner and does some housework. She says that after 9\nPM is when she smokes most of her cigarettes. She has not had depressed\nmood, excessive worry, or change in weight. Vital signs are within normal\nlimits. Examination shows dark circles under the eyes and injected\nconjunctivae. Which of the following is the most appropriate initial step in\nmanagement?",
+    "options ": {
+      "A": "Education on sleep hygiene",
+      "B": "Mirtazapine therapy",
+      "C": "Sertraline therapy",
+      "D": "Setting a date for smoking cessation",
+      "E": "Zolpidem therapy"
+    },
+    "golden_answer ": "A",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 58-year-old woman is brought to the office by her husband because of a\n6-week history of increasing confusion. Her husband says that, initially, she\nhad difficulty doing “normal” things, such as preparing meals. Since then,\nshe has become progressively less able to care for herself or even use a\ntelephone. During this time, she also has had increased anxiety and\nrestlessness. She has type 2 diabetes mellitus well controlled with an oral\nhypoglycemic agent. She is alert and appears anxious. She is oriented to\nperson but not to place or time. She startles when the door to the\nexamination room is slammed shut. Her temperature is 36.8°C (98.2°F),\npulse is 78/min and regular, and blood pressure is 132/94 mm Hg. Physical\nexamination shows no other abnormalities. On neurologic examination, she\ncan repeat three objects immediately but is unable to recall them after 3\nminutes. She is unable to copy a drawing of a cube. Results of a complete\nblood count and serum electrolyte concentrations are within the reference\nranges. Her serum glucose concentration is 155 mg/dL. CT scan of the\nhead shows no abnormalities. Which of the following is the most\nappropriate next step in diagnosis?",
+    "options ": {
+      "A": "Determination of hemoglobin A1c",
+      "B": "Measurement of cerebrospinal fluid 14-3-3 protein concentration",
+      "C": "Measurement of cerebrospinal fluid beta amyloid concentration",
+      "D": "Measurement of cerebrospinal fluid methylmalonic acid concentration",
+      "E": "Measurement of serum angiotensin-converting enzyme activity"
+    },
+    "golden_answer ": "B",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 38-year-old woman is brought to the emergency department by\nparamedics 90 minutes after she fell through ice into a stream while hiking.\nShe was stuck in the ice until emergency responders rescued her. On\narrival, she has severe pain in her feet. She has no history of serious illness\nand takes no medications. Temperature is 34.8°C (94.6°F); other vital signs\nare within normal limits. Examination shows blue discoloration over the\ntoes bilaterally, and the feet are cold to touch. Which of the following is the\nmost appropriate next step in management?",
+    "options ": {
+      "A": "Place the feet in front of a dry space heater",
+      "B": "Rub the feet with a steaming hot towel",
+      "C": "Submerge the feet in a moderately warm whirlpool.",
+      "D": "Wrap the feet in a room-temperature wet-to-dry dressing",
+      "E": "Observation only"
+    },
+    "golden_answer ": "C",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the emergency department because of a 1-\nday history of bleeding gums and moderate pain in her knees. She first\nnoticed the gum bleeding while brushing her teeth this morning; she has\nbeen unable to stop the bleeding. She has systemic lupus erythematosus\nwith inflammatory arthritis and Raynaud disease. Medications are tramadol\nand hydroxychloroquine. Vital signs are within normal limits. Examination\nshows bleeding, friable gums. There are multiple ecchymoses and\npetechiae over the upper extremities. Cardiac and abdominal examinations\nshow no abnormalities. The knees are cool to the touch; there are\neffusions, and range of motion is limited by pain. Neurologic examination\nshows no focal findings. Laboratory studies show:\nHemoglobin = 11 g/dL\nHematocrit = 33%\nErythrocyte count = 4.2 × 10¹²/L\nMean corpuscular volume = 90 μm³\nLeukocyte count = 9000/mm³\nSegmented neutrophils = 60%\nBands = 3%\nEosinophils = 2%\nBasophils = 1%\nLymphocytes = 30%\nMonocytes = 4%\nPlatelet count = 20,000/mm³\nSerum\nCreatinine = 0.9 mg/dL\nFerritin 1= 0 ng/mL\nWhich of the following is the most appropriate next step in management?",
+    "options ": {
+      "A": "Factor replacement therapy",
+      "B": "Methotrexate therapy",
+      "C": "Plasmapheresis",
+      "D": "Prednisone therapy",
+      "E": "Splenectomy"
+    },
+    "golden_answer ": "D",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 13-year-old boy is brought to the emergency department because of a 3-\nday history of progressive fatigue, shortness of breath, and difficulty\nwalking up stairs. He had been well until 1 week ago, when he developed\nrhinorrhea, cough, and a sore throat. These symptoms resolved\nspontaneously 2 days ago. He has no history of serious illness and takes no\nmedications. On arrival, he is pale and in moderate respiratory distress.\nPulse is 120/min, respirations are 25/min, and blood pressure is 80/40 mm\nHg. Pulse oximetry on room air shows an oxygen saturation of 91%. On\npulmonary examination, crackles are heard throughout the lung fields. On\ncardiac examination, a gallop is heard. S1 is soft. A grade 2/6, high-pitched\nholosystolic murmur is heard best at the apex. The remainder of the\nexamination shows no abnormalities. Which of the following is the most\nlikely diagnosis?",
+    "options ": {
+      "A": "Glomerulonephritis",
+      "B": "Myocarditis",
+      "C": "Pneumonia",
+      "D": "Rheumatic fever",
+      "E": "Systemic lupus erythematosus"
+    },
+    "golden_answer ": "B",
+    "model_name ": "Kimi-K2.5",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 30-year-old woman comes to the office because of a 4-day history of an\nincreasingly severe, painful rash over her body and in her mouth. The rash\nbegan over her trunk area but spread within a day to her face and\nextremities. Two days before development of the rash, she had flu-like\nsymptoms with muscle aches and fatigue as well as a nonproductive cough,\nsore throat, and runny nose. Ten days ago, she began treatment with\ntrimethoprim- sulfamethoxazole for a urinary tract infection; she takes no\nother medications. Temperature is 39.0°C (102.2°F), pulse is 120/min,\nrespirations are 25/min, and blood pressure is 165/105 mm Hg. Physical\nexamination shows diffuse brownish red macular exanthema with bullous\nlesions. Epidermis at an uninvolved site can be removed with mild\ntangential pressure. Examination of a biopsy specimen of one of the lesions\nshows necrosis of keratinocytes throughout the epidermis. There is\nminimal lymphocytic infiltration within the superficial dermis. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Erythema multiforme",
+      "B": "Linear IgA bullous dermatosis",
+      "C": "Pemphigus vulgaris",
+      "D": "Staphylococcal scalded skin syndrome",
+      "E": "Toxic epidermal necrolysis"
+    },
+    "golden_answer ": "E",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman comes to the emergency department because of a 3-\nhour history of fever, severe headache, light-headedness, dizziness,\nshaking chills, and muscle aches. Five hours ago, she was diagnosed with\nLyme disease and began doxycycline therapy. She has no other history of\nserious illness and takes no other medications. Menses occur at regular 28-\nday intervals. She is currently menstruating and using a tampon. She\nappears anxious. Temperature is 37.0°C (98.6°F), pulse is 120/min,\nrespirations are 30/min, and blood pressure is 90/60 mm Hg. Pulse\noximetry on room air shows an oxygen saturation of 94%. Physical\nexamination shows flushing and diaphoresis. Cardiopulmonary\nexamination shows no other abnormalities. Which of the following is the\nmost likely mechanism of this patient’s current condition?",
+    "options ": {
+      "A": "Exacerbation of infection by Borrelia burgdorferi",
+      "B": "Infection-mediated sepsis",
+      "C": "IgE-mediated allergic reaction to doxycycline",
+      "D": "Release of bacterial products producing acute inflammation",
+      "E": "Secretion of bacterial endotoxins"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 2-week-old male newborn is brought to the office for a well-child\nexamination. He was delivered following an uncomplicated, spontaneous\nvaginal delivery at 41 weeks' gestation. The mother has no history of\nserious illness and did not receive prenatal care. Her only medication is a\nprenatal vitamin. She has consumed large amounts of vodka nightly for 10\nyears. Which of the following examination findings is most likely to be\npresent in this patient?",
+    "options ": {
+      "A": "Hypospadias",
+      "B": "Limb hypoplasia",
+      "C": "Neck webbing",
+      "D": "Short palpebral fissures",
+      "E": "Spasticity"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old boy is brought to the office by his parents to discuss results\nof a biopsy done 3 days ago for a rapidly enlarging neck mass. He first\nnoted the mass 1 month ago. Two weeks ago, he was evaluated for an\nepisode of prolonged epistaxis and was found to have a right ear effusion,\nwhich was treated with amoxicillin-clavulanic acid. He has no other history\nof serious illness and takes no medications. Height is at the 10th percentile,\nweight is at the 50th percentile, and BMI is at the 75th percentile. Vital\nsigns are within normal limits. Physical examination shows a right ear\neffusion and a 4-cm, firm mass in the right posterior triangle of the neck.\nResults of a biopsy specimen show squamous epithelium with indistinct\ncell margins, enlarged atypical nuclei, and absent keratin formation. Which\nof the following infectious agents is the most likely underlying cause of this\npatient's current condition?",
+    "options ": {
+      "A": "Cytomegalovirus",
+      "B": "Epstein-Barr virus",
+      "C": "HIV",
+      "D": "Human herpesvirus 8"
+    },
+    "golden_answer ": "B",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 14-year-old boy is brought to the emergency department by his parents\nbecause of a 1-month history of intermittent right knee pain that has\nworsened during the past day. He rates his current pain as a 6 on a 10-point\nscale and says that it worsens when he walks and lessens when he sits.\nDuring the past 2 weeks, he has been walking 1 mile daily in preparation for\nparticipation in the school marching band. He has not taken any\nmedications for his pain. He sustained a right tibia and fibula fracture at the\nage of 8 years after a skateboarding accident, which was treated with\ninternal fixation and casting. He has asthma treated with inhaled\nbudesonide daily and inhaled albuterol as needed. His mother has type 2\ndiabetes mellitus, and his maternal grandmother has osteoporosis. The\npatient is 170 cm (5 ft 7 in; 77th percentile) tall and weighs 88 kg (195 lb;\n>95th percentile); BMI is 31 kg/m² (98th percentile). Temperature is 37.0°C\n(98.6°F), pulse is 95/min, and blood pressure is 130/80 mm Hg. Physical\nexamination shows hyperpigmented, thickened skin at the nape of the\nneck. There is tenderness to palpation of the anterior aspect of the right\nhip and limited range of motion on abduction, internal rotation, and flexion\nof the right hip. The left hip and knees are nontender; range of motion is\nfull in all directions. The remainder of the examination discloses no\nabnormalities. Which of the following factors in this patient’s history most\nincreased his risk for developing this condition?",
+    "options ": {
+      "A": "BMI",
+      "B": "Family history",
+      "C": "Medication use",
+      "D": "Previous fractures",
+      "E": "Recent physical activity"
+    },
+    "golden_answer ": "A",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 38-year-old woman comes to the clinic to discuss results of a biopsy\nspecimen of a mass in the right breast obtained 1 week ago. She has no\nhistory of serious illness and takes no medications. Vital signs are within\nnormal limits. Examination of the right breast shows a well-healing biopsy\nincision. The remainder of the examination discloses no abnormalities.\nResults of the biopsy specimen disclose ductal carcinoma in situ. The\nphysician informs the patient he has some bad news to share and tells her\nthe diagnosis. He explains her treatment options, including mastectomy,\nbreast-conserving surgery, radiation therapy, chemotherapy, and any\ncombination of these options. The patient appears afraid but listens\nattentively before responding, \"You're the doctor. My children are still little.\nTell me what I should do.\" In addition to expressing empathy, which of the\nfollowing is the most appropriate physician response?",
+    "options ": {
+      "A": "Risks abandonment; (C) premature directive without values elicitation;",
+      "B": "\"Before I make recommendations, can you tell me what you understand",
+      "C": "\"Given the stage of the cancer, I recommend mastectomy.\"",
+      "D": ", (E), (F), (G) may be relevant later, but first ensuring understanding is",
+      "E": "\"Would you like to discuss these options further with your family?\""
+    },
+    "golden_answer ": "B",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 36-year-old woman with hypertension comes to the office because she\nthinks she may be “going through early menopause.” She has not had a\nmenstrual period since her most recent office visit 6 months ago. During\nthis time, she also has been “gaining weight around the middle” despite\nincreased exercise; she has had a 6.3-kg (14-lb) weight gain. She has no\nother history of major medical illness. Her only medication is lisinopril. She\ndoes not smoke, drink alcohol, or use illicit drugs. She is 168 cm (5 ft 6 in)\ntall and weighs 107 kg (236 lb); BMI is 38 kg/m². Vital signs are within\nnormal limits. Examination shows a uterus consistent in size with a 24-\nweek gestation. Pelvic ultrasonography shows oligohydramnios and a fetus\nwith a misshapen cranium, pericardial effusion, small bladder, and\nechogenic bowel. The most likely cause of the fetal abnormalities in this\npatient’s pregnancy is interference with which of the following?",
+    "options ": {
+      "A": "Fetal lung/epithelial differentiation",
+      "B": "Fetal lung/surfactant development",
+      "C": "Fetal renal hemodynamics",
+      "D": "Maternal placental perfusion",
+      "E": "Maternal prostaglandin synthesis"
+    },
+    "golden_answer ": "C",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman, gravida 1, para 1, comes to the office because of a 2-\nweek history of palpitations and heat intolerance. She delivered her child 3\nmonths ago following an uncomplicated pregnancy and delivery. She is\nbreast- feeding. She has no history of serious illness and takes no\nmedications. She is 163 cm (5 ft 4 in) tall and weighs 54 kg (120 lb); BMI is 21\nkg/m². Temperature is 37°C (98.6°F), pulse is 106/min, respirations are 20/\nmin, and blood pressure is 124/68 mm Hg. Examination shows moist palms\nand bilateral lid lag. No exophthalmos is noted. The thyroid gland is\nenlarged and nontender. No murmurs are heard on cardiac examination.\nDeep tendon reflexes are 3+. Serum studies show an undetectable TSH\nconcentration, thyroxine (T₄) concentration of 20 μg/dL, and\ntriiodothyronine (T₃) concentration of 275 ng/dL. Which of the following is\nthe most likely mechanism of this patient's symptoms?",
+    "options ": {
+      "A": "Activation of mutations of TSH receptors",
+      "B": "Increased serum thyroglobulin concentration",
+      "C": "Ischemic injury to the hypothalamus",
+      "D": "Lymphocytic infiltration of the thyroid",
+      "E": "Presence of TSH receptor autoantibodies"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 68-year-old man is brought to the emergency department because of a\n2-day history of progressive lethargy and tremors. He has alcoholism and\nopiate, cocaine, and amphetamine use disorder, but he has abstained from\nalcohol and illicit substances during the past 2 weeks. He also has alcoholic\ncirrhosis. His only medication is a daily multivitamin. He previously drank\nsix 12-oz beers daily. He appears chronically ill and is somnolent.\nTemperature is 36.8°C (98.2°F), pulse is 100/min, respirations are 18/min,\nand blood pressure is 100/60 mm Hg. Pulse oximetry on room air shows an\noxygen saturation of 94%. Examination shows conjunctival icterus, ascites,\nand 2+ edema of the lower extremities. Cranial nerves are intact. Muscle\nstrength is 4/5 throughout. When he is awake, there is a postural and\naction tremor of the forearms and hands that is accompanied by a sudden,\nbrief loss of muscle strength. His speech is normal, and he is able to follow\nsimple commands. Serum total bilirubin concentration is 3 mg/dL. Blood\nand urine cultures grow no pathogens. Which of the following is most likely\nto improve this patient’s cognition and movement disorder?",
+    "options ": {
+      "A": "Intravenous vancomycin and cefepime therapy",
+      "B": "Intravenous vitamin B1 (thiamine) therapy",
+      "C": "Oral lactulose therapy",
+      "D": "Oral lorazepam therapy"
+    },
+    "golden_answer ": "C",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 45-year-old woman comes to the emergency department because of a 3-\nday history of progressive shortness of breath, cough productive of blood-\ntinged sputum, and fever. She also has a 3-month history of numbness of\nher left leg and tingling in her right arm. She has not had chills. She was\ndiagnosed with asthma 6 months ago; it is well controlled with inhaled\nbudesonide and albuterol as needed. She has no other history of serious\nillness and takes no other medications. She appears to be in mild\nrespiratory distress. Temperature is 38.1°C (100.6°F), pulse is 105/min and\nregular, respirations are 24/min, and blood pressure is 145/95 mm Hg.\nPulse oximetry on room air shows an oxygen saturation of 92%. Crackles\nare heard at the right lung base, and there are occasional diffuse wheezes.\nCardiac examination shows no abnormalities. On neurologic examination,\nsensation to pinprick is decreased over the lateral aspect of the left lower\nextremity and right upper extremity. Muscle strength is 5/5 throughout.\nBabinski sign is absent. Deep tendon reflexes are 2+ and symmetric. Which\nof the following is the most appropriate next step in diagnosis?",
+    "options ": {
+      "A": "CT angiography of the chest",
+      "B": "Determination of serum angiotensin-converting enzyme activity",
+      "C": "Measurement of serum IgE concentration",
+      "D": "Mesenteric angiography",
+      "E": "Serum antiglomerular basement membrane assay"
+    },
+    "golden_answer ": "F",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn 87-year-old woman, gravida 6, para 6, is brought to the emergency\ndepartment because of a 24-hour history of severe abdominal pain and an\ninability to void. She notes that for the past 2 months, she has had difficulty\nemptying her bladder, especially at the end of the day. Twenty years ago,\nshe underwent mastectomy for breast cancer; she has been cancer-free\nsince then. She has a 10-year history of osteoporosis. All of her children\nwere delivered vaginally without complications. Her only medication is\nalendronate. Examination shows the cervix protruding 7.5 cm from the\nvagina. After the cervix is replaced into the vagina, a urinary catheter\ndrains 700 mL of urine. Urinalysis shows no abnormalities. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Overactive bladder",
+      "B": "Overflow incontinence",
+      "C": "Stress incontinence",
+      "D": "Urinary retention",
+      "E": "Urinary tract infection"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 25-year-old woman is admitted to the hospital because of a 2-day history\nof fever, dizziness, light-headedness, chills, and shaking. She has\nhyperthyroidism, gastroesophageal reflux disease, and asthma. Her\nmedications are oral methimazole and omeprazole, and inhaled fluticasone,\nand she has been on the same dosages for 1 year. She is in the military\nreserve and will be deployed overseas next week. She began atovaquone-\nproguanil therapy 1 week ago and received the hepatitis A and yellow fever\nvaccines 2 weeks ago. She is not sexually active. She does not smoke\ncigarettes or drink alcohol. She appears ill but is not in acute distress.\nTemperature is 38.6°C (101.5°F), pulse is 110/min, respirations are 22/min,\nand blood pressure is 90/60 mm Hg. No wheezing is heard on auscultation.\nCardiac examination shows no abnormalities. Laboratory studies show:\nHemoglobin = 13.8 g/dL\nLeukocyte count = 1100/mm³\nSegmented neutrophils = 10%\nEosinophils = 10%\nLymphocytes = 40%\nMonocytes = 40%\nPlatelet count= 320,000/mm³\nPlatelet count 320,000/mm³\nResults of other laboratory studies are within the reference ranges. Which\nof the following is the most likely cause of this patient’s hematologic\nabnormality? Please choose the best option among the choices below.",
+    "options ": {
+      "A": "Atovaquone-proguanil",
+      "B": "Fluticasone",
+      "C": "Hepatitis A vaccine",
+      "D": "Methimazole",
+      "E": "Omeprazole"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 16-year-old boy is brought to the emergency department because of a 2-\nday history of fever, nausea, vomiting, headache, chills, and fatigue. He has\nnot had any sick contacts. He underwent splenectomy for traumatic injury\nat the age of 13 years. He has no other history of serious illness and takes\nno medications. He appears ill. His temperature is 39.2°C (102.5°F), pulse is\n130/min, respirations are 14/min, and blood pressure is 110/60 mm Hg. On\npulmonary examination, scattered crackles are heard bilaterally. Abdominal\nexamination shows a well-healed midline scar and mild, diffuse tenderness\nto palpation. Which of the following is the most appropriate next step in\nmanagement?",
+    "options ": {
+      "A": "Antibiotic therapy",
+      "B": "Antiemetic therapy",
+      "C": "CT scan of the chest",
+      "D": "X-ray of the abdomen",
+      "E": "Reassurance"
+    },
+    "golden_answer ": "A",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA previously healthy 29-year-old woman is admitted to the hospital\nbecause of a 1-day history of moderate headache, fever, and lethargy. Two\ndays ago, she underwent wisdom tooth extraction. She takes no\nmedications. She cannot remember her vaccination history. She does not\nsmoke cigarettes, drink alcohol, or use illicit drugs. She is a college student,\nlives in an apartment complex with other students, and eats all her meals in\nthe campus dining hall. She says her study partner had a “really bad fever”\nduring the past week. The patient appears sleepy. Temperature is 40.0°C\n(104.0°F), pulse is 140/min, and blood pressure is 90/40 mm Hg.\nExamination shows a diffuse purpuric rash over the trunk and all\nextremities. There is nuchal rigidity. Lungs are clear to auscultation. Heart\nsounds are normal. Neurologic examination shows no other focal findings.\nWhich of the following is most likely to have prevented this patient’s\ncurrent condition?",
+    "options ": {
+      "A": "Adherence to immunization guidelines",
+      "B": "Avoidance of eating meals in the campus dining hall",
+      "C": "Consistent hand washing",
+      "D": "Isolation of other students on campus with febrile illness",
+      "E": "are indicated for close contacts of an identified"
+    },
+    "golden_answer ": "A",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 27-year-old primigravid woman comes to the physician for her first\nprenatal visit 10 weeks after a home pregnancy test was positive. She feels\nwell, and her pregnancy has been uncomplicated. She previously used an\noral contraceptive but discontinued it 3 months ago. She has no history of\nsexually transmitted diseases. She is sexually active in a monogamous\nrelationship with a male partner who is the father. She has had five lifetime\nsexual partners. She has a pet cat. Examination shows a uterus consistent\nin size with a 10-week gestation. Testing for which of the following\ninfectious conditions is the most appropriate recommendation for this\npatient?",
+    "options ": {
+      "A": "Bacterial vaginosis",
+      "B": "Cytomegalovirus",
+      "C": "Epstein-Barr virus",
+      "D": "HIV",
+      "E": "Human papillomavirus"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn investigator would like to decrease the incidence of type 2 diabetes\nmellitus among adult patients with risk factors including obesity, decreased\nphysical activity, and family history of diabetes mellitus. A total of 200 men\nand women aged 30 to 64 years will be enrolled in a regular exercise\nprogram for 6 months. A nurse reviews the details of the study with each\nparticipant, and each participant signs an informed consent form. One\nmonth after the study begins, one of the participants asks to drop out of\nthe study. Which of the following represents the most appropriate next\nstep by this study participant?",
+    "options ": {
+      "A": "Complete the study because she signed the consent form",
+      "B": "Discuss withdrawal with the institutional review board",
+      "C": "Negotiate her withdrawal with the principal investigator",
+      "D": "Wait to withdraw until after the investigator consults with an ethics",
+      "E": "Withdraw from the study now"
+    },
+    "golden_answer ": "E",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 70-year-old man comes to the clinic because of a 3-day history of\nfatigue, dark urine, decreased urine output, mild pain with urination, and a\nlow-grade fever. He has gout, hypertension, and osteoarthritis. His\nmedications are allopurinol, hydrochlorothiazide, and acetaminophen.\nTemperature is 37.9°C (100.2°F), pulse is 88/min, respirations are 24/min,\nand blood pressure is 160/95 mm Hg. Pulse oximetry on room air shows an\noxygen saturation of 97%. Jugular venous pressure is 7 cm H2O (N=5–9).\nCardiopulmonary examination shows no abnormalities. Which of the\nfollowing is the most appropriate next step in management?",
+    "options ": {
+      "A": "does not address the problem;",
+      "B": "risk worsening retention-related hydronephrosis; empiric TMP-SMX",
+      "C": ".",
+      "D": "without confirming UTI and ruling out obstruction may delay appropriate",
+      "E": "is not first-line in suspected obstructive or prerenal AKI.[1][2][4]"
+    },
+    "golden_answer ": "C",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the physician because of a 2-day history of\nsevere pain and markedly decreased range of motion in her right elbow.\nShe has rheumatoid arthritis in her elbows, wrists, and hands. She reports\nepisodes of moderate pain approximately four times yearly. Previous\ntreatment with naproxen, methotrexate, and hydroxychloroquine has\nprovided moderate relief. Treatment with prednisone was begun after her\nmost recent episode 9 weeks ago. She has not had generalized fatigue or\nmuscle aches. She has no other history of serious illness. Her other\nmedications are naproxen, prednisone, and omeprazole. Temperature is\n38.4°C (101.1°F), pulse is 90/min, respirations are 12/min, and blood\npressure is 110/76 mm Hg. Range of motion of the wrists and ankles is\ndecreased; the right elbow is more severely limited by pain than the left\nelbow. There is warmth, tenderness, erythema, and edema of the right\nelbow. Fine-needle aspiration of the right elbow is performed. Gram stain\nof the fluid shows a leukocyte count of 60,000/mm3 and no organisms.\nWhich of the following is the most appropriate pharmacotherapy?",
+    "options ": {
+      "A": "Colchicine",
+      "B": "Infliximab",
+      "C": "Ketorolac",
+      "D": "Methylprednisolone",
+      "E": "Vancomycin"
+    },
+    "golden_answer ": "E",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nA 52-year-old man with hepatic cirrhosis comes to the emergency\ndepartment because of a 3-hour history of\nvomiting blood. Esophagogastroduodenoscopy confirms actively bleeding\nesophageal varices. Based on the abstract\nshown, the physician is considering an emergency portacaval shunt (EPCS)\nprocedure rather than endoscopic\nsclerotherapy (EST). According to the results in the abstract, approximately\nhow many patients must be treated with\nEPCS rather than EST to prevent one case of recurrent portal-systemic\nencephalopathy?",
+    "options ": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "10",
+      "E": "16"
+    },
+    "golden_answer ": "C",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nWhich of the following most strongly limits the generalizability of this\nstudy's findings?",
+    "options ": {
+      "A": "The allocation was concealed",
+      "B": "Emergency portacaval shunt is available only at specialty centers",
+      "C": "The follow-up period was too short",
+      "D": "The patients were not blinded",
+      "E": "Unmeasured confounders were not controlled by the study design"
+    },
+    "golden_answer ": "B",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nWhich of the following conclusions is most appropriate based on the\nresults presented in the table?",
+    "options ": {
+      "A": "The trials show superior survival with EPCS across Child-Pugh classes;",
+      "B": "Rationale:",
+      "C": "While outcomes worsen with higher Child class, the specific claim about",
+      "D": "Baseline distributions (including Child class) were similar, suggesting"
+    },
+    "golden_answer ": "B",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 42-year-old man comes to the office as a new patient. Three weeks ago,\nhe was hospitalized for treatment of community-acquired pneumonia and\ndiagnosed with HIV infection. He has no other history of serious illness and\ntakes no medications. Vital signs are within normal limits. Examination\nshows no abnormalities. CD4+ T-lymphocyte count is 490/mm³, and\nplasma HIV viral load is 45,000 copies/mL. Results of other laboratory\nstudies are within the reference ranges. Test results for syphilis and\nhepatitis B and C are negative. The patient agrees to begin antiretroviral\ntherapy. He asks what his long-term prognosis will be. With adherence to\nthe medication regimen, this patient is at greatest risk of death from which\nof the following?",
+    "options ": {
+      "A": ".",
+      "B": "Chronic kidney disease",
+      "C": "HIV-related malignancy",
+      "D": "Non–HIV-related malignancy",
+      "E": "Opportunistic infection"
+    },
+    "golden_answer ": "A",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 40-year-old divorced woman comes to the office because of a 1-year\nhistory of difficulty sleeping. She says she sometimes does not fall asleep\nbefore 2 AM and does not feel rested at 6:30 AM when she has to get up\nand get her children ready for school. Sometimes she wakes after 1 to 2\nhours of sleep and cannot fall back to sleep. On these occasions, she\ntypically gets up for about 30 minutes, does some housework, and smokes\na cigarette. She smokes one pack of cigarettes every three to four days. She\nworks in a customer service call center and says she enjoys helping people\nresolve their problems. She now finds her job much harder and less\nenjoyable because she feels tired and sleepy. She says she would take a nap\nif she could, but she picks her children up as soon as she leaves work and\nspends the evening doing homework with them, making their dinner, and\npreparing lunches for the following day. By 9 PM, the children are in bed so\nshe eats her own dinner and does some housework. She says that after 9\nPM is when she smokes most of her cigarettes. She has not had depressed\nmood, excessive worry, or change in weight. Vital signs are within normal\nlimits. Examination shows dark circles under the eyes and injected\nconjunctivae. Which of the following is the most appropriate initial step in\nmanagement?",
+    "options ": {
+      "A": "Education on sleep hygiene",
+      "B": "Mirtazapine therapy",
+      "C": "Sertraline therapy",
+      "D": "Setting a date for smoking cessation",
+      "E": "Zolpidem therapy"
+    },
+    "golden_answer ": "A",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 58-year-old woman is brought to the office by her husband because of a\n6-week history of increasing confusion. Her husband says that, initially, she\nhad difficulty doing “normal” things, such as preparing meals. Since then,\nshe has become progressively less able to care for herself or even use a\ntelephone. During this time, she also has had increased anxiety and\nrestlessness. She has type 2 diabetes mellitus well controlled with an oral\nhypoglycemic agent. She is alert and appears anxious. She is oriented to\nperson but not to place or time. She startles when the door to the\nexamination room is slammed shut. Her temperature is 36.8°C (98.2°F),\npulse is 78/min and regular, and blood pressure is 132/94 mm Hg. Physical\nexamination shows no other abnormalities. On neurologic examination, she\ncan repeat three objects immediately but is unable to recall them after 3\nminutes. She is unable to copy a drawing of a cube. Results of a complete\nblood count and serum electrolyte concentrations are within the reference\nranges. Her serum glucose concentration is 155 mg/dL. CT scan of the\nhead shows no abnormalities. Which of the following is the most\nappropriate next step in diagnosis?",
+    "options ": {
+      "A": "Determination of hemoglobin A1c",
+      "B": "Measurement of cerebrospinal fluid 14-3-3 protein concentration",
+      "C": "Measurement of cerebrospinal fluid beta amyloid concentration",
+      "D": "Measurement of cerebrospinal fluid methylmalonic acid concentration",
+      "E": "Measurement of serum angiotensin-converting enzyme activity"
+    },
+    "golden_answer ": "B",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 38-year-old woman is brought to the emergency department by\nparamedics 90 minutes after she fell through ice into a stream while hiking.\nShe was stuck in the ice until emergency responders rescued her. On\narrival, she has severe pain in her feet. She has no history of serious illness\nand takes no medications. Temperature is 34.8°C (94.6°F); other vital signs\nare within normal limits. Examination shows blue discoloration over the\ntoes bilaterally, and the feet are cold to touch. Which of the following is the\nmost appropriate next step in management?",
+    "options ": {
+      "A": "Place the feet in front of a dry space heater",
+      "B": "Rub the feet with a steaming hot towel",
+      "C": "Submerge the feet in a moderately warm whirlpool.",
+      "D": "Wrap the feet in a room-temperature wet-to-dry dressing",
+      "E": "Observation only"
+    },
+    "golden_answer ": "C",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the emergency department because of a 1-\nday history of bleeding gums and moderate pain in her knees. She first\nnoticed the gum bleeding while brushing her teeth this morning; she has\nbeen unable to stop the bleeding. She has systemic lupus erythematosus\nwith inflammatory arthritis and Raynaud disease. Medications are tramadol\nand hydroxychloroquine. Vital signs are within normal limits. Examination\nshows bleeding, friable gums. There are multiple ecchymoses and\npetechiae over the upper extremities. Cardiac and abdominal examinations\nshow no abnormalities. The knees are cool to the touch; there are\neffusions, and range of motion is limited by pain. Neurologic examination\nshows no focal findings. Laboratory studies show:\nHemoglobin = 11 g/dL\nHematocrit = 33%\nErythrocyte count = 4.2 × 10¹²/L\nMean corpuscular volume = 90 μm³\nLeukocyte count = 9000/mm³\nSegmented neutrophils = 60%\nBands = 3%\nEosinophils = 2%\nBasophils = 1%\nLymphocytes = 30%\nMonocytes = 4%\nPlatelet count = 20,000/mm³\nSerum\nCreatinine = 0.9 mg/dL\nFerritin 1= 0 ng/mL\nWhich of the following is the most appropriate next step in management?",
+    "options ": {
+      "A": "Factor replacement therapy",
+      "B": "Methotrexate therapy",
+      "C": "Plasmapheresis",
+      "D": "Prednisone therapy",
+      "E": "Splenectomy"
+    },
+    "golden_answer ": "D",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 13-year-old boy is brought to the emergency department because of a 3-\nday history of progressive fatigue, shortness of breath, and difficulty\nwalking up stairs. He had been well until 1 week ago, when he developed\nrhinorrhea, cough, and a sore throat. These symptoms resolved\nspontaneously 2 days ago. He has no history of serious illness and takes no\nmedications. On arrival, he is pale and in moderate respiratory distress.\nPulse is 120/min, respirations are 25/min, and blood pressure is 80/40 mm\nHg. Pulse oximetry on room air shows an oxygen saturation of 91%. On\npulmonary examination, crackles are heard throughout the lung fields. On\ncardiac examination, a gallop is heard. S1 is soft. A grade 2/6, high-pitched\nholosystolic murmur is heard best at the apex. The remainder of the\nexamination shows no abnormalities. Which of the following is the most\nlikely diagnosis?",
+    "options ": {
+      "A": "Glomerulonephritis",
+      "B": "Myocarditis",
+      "C": "Pneumonia",
+      "D": "Rheumatic fever",
+      "E": "Systemic lupus erythematosus"
+    },
+    "golden_answer ": "B",
+    "model_name ": "DeepSeek-V3-0324",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 30-year-old woman comes to the office because of a 4-day history of an\nincreasingly severe, painful rash over her body and in her mouth. The rash\nbegan over her trunk area but spread within a day to her face and\nextremities. Two days before development of the rash, she had flu-like\nsymptoms with muscle aches and fatigue as well as a nonproductive cough,\nsore throat, and runny nose. Ten days ago, she began treatment with\ntrimethoprim- sulfamethoxazole for a urinary tract infection; she takes no\nother medications. Temperature is 39.0°C (102.2°F), pulse is 120/min,\nrespirations are 25/min, and blood pressure is 165/105 mm Hg. Physical\nexamination shows diffuse brownish red macular exanthema with bullous\nlesions. Epidermis at an uninvolved site can be removed with mild\ntangential pressure. Examination of a biopsy specimen of one of the lesions\nshows necrosis of keratinocytes throughout the epidermis. There is\nminimal lymphocytic infiltration within the superficial dermis. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Erythema multiforme",
+      "B": "Linear IgA bullous dermatosis",
+      "C": "Pemphigus vulgaris",
+      "D": "Staphylococcal scalded skin syndrome",
+      "E": "Toxic epidermal necrolysis"
+    },
+    "golden_answer ": "E",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman comes to the emergency department because of a 3-\nhour history of fever, severe headache, light-headedness, dizziness,\nshaking chills, and muscle aches. Five hours ago, she was diagnosed with\nLyme disease and began doxycycline therapy. She has no other history of\nserious illness and takes no other medications. Menses occur at regular 28-\nday intervals. She is currently menstruating and using a tampon. She\nappears anxious. Temperature is 37.0°C (98.6°F), pulse is 120/min,\nrespirations are 30/min, and blood pressure is 90/60 mm Hg. Pulse\noximetry on room air shows an oxygen saturation of 94%. Physical\nexamination shows flushing and diaphoresis. Cardiopulmonary\nexamination shows no other abnormalities. Which of the following is the\nmost likely mechanism of this patient’s current condition?",
+    "options ": {
+      "A": "Exacerbation of infection by Borrelia burgdorferi",
+      "B": "Infection-mediated sepsis",
+      "C": "IgE-mediated allergic reaction to doxycycline",
+      "D": "Release of bacterial products producing acute inflammation",
+      "E": "Secretion of bacterial endotoxins"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 2-week-old male newborn is brought to the office for a well-child\nexamination. He was delivered following an uncomplicated, spontaneous\nvaginal delivery at 41 weeks' gestation. The mother has no history of\nserious illness and did not receive prenatal care. Her only medication is a\nprenatal vitamin. She has consumed large amounts of vodka nightly for 10\nyears. Which of the following examination findings is most likely to be\npresent in this patient?",
+    "options ": {
+      "A": "Hypospadias",
+      "B": "Limb hypoplasia",
+      "C": "Neck webbing",
+      "D": "Short palpebral fissures",
+      "E": "Spasticity"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old boy is brought to the office by his parents to discuss results\nof a biopsy done 3 days ago for a rapidly enlarging neck mass. He first\nnoted the mass 1 month ago. Two weeks ago, he was evaluated for an\nepisode of prolonged epistaxis and was found to have a right ear effusion,\nwhich was treated with amoxicillin-clavulanic acid. He has no other history\nof serious illness and takes no medications. Height is at the 10th percentile,\nweight is at the 50th percentile, and BMI is at the 75th percentile. Vital\nsigns are within normal limits. Physical examination shows a right ear\neffusion and a 4-cm, firm mass in the right posterior triangle of the neck.\nResults of a biopsy specimen show squamous epithelium with indistinct\ncell margins, enlarged atypical nuclei, and absent keratin formation. Which\nof the following infectious agents is the most likely underlying cause of this\npatient's current condition?",
+    "options ": {
+      "A": "Cytomegalovirus",
+      "B": "Epstein-Barr virus",
+      "C": "HIV",
+      "D": "Human herpesvirus 8"
+    },
+    "golden_answer ": "B",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 14-year-old boy is brought to the emergency department by his parents\nbecause of a 1-month history of intermittent right knee pain that has\nworsened during the past day. He rates his current pain as a 6 on a 10-point\nscale and says that it worsens when he walks and lessens when he sits.\nDuring the past 2 weeks, he has been walking 1 mile daily in preparation for\nparticipation in the school marching band. He has not taken any\nmedications for his pain. He sustained a right tibia and fibula fracture at the\nage of 8 years after a skateboarding accident, which was treated with\ninternal fixation and casting. He has asthma treated with inhaled\nbudesonide daily and inhaled albuterol as needed. His mother has type 2\ndiabetes mellitus, and his maternal grandmother has osteoporosis. The\npatient is 170 cm (5 ft 7 in; 77th percentile) tall and weighs 88 kg (195 lb;\n>95th percentile); BMI is 31 kg/m² (98th percentile). Temperature is 37.0°C\n(98.6°F), pulse is 95/min, and blood pressure is 130/80 mm Hg. Physical\nexamination shows hyperpigmented, thickened skin at the nape of the\nneck. There is tenderness to palpation of the anterior aspect of the right\nhip and limited range of motion on abduction, internal rotation, and flexion\nof the right hip. The left hip and knees are nontender; range of motion is\nfull in all directions. The remainder of the examination discloses no\nabnormalities. Which of the following factors in this patient’s history most\nincreased his risk for developing this condition?",
+    "options ": {
+      "A": "BMI",
+      "B": "Family history",
+      "C": "Medication use",
+      "D": "Previous fractures",
+      "E": "Recent physical activity"
+    },
+    "golden_answer ": "A",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 38-year-old woman comes to the clinic to discuss results of a biopsy\nspecimen of a mass in the right breast obtained 1 week ago. She has no\nhistory of serious illness and takes no medications. Vital signs are within\nnormal limits. Examination of the right breast shows a well-healing biopsy\nincision. The remainder of the examination discloses no abnormalities.\nResults of the biopsy specimen disclose ductal carcinoma in situ. The\nphysician informs the patient he has some bad news to share and tells her\nthe diagnosis. He explains her treatment options, including mastectomy,\nbreast-conserving surgery, radiation therapy, chemotherapy, and any\ncombination of these options. The patient appears afraid but listens\nattentively before responding, \"You're the doctor. My children are still little.\nTell me what I should do.\" In addition to expressing empathy, which of the\nfollowing is the most appropriate physician response?",
+    "options ": {
+      "A": "Risks abandonment; (C) premature directive without values elicitation;",
+      "B": "\"Before I make recommendations, can you tell me what you understand",
+      "C": "\"Given the stage of the cancer, I recommend mastectomy.\"",
+      "D": ", (E), (F), (G) may be relevant later, but first ensuring understanding is",
+      "E": "\"Would you like to discuss these options further with your family?\""
+    },
+    "golden_answer ": "B",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 36-year-old woman with hypertension comes to the office because she\nthinks she may be “going through early menopause.” She has not had a\nmenstrual period since her most recent office visit 6 months ago. During\nthis time, she also has been “gaining weight around the middle” despite\nincreased exercise; she has had a 6.3-kg (14-lb) weight gain. She has no\nother history of major medical illness. Her only medication is lisinopril. She\ndoes not smoke, drink alcohol, or use illicit drugs. She is 168 cm (5 ft 6 in)\ntall and weighs 107 kg (236 lb); BMI is 38 kg/m². Vital signs are within\nnormal limits. Examination shows a uterus consistent in size with a 24-\nweek gestation. Pelvic ultrasonography shows oligohydramnios and a fetus\nwith a misshapen cranium, pericardial effusion, small bladder, and\nechogenic bowel. The most likely cause of the fetal abnormalities in this\npatient’s pregnancy is interference with which of the following?",
+    "options ": {
+      "A": "Fetal lung/epithelial differentiation",
+      "B": "Fetal lung/surfactant development",
+      "C": "Fetal renal hemodynamics",
+      "D": "Maternal placental perfusion",
+      "E": "Maternal prostaglandin synthesis"
+    },
+    "golden_answer ": "C",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 25-year-old woman, gravida 1, para 1, comes to the office because of a 2-\nweek history of palpitations and heat intolerance. She delivered her child 3\nmonths ago following an uncomplicated pregnancy and delivery. She is\nbreast- feeding. She has no history of serious illness and takes no\nmedications. She is 163 cm (5 ft 4 in) tall and weighs 54 kg (120 lb); BMI is 21\nkg/m². Temperature is 37°C (98.6°F), pulse is 106/min, respirations are 20/\nmin, and blood pressure is 124/68 mm Hg. Examination shows moist palms\nand bilateral lid lag. No exophthalmos is noted. The thyroid gland is\nenlarged and nontender. No murmurs are heard on cardiac examination.\nDeep tendon reflexes are 3+. Serum studies show an undetectable TSH\nconcentration, thyroxine (T₄) concentration of 20 μg/dL, and\ntriiodothyronine (T₃) concentration of 275 ng/dL. Which of the following is\nthe most likely mechanism of this patient's symptoms?",
+    "options ": {
+      "A": "Activation of mutations of TSH receptors",
+      "B": "Increased serum thyroglobulin concentration",
+      "C": "Ischemic injury to the hypothalamus",
+      "D": "Lymphocytic infiltration of the thyroid",
+      "E": "Presence of TSH receptor autoantibodies"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 68-year-old man is brought to the emergency department because of a\n2-day history of progressive lethargy and tremors. He has alcoholism and\nopiate, cocaine, and amphetamine use disorder, but he has abstained from\nalcohol and illicit substances during the past 2 weeks. He also has alcoholic\ncirrhosis. His only medication is a daily multivitamin. He previously drank\nsix 12-oz beers daily. He appears chronically ill and is somnolent.\nTemperature is 36.8°C (98.2°F), pulse is 100/min, respirations are 18/min,\nand blood pressure is 100/60 mm Hg. Pulse oximetry on room air shows an\noxygen saturation of 94%. Examination shows conjunctival icterus, ascites,\nand 2+ edema of the lower extremities. Cranial nerves are intact. Muscle\nstrength is 4/5 throughout. When he is awake, there is a postural and\naction tremor of the forearms and hands that is accompanied by a sudden,\nbrief loss of muscle strength. His speech is normal, and he is able to follow\nsimple commands. Serum total bilirubin concentration is 3 mg/dL. Blood\nand urine cultures grow no pathogens. Which of the following is most likely\nto improve this patient’s cognition and movement disorder?",
+    "options ": {
+      "A": "Intravenous vancomycin and cefepime therapy",
+      "B": "Intravenous vitamin B1 (thiamine) therapy",
+      "C": "Oral lactulose therapy",
+      "D": "Oral lorazepam therapy"
+    },
+    "golden_answer ": "C",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 45-year-old woman comes to the emergency department because of a 3-\nday history of progressive shortness of breath, cough productive of blood-\ntinged sputum, and fever. She also has a 3-month history of numbness of\nher left leg and tingling in her right arm. She has not had chills. She was\ndiagnosed with asthma 6 months ago; it is well controlled with inhaled\nbudesonide and albuterol as needed. She has no other history of serious\nillness and takes no other medications. She appears to be in mild\nrespiratory distress. Temperature is 38.1°C (100.6°F), pulse is 105/min and\nregular, respirations are 24/min, and blood pressure is 145/95 mm Hg.\nPulse oximetry on room air shows an oxygen saturation of 92%. Crackles\nare heard at the right lung base, and there are occasional diffuse wheezes.\nCardiac examination shows no abnormalities. On neurologic examination,\nsensation to pinprick is decreased over the lateral aspect of the left lower\nextremity and right upper extremity. Muscle strength is 5/5 throughout.\nBabinski sign is absent. Deep tendon reflexes are 2+ and symmetric. Which\nof the following is the most appropriate next step in diagnosis?",
+    "options ": {
+      "A": "CT angiography of the chest",
+      "B": "Determination of serum angiotensin-converting enzyme activity",
+      "C": "Measurement of serum IgE concentration",
+      "D": "Mesenteric angiography",
+      "E": "Serum antiglomerular basement membrane assay"
+    },
+    "golden_answer ": "F",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn 87-year-old woman, gravida 6, para 6, is brought to the emergency\ndepartment because of a 24-hour history of severe abdominal pain and an\ninability to void. She notes that for the past 2 months, she has had difficulty\nemptying her bladder, especially at the end of the day. Twenty years ago,\nshe underwent mastectomy for breast cancer; she has been cancer-free\nsince then. She has a 10-year history of osteoporosis. All of her children\nwere delivered vaginally without complications. Her only medication is\nalendronate. Examination shows the cervix protruding 7.5 cm from the\nvagina. After the cervix is replaced into the vagina, a urinary catheter\ndrains 700 mL of urine. Urinalysis shows no abnormalities. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Overactive bladder",
+      "B": "Overflow incontinence",
+      "C": "Stress incontinence",
+      "D": "Urinary retention",
+      "E": "Urinary tract infection"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 25-year-old woman is admitted to the hospital because of a 2-day history\nof fever, dizziness, light-headedness, chills, and shaking. She has\nhyperthyroidism, gastroesophageal reflux disease, and asthma. Her\nmedications are oral methimazole and omeprazole, and inhaled fluticasone,\nand she has been on the same dosages for 1 year. She is in the military\nreserve and will be deployed overseas next week. She began atovaquone-\nproguanil therapy 1 week ago and received the hepatitis A and yellow fever\nvaccines 2 weeks ago. She is not sexually active. She does not smoke\ncigarettes or drink alcohol. She appears ill but is not in acute distress.\nTemperature is 38.6°C (101.5°F), pulse is 110/min, respirations are 22/min,\nand blood pressure is 90/60 mm Hg. No wheezing is heard on auscultation.\nCardiac examination shows no abnormalities. Laboratory studies show:\nHemoglobin = 13.8 g/dL\nLeukocyte count = 1100/mm³\nSegmented neutrophils = 10%\nEosinophils = 10%\nLymphocytes = 40%\nMonocytes = 40%\nPlatelet count= 320,000/mm³\nPlatelet count 320,000/mm³\nResults of other laboratory studies are within the reference ranges. Which\nof the following is the most likely cause of this patient’s hematologic\nabnormality? Please choose the best option among the choices below.",
+    "options ": {
+      "A": "Atovaquone-proguanil",
+      "B": "Fluticasone",
+      "C": "Hepatitis A vaccine",
+      "D": "Methimazole",
+      "E": "Omeprazole"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 16-year-old boy is brought to the emergency department because of a 2-\nday history of fever, nausea, vomiting, headache, chills, and fatigue. He has\nnot had any sick contacts. He underwent splenectomy for traumatic injury\nat the age of 13 years. He has no other history of serious illness and takes\nno medications. He appears ill. His temperature is 39.2°C (102.5°F), pulse is\n130/min, respirations are 14/min, and blood pressure is 110/60 mm Hg. On\npulmonary examination, scattered crackles are heard bilaterally. Abdominal\nexamination shows a well-healed midline scar and mild, diffuse tenderness\nto palpation. Which of the following is the most appropriate next step in\nmanagement?",
+    "options ": {
+      "A": "Antibiotic therapy",
+      "B": "Antiemetic therapy",
+      "C": "CT scan of the chest",
+      "D": "X-ray of the abdomen",
+      "E": "Reassurance"
+    },
+    "golden_answer ": "A",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA previously healthy 29-year-old woman is admitted to the hospital\nbecause of a 1-day history of moderate headache, fever, and lethargy. Two\ndays ago, she underwent wisdom tooth extraction. She takes no\nmedications. She cannot remember her vaccination history. She does not\nsmoke cigarettes, drink alcohol, or use illicit drugs. She is a college student,\nlives in an apartment complex with other students, and eats all her meals in\nthe campus dining hall. She says her study partner had a “really bad fever”\nduring the past week. The patient appears sleepy. Temperature is 40.0°C\n(104.0°F), pulse is 140/min, and blood pressure is 90/40 mm Hg.\nExamination shows a diffuse purpuric rash over the trunk and all\nextremities. There is nuchal rigidity. Lungs are clear to auscultation. Heart\nsounds are normal. Neurologic examination shows no other focal findings.\nWhich of the following is most likely to have prevented this patient’s\ncurrent condition?",
+    "options ": {
+      "A": "Adherence to immunization guidelines",
+      "B": "Avoidance of eating meals in the campus dining hall",
+      "C": "Consistent hand washing",
+      "D": "Isolation of other students on campus with febrile illness",
+      "E": "are indicated for close contacts of an identified"
+    },
+    "golden_answer ": "A",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 27-year-old primigravid woman comes to the physician for her first\nprenatal visit 10 weeks after a home pregnancy test was positive. She feels\nwell, and her pregnancy has been uncomplicated. She previously used an\noral contraceptive but discontinued it 3 months ago. She has no history of\nsexually transmitted diseases. She is sexually active in a monogamous\nrelationship with a male partner who is the father. She has had five lifetime\nsexual partners. She has a pet cat. Examination shows a uterus consistent\nin size with a 10-week gestation. Testing for which of the following\ninfectious conditions is the most appropriate recommendation for this\npatient?",
+    "options ": {
+      "A": "Bacterial vaginosis",
+      "B": "Cytomegalovirus",
+      "C": "Epstein-Barr virus",
+      "D": "HIV",
+      "E": "Human papillomavirus"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAn investigator would like to decrease the incidence of type 2 diabetes\nmellitus among adult patients with risk factors including obesity, decreased\nphysical activity, and family history of diabetes mellitus. A total of 200 men\nand women aged 30 to 64 years will be enrolled in a regular exercise\nprogram for 6 months. A nurse reviews the details of the study with each\nparticipant, and each participant signs an informed consent form. One\nmonth after the study begins, one of the participants asks to drop out of\nthe study. Which of the following represents the most appropriate next\nstep by this study participant?",
+    "options ": {
+      "A": "Complete the study because she signed the consent form",
+      "B": "Discuss withdrawal with the institutional review board",
+      "C": "Negotiate her withdrawal with the principal investigator",
+      "D": "Wait to withdraw until after the investigator consults with an ethics",
+      "E": "Withdraw from the study now"
+    },
+    "golden_answer ": "E",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 70-year-old man comes to the clinic because of a 3-day history of\nfatigue, dark urine, decreased urine output, mild pain with urination, and a\nlow-grade fever. He has gout, hypertension, and osteoarthritis. His\nmedications are allopurinol, hydrochlorothiazide, and acetaminophen.\nTemperature is 37.9°C (100.2°F), pulse is 88/min, respirations are 24/min,\nand blood pressure is 160/95 mm Hg. Pulse oximetry on room air shows an\noxygen saturation of 97%. Jugular venous pressure is 7 cm H2O (N=5–9).\nCardiopulmonary examination shows no abnormalities. Which of the\nfollowing is the most appropriate next step in management?",
+    "options ": {
+      "A": "does not address the problem;",
+      "B": "risk worsening retention-related hydronephrosis; empiric TMP-SMX",
+      "C": ".",
+      "D": "without confirming UTI and ruling out obstruction may delay appropriate",
+      "E": "is not first-line in suspected obstructive or prerenal AKI.[1][2][4]"
+    },
+    "golden_answer ": "C",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the physician because of a 2-day history of\nsevere pain and markedly decreased range of motion in her right elbow.\nShe has rheumatoid arthritis in her elbows, wrists, and hands. She reports\nepisodes of moderate pain approximately four times yearly. Previous\ntreatment with naproxen, methotrexate, and hydroxychloroquine has\nprovided moderate relief. Treatment with prednisone was begun after her\nmost recent episode 9 weeks ago. She has not had generalized fatigue or\nmuscle aches. She has no other history of serious illness. Her other\nmedications are naproxen, prednisone, and omeprazole. Temperature is\n38.4°C (101.1°F), pulse is 90/min, respirations are 12/min, and blood\npressure is 110/76 mm Hg. Range of motion of the wrists and ankles is\ndecreased; the right elbow is more severely limited by pain than the left\nelbow. There is warmth, tenderness, erythema, and edema of the right\nelbow. Fine-needle aspiration of the right elbow is performed. Gram stain\nof the fluid shows a leukocyte count of 60,000/mm3 and no organisms.\nWhich of the following is the most appropriate pharmacotherapy?",
+    "options ": {
+      "A": "Colchicine",
+      "B": "Infliximab",
+      "C": "Ketorolac",
+      "D": "Methylprednisolone",
+      "E": "Vancomycin"
+    },
+    "golden_answer ": "E",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nA 52-year-old man with hepatic cirrhosis comes to the emergency\ndepartment because of a 3-hour history of\nvomiting blood. Esophagogastroduodenoscopy confirms actively bleeding\nesophageal varices. Based on the abstract\nshown, the physician is considering an emergency portacaval shunt (EPCS)\nprocedure rather than endoscopic\nsclerotherapy (EST). According to the results in the abstract, approximately\nhow many patients must be treated with\nEPCS rather than EST to prevent one case of recurrent portal-systemic\nencephalopathy?",
+    "options ": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "10",
+      "E": "16"
+    },
+    "golden_answer ": "C",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nWhich of the following most strongly limits the generalizability of this\nstudy's findings?",
+    "options ": {
+      "A": "The allocation was concealed",
+      "B": "Emergency portacaval shunt is available only at specialty centers",
+      "C": "The follow-up period was too short",
+      "D": "The patients were not blinded",
+      "E": "Unmeasured confounders were not controlled by the study design"
+    },
+    "golden_answer ": "B",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nAbstract:\nObjective:\nIn patients with cirrhosis and acute bleeding esophageal varices, how do\nendoscopic sclerotherapy and emergency portacaval shunt\ncompare for control of bleeding and survival?\nMethods\nDesign: Randomized controlled trial (San Diego Bleeding Esophageal\nVarices Study). ClinicalTrials.gov NCT00690027.\nAllocation: Concealed.\nBlinding: Blinded (gastroenterologist who evaluated patients for portal-\nsystemic encephalopathy).\nFollow-up period: Up to 17 years.\nSetting: University of California San Diego Medical Center.\nPatients: 211 patients (mean age 49 years, 77% men) with acute bleeding\nesophageal varices resulting from cirrhosis, who required a transfusion of ≥\n2 units of blood and, for patients transferred from other hospitals,\nobservation of upper gastrointestinal bleeding within 48 hours of transfer.\nExclusion criterion was > 1 previous session of endoscopic sclerotherapy.\nIntervention: Endoscopic sclerotherapy (n = 106) or emergency portacaval\nshunt (n = 105). Emergency portacaval shunt comprised a direct side-to-\nside or direct end-to-side portacaval shunt done within 8 hours of initial\ncontact.\nOutcomes: Control of bleeding at > 30 days, survival, readmissions for\nvariceal or nonvariceal bleeding requiring transfusion of packed red blood\ncells, and recurrent portal-systemic encephalopathy.\nPatient follow-up: 100% (minimum follow-up until death or 9.4 years).\nMain results\n15-year survival was lower with endoscopic sclerotherapy than with\nemergency portacaval shunt (10/106 vs 48/105, relative benefit reduction\n79%, 95% CI 62 to 89; number needed to harm 3, CI 2 to 4). Other main\nresults are shown in the Table.\nEndoscopic sclerotherapy (EST) vs emergency portacaval shunt (EPCS) in\npatients with cirrhosis and acute bleeding esophageal varices\nOutcomes | Child-Pugh risk class | EST | EPCS | P value |\n————————————————————————————————————\nControl of bleeding at > 30 days* | | 20% | 100% | <.001 |\nMedian survival (years) | A | 4.62 | 10.43 | .003. |\n| B | 2.61 | 6.19 | <.001 |\n|. C | 0.58 | 5.30 | .005. |\nMean number of readmissions for variceal bleeding requiring packed red\nblood cell transfusion | | 6.8 | 0.4 | <.001 |\nRecurrent portal-systemic encephalopathy† | | 35% | 15% | < .001 |\n———————————————————————————————————\n*Excluding indeterminate deaths at 14 days from nonbleeding causes.\n†In patients who survived 30 days and left hospital.\n———————————————————————————————————\nConclusion\nIn patients with cirrhosis and acute bleeding esophageal varices,\nemergency portacaval shunt was better than endoscopic sclerotherapy for\ncontrol of bleeding, recurrent encephalopathy, and survival.\nSources of funding: National Institutes of Health and Surgical Education\nand Research Foundation.\nStructured abstract based on: Orloff MJ, Isenberg JI, Wheeler HO, et al.\nRandomized trial of emergency endoscopic sclerotherapy versus\nemergency portacaval shunt for acutely bleeding esophageal varices in\ncirrhosis. J Am Coll Surg.\n2009;209:25-40. 19651060\nWhich of the following conclusions is most appropriate based on the\nresults presented in the table?",
+    "options ": {
+      "A": "The trials show superior survival with EPCS across Child-Pugh classes;",
+      "B": "Rationale:",
+      "C": "While outcomes worsen with higher Child class, the specific claim about",
+      "D": "Baseline distributions (including Child class) were similar, suggesting"
+    },
+    "golden_answer ": "B",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 42-year-old man comes to the office as a new patient. Three weeks ago,\nhe was hospitalized for treatment of community-acquired pneumonia and\ndiagnosed with HIV infection. He has no other history of serious illness and\ntakes no medications. Vital signs are within normal limits. Examination\nshows no abnormalities. CD4+ T-lymphocyte count is 490/mm³, and\nplasma HIV viral load is 45,000 copies/mL. Results of other laboratory\nstudies are within the reference ranges. Test results for syphilis and\nhepatitis B and C are negative. The patient agrees to begin antiretroviral\ntherapy. He asks what his long-term prognosis will be. With adherence to\nthe medication regimen, this patient is at greatest risk of death from which\nof the following?",
+    "options ": {
+      "A": ".",
+      "B": "Chronic kidney disease",
+      "C": "HIV-related malignancy",
+      "D": "Non–HIV-related malignancy",
+      "E": "Opportunistic infection"
+    },
+    "golden_answer ": "A",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 40-year-old divorced woman comes to the office because of a 1-year\nhistory of difficulty sleeping. She says she sometimes does not fall asleep\nbefore 2 AM and does not feel rested at 6:30 AM when she has to get up\nand get her children ready for school. Sometimes she wakes after 1 to 2\nhours of sleep and cannot fall back to sleep. On these occasions, she\ntypically gets up for about 30 minutes, does some housework, and smokes\na cigarette. She smokes one pack of cigarettes every three to four days. She\nworks in a customer service call center and says she enjoys helping people\nresolve their problems. She now finds her job much harder and less\nenjoyable because she feels tired and sleepy. She says she would take a nap\nif she could, but she picks her children up as soon as she leaves work and\nspends the evening doing homework with them, making their dinner, and\npreparing lunches for the following day. By 9 PM, the children are in bed so\nshe eats her own dinner and does some housework. She says that after 9\nPM is when she smokes most of her cigarettes. She has not had depressed\nmood, excessive worry, or change in weight. Vital signs are within normal\nlimits. Examination shows dark circles under the eyes and injected\nconjunctivae. Which of the following is the most appropriate initial step in\nmanagement?",
+    "options ": {
+      "A": "Education on sleep hygiene",
+      "B": "Mirtazapine therapy",
+      "C": "Sertraline therapy",
+      "D": "Setting a date for smoking cessation",
+      "E": "Zolpidem therapy"
+    },
+    "golden_answer ": "A",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 58-year-old woman is brought to the office by her husband because of a\n6-week history of increasing confusion. Her husband says that, initially, she\nhad difficulty doing “normal” things, such as preparing meals. Since then,\nshe has become progressively less able to care for herself or even use a\ntelephone. During this time, she also has had increased anxiety and\nrestlessness. She has type 2 diabetes mellitus well controlled with an oral\nhypoglycemic agent. She is alert and appears anxious. She is oriented to\nperson but not to place or time. She startles when the door to the\nexamination room is slammed shut. Her temperature is 36.8°C (98.2°F),\npulse is 78/min and regular, and blood pressure is 132/94 mm Hg. Physical\nexamination shows no other abnormalities. On neurologic examination, she\ncan repeat three objects immediately but is unable to recall them after 3\nminutes. She is unable to copy a drawing of a cube. Results of a complete\nblood count and serum electrolyte concentrations are within the reference\nranges. Her serum glucose concentration is 155 mg/dL. CT scan of the\nhead shows no abnormalities. Which of the following is the most\nappropriate next step in diagnosis?",
+    "options ": {
+      "A": "Determination of hemoglobin A1c",
+      "B": "Measurement of cerebrospinal fluid 14-3-3 protein concentration",
+      "C": "Measurement of cerebrospinal fluid beta amyloid concentration",
+      "D": "Measurement of cerebrospinal fluid methylmalonic acid concentration",
+      "E": "Measurement of serum angiotensin-converting enzyme activity"
+    },
+    "golden_answer ": "B",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 38-year-old woman is brought to the emergency department by\nparamedics 90 minutes after she fell through ice into a stream while hiking.\nShe was stuck in the ice until emergency responders rescued her. On\narrival, she has severe pain in her feet. She has no history of serious illness\nand takes no medications. Temperature is 34.8°C (94.6°F); other vital signs\nare within normal limits. Examination shows blue discoloration over the\ntoes bilaterally, and the feet are cold to touch. Which of the following is the\nmost appropriate next step in management?",
+    "options ": {
+      "A": "Place the feet in front of a dry space heater",
+      "B": "Rub the feet with a steaming hot towel",
+      "C": "Submerge the feet in a moderately warm whirlpool.",
+      "D": "Wrap the feet in a room-temperature wet-to-dry dressing",
+      "E": "Observation only"
+    },
+    "golden_answer ": "C",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 52-year-old woman comes to the emergency department because of a 1-\nday history of bleeding gums and moderate pain in her knees. She first\nnoticed the gum bleeding while brushing her teeth this morning; she has\nbeen unable to stop the bleeding. She has systemic lupus erythematosus\nwith inflammatory arthritis and Raynaud disease. Medications are tramadol\nand hydroxychloroquine. Vital signs are within normal limits. Examination\nshows bleeding, friable gums. There are multiple ecchymoses and\npetechiae over the upper extremities. Cardiac and abdominal examinations\nshow no abnormalities. The knees are cool to the touch; there are\neffusions, and range of motion is limited by pain. Neurologic examination\nshows no focal findings. Laboratory studies show:\nHemoglobin = 11 g/dL\nHematocrit = 33%\nErythrocyte count = 4.2 × 10¹²/L\nMean corpuscular volume = 90 μm³\nLeukocyte count = 9000/mm³\nSegmented neutrophils = 60%\nBands = 3%\nEosinophils = 2%\nBasophils = 1%\nLymphocytes = 30%\nMonocytes = 4%\nPlatelet count = 20,000/mm³\nSerum\nCreatinine = 0.9 mg/dL\nFerritin 1= 0 ng/mL\nWhich of the following is the most appropriate next step in management?",
+    "options ": {
+      "A": "Factor replacement therapy",
+      "B": "Methotrexate therapy",
+      "C": "Plasmapheresis",
+      "D": "Prednisone therapy",
+      "E": "Splenectomy"
+    },
+    "golden_answer ": "D",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 2\nA 13-year-old boy is brought to the emergency department because of a 3-\nday history of progressive fatigue, shortness of breath, and difficulty\nwalking up stairs. He had been well until 1 week ago, when he developed\nrhinorrhea, cough, and a sore throat. These symptoms resolved\nspontaneously 2 days ago. He has no history of serious illness and takes no\nmedications. On arrival, he is pale and in moderate respiratory distress.\nPulse is 120/min, respirations are 25/min, and blood pressure is 80/40 mm\nHg. Pulse oximetry on room air shows an oxygen saturation of 91%. On\npulmonary examination, crackles are heard throughout the lung fields. On\ncardiac examination, a gallop is heard. S1 is soft. A grade 2/6, high-pitched\nholosystolic murmur is heard best at the apex. The remainder of the\nexamination shows no abnormalities. Which of the following is the most\nlikely diagnosis?",
+    "options ": {
+      "A": "Glomerulonephritis",
+      "B": "Myocarditis",
+      "C": "Pneumonia",
+      "D": "Rheumatic fever",
+      "E": "Systemic lupus erythematosus"
+    },
+    "golden_answer ": "B",
+    "model_name ": "gpt-5-mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  }
+]

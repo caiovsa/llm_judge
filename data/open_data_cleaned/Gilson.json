@@ -1,0 +1,272 @@
+[
+  {
+    "question ": "If the muscle aches continue without exercising, should I be concerned?",
+    "golden_answer ": "If your muscle ache continues without exercising, you should consult with your healthcare provider in order to obtain an accurate diagnosis. There are many causes of muscle aches, including overuse injury, trauma, viral and bacterial infections, medications, and rheumatic disease. Your doctor will take a full history, perform a physical examination, and possibly request laboratory studies and imaging.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Persistent muscle pain without exercise should be medically evaluated, especially if it worsens or is associated with weakness, fever, swelling, or dark urine. Possible causes include infection, medication effects, deficiencies, hypothyroidism, or inflammatory conditions. Seek care urgently for dark urine or significant weakness, and arrange medical review if symptoms persist for 1–2 weeks or are disabling."
+  },
+  {
+    "question ": "If the muscle aches continue without exercising, should I be concerned?",
+    "golden_answer ": "If your muscle ache continues without exercising, you should consult with your healthcare provider in order to obtain an accurate diagnosis. There are many causes of muscle aches, including overuse injury, trauma, viral and bacterial infections, medications, and rheumatic disease. Your doctor will take a full history, perform a physical examination, and possibly request laboratory studies and imaging.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Yes. Persistent muscle pain without exercise deserves medical evaluation, especially if it is continuous or worsening. Possible causes include viral infections, rheumatologic disease, hypothyroidism, vitamin deficiencies, medication effects, or chronic anxiety/depression. Seek urgent care if there is weakness, dark urine, fever, swelling, redness, or systemic symptoms. If symptoms last more than 1–2 weeks, medical assessment and lab tests may be needed."
+  },
+  {
+    "question ": "If the muscle aches continue without exercising, should I be concerned?",
+    "golden_answer ": "If your muscle ache continues without exercising, you should consult with your healthcare provider in order to obtain an accurate diagnosis. There are many causes of muscle aches, including overuse injury, trauma, viral and bacterial infections, medications, and rheumatic disease. Your doctor will take a full history, perform a physical examination, and possibly request laboratory studies and imaging.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Persistent muscle pain without exercise can be concerning, especially if it comes with fever, swelling, true weakness, or dark urine. Possible causes include viral infections, medication side effects, vitamin or mineral deficiencies, hypothyroidism, or rheumatologic conditions. If it lasts more than 1–2 weeks, worsens, or is disabling, medical evaluation is recommended. Avoid prolonged self-medication with anti-inflammatories."
+  },
+  {
+    "question ": "If the side effects of the Prozac become too much is there a wean down period I would have to go through or would I be able to stop it immediately?",
+    "golden_answer ": "It is typically recommended to avoid abruptly discontinuing selective serotonin reuptake inhibitors (SSRIs) as this may result in unpleasant withdrawal symptoms. While Prozac has a lower risk of such symptoms, it is still advisable to gradually reduce doses of 20mg over a period of 1-2 weeks before stopping completely. Any change in your treatment plan should be done under your healthcare provider's guidance and supervision.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Fluoxetine usually should not be stopped abruptly. Even though it has a lower risk of withdrawal symptoms than some other SSRIs because of its long half-life, dose reduction should still be discussed with the prescribing clinician. Abrupt withdrawal is generally avoided unless there is a serious adverse effect, and medication changes should be supervised medically."
+  },
+  {
+    "question ": "If the side effects of the Prozac become too much is there a wean down period I would have to go through or would I be able to stop it immediately?",
+    "golden_answer ": "It is typically recommended to avoid abruptly discontinuing selective serotonin reuptake inhibitors (SSRIs) as this may result in unpleasant withdrawal symptoms. While Prozac has a lower risk of such symptoms, it is still advisable to gradually reduce doses of 20mg over a period of 1-2 weeks before stopping completely. Any change in your treatment plan should be done under your healthcare provider's guidance and supervision.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Prozac (fluoxetine) has a very long half-life (4–6 days), allowing the body to taper naturally, making discontinuation syndrome rare. In many cases, especially with low doses or short-term use, abrupt stopping is well tolerated — but never without medical guidance. The doctor will assess whether a gradual taper (e.g., 20mg ? 10mg ? stop) or medication switch is needed, based on duration of use, current dose, and patient history. If side effects are bothersome, inform your doctor immediately."
+  },
+  {
+    "question ": "If the side effects of the Prozac become too much is there a wean down period I would have to go through or would I be able to stop it immediately?",
+    "golden_answer ": "It is typically recommended to avoid abruptly discontinuing selective serotonin reuptake inhibitors (SSRIs) as this may result in unpleasant withdrawal symptoms. While Prozac has a lower risk of such symptoms, it is still advisable to gradually reduce doses of 20mg over a period of 1-2 weeks before stopping completely. Any change in your treatment plan should be done under your healthcare provider's guidance and supervision.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Fluoxetine should generally not be stopped abruptly. Its long half-life reduces discontinuation symptoms compared to other SSRIs, but sudden cessation can still lead to relapse or withdrawal symptoms. Dosage tapering should be individualized and performed under medical supervision, unless a severe adverse reaction necessitates immediate discontinuation."
+  },
+  {
+    "question ": "If this is just muscle strain, how many days should I expect the pain to go away?",
+    "golden_answer ": "If a muscle is stretched too much or too quickly, or if it is overworked, a muscle strain can occur. This can happen during an exercise or as a result of an accident. The time it takes to recover fully from a muscle strain depends on various factors, including the severity and location of the injury, your personal health history, and age. Mild strains can cause discomfort lasting from several days to several weeks, while severe strains can last for months. To reduce symptoms, rest the muscle, apply ice to the affected area, wrap the muscle with an elastic bandage, and take medication to relieve pain and swelling. Acetaminophen (Tylenol) and Ibuprofen (Advil, Motrin) are examples of such medications. Contact a healthcare provider if you experience any of the following: inability to move the injured muscle due to pain, worsening pain or swelling, recurrent strain of the same muscle, new symptoms, or symptoms that persist for more than two weeks.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "If it is a muscle strain, many cases start to feel better within about 2 weeks, but severe strains can take weeks to months to fully recover. Seek care if pain worsens, normal use is difficult, or it is not improving."
+  },
+  {
+    "question ": "If this is just muscle strain, how many days should I expect the pain to go away?",
+    "golden_answer ": "If a muscle is stretched too much or too quickly, or if it is overworked, a muscle strain can occur. This can happen during an exercise or as a result of an accident. The time it takes to recover fully from a muscle strain depends on various factors, including the severity and location of the injury, your personal health history, and age. Mild strains can cause discomfort lasting from several days to several weeks, while severe strains can last for months. To reduce symptoms, rest the muscle, apply ice to the affected area, wrap the muscle with an elastic bandage, and take medication to relieve pain and swelling. Acetaminophen (Tylenol) and Ibuprofen (Advil, Motrin) are examples of such medications. Contact a healthcare provider if you experience any of the following: inability to move the injured muscle due to pain, worsening pain or swelling, recurrent strain of the same muscle, new symptoms, or symptoms that persist for more than two weeks.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "For a simple muscle strain, pain typically improves in 3–5 days and fully resolves within 1–2 weeks; severe cases may take up to 4 weeks. Rest, ice (first 48h), and anti-inflammatories if needed usually suffice. See a doctor if pain worsens, persists beyond 2 weeks, or is accompanied by weakness or significant swelling."
+  },
+  {
+    "question ": "If this is just muscle strain, how many days should I expect the pain to go away?",
+    "golden_answer ": "If a muscle is stretched too much or too quickly, or if it is overworked, a muscle strain can occur. This can happen during an exercise or as a result of an accident. The time it takes to recover fully from a muscle strain depends on various factors, including the severity and location of the injury, your personal health history, and age. Mild strains can cause discomfort lasting from several days to several weeks, while severe strains can last for months. To reduce symptoms, rest the muscle, apply ice to the affected area, wrap the muscle with an elastic bandage, and take medication to relieve pain and swelling. Acetaminophen (Tylenol) and Ibuprofen (Advil, Motrin) are examples of such medications. Contact a healthcare provider if you experience any of the following: inability to move the injured muscle due to pain, worsening pain or swelling, recurrent strain of the same muscle, new symptoms, or symptoms that persist for more than two weeks.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Mild muscle strains (Grade 1) usually subside within 2 to 7 days, while more significant tears (Grade 2) may take 2 to 4 weeks for acute pain to resolve. Full recovery can take weeks to months. Seek medical evaluation if pain does not improve within 48 to 72 hours, or if severe swelling, bruising, or loss of mobility occurs to rule out a complete rupture (Grade 3)."
+  },
+  {
+    "question ": "Im confused what creatinine?",
+    "golden_answer ": "The body produces creatinine as a byproduct of muscle cells breaking down creatine phosphate for energy. The kidneys filter creatinine out of the blood and eliminate it through urine. Creatinine levels that are high in the blood and low in urine may indicate kidney problems. Doctors can use creatinine levels, along with patient age, gender, and race, to calculate eGFR, which helps assess kidney function. Healthcare providers may request creatinine testing as part of a regular check-up or if kidney disease is suspected. It's worth noting that intense exercise and some medications can lead to temporarily elevated serum creatinine levels.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Creatinine is a waste product from normal muscle breakdown. Your kidneys remove it from the blood, so creatinine tests help assess kidney function. Higher levels may suggest reduced kidney function."
+  },
+  {
+    "question ": "Im confused what creatinine?",
+    "golden_answer ": "The body produces creatinine as a byproduct of muscle cells breaking down creatine phosphate for energy. The kidneys filter creatinine out of the blood and eliminate it through urine. Creatinine levels that are high in the blood and low in urine may indicate kidney problems. Doctors can use creatinine levels, along with patient age, gender, and race, to calculate eGFR, which helps assess kidney function. Healthcare providers may request creatinine testing as part of a regular check-up or if kidney disease is suspected. It's worth noting that intense exercise and some medications can lead to temporarily elevated serum creatinine levels.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Creatinine is a muscle metabolism waste product filtered by the kidneys. It's a key marker of kidney function: high levels suggest impaired filtration, low levels may indicate reduced muscle mass. Normal range is ~0.6–1.2 mg/dL in adults, varying by age and sex. Always interpret results with a doctor."
+  },
+  {
+    "question ": "Im confused what creatinine?",
+    "golden_answer ": "The body produces creatinine as a byproduct of muscle cells breaking down creatine phosphate for energy. The kidneys filter creatinine out of the blood and eliminate it through urine. Creatinine levels that are high in the blood and low in urine may indicate kidney problems. Doctors can use creatinine levels, along with patient age, gender, and race, to calculate eGFR, which helps assess kidney function. Healthcare providers may request creatinine testing as part of a regular check-up or if kidney disease is suspected. It's worth noting that intense exercise and some medications can lead to temporarily elevated serum creatinine levels.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Creatinine is a waste product from muscle metabolism filtered by the kidneys and excreted in urine, serving as a key biomarker for renal function. Elevated blood levels may indicate impaired kidney filtration (low eGFR), though results are influenced by muscle mass, age, and hydration. Abnormal levels require professional medical interpretation alongside eGFR to accurately assess kidney health and determine if further diagnostic testing is necessary."
+  },
+  {
+    "question ": "In any case, is a product like abreva still good to use for cold sore treatment?",
+    "golden_answer ": "Docosanol (Abreva) is a topical antiviral treatment that can be purchased over the counter to help soothe cold sores or fever blisters on the face and lips. It's important to note that studies have produced mixed results regarding the efficacy of Abreva. In addition, Abreva does not cure HSV1 or HSV2 or prevent the virus from spreading. Typically, cold sores will resolve by themselves within a few days, but you can take medication to alleviate symptoms, such as local topical anesthetics like lidocaine. If you experience more severe recurrences, oral antiviral medication like acyclovir (Zovirax) may be prescribed.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Yes. Abreva (docosanol) can help treat cold sores, especially if started early. It may shorten healing time and reduce symptoms, but it is not a cure. Seek medical advice if the sore is severe or not healing."
+  },
+  {
+    "question ": "In any case, is a product like abreva still good to use for cold sore treatment?",
+    "golden_answer ": "Docosanol (Abreva) is a topical antiviral treatment that can be purchased over the counter to help soothe cold sores or fever blisters on the face and lips. It's important to note that studies have produced mixed results regarding the efficacy of Abreva. In addition, Abreva does not cure HSV1 or HSV2 or prevent the virus from spreading. Typically, cold sores will resolve by themselves within a few days, but you can take medication to alleviate symptoms, such as local topical anesthetics like lidocaine. If you experience more severe recurrences, oral antiviral medication like acyclovir (Zovirax) may be prescribed.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Yes, Abreva (docosanol 10%) is an FDA-approved over-the-counter antiviral for cold sores (oral herpes/HSV-1). When applied at the first sign of symptoms (tingling, itching), it can shorten healing time by 1–2 days. It is safe for most adults but less effective if applied late. For frequent, severe, or immunocompromised cases, a doctor may prescribe stronger antivirals like acyclovir or valacyclovir."
+  },
+  {
+    "question ": "In any case, is a product like abreva still good to use for cold sore treatment?",
+    "golden_answer ": "Docosanol (Abreva) is a topical antiviral treatment that can be purchased over the counter to help soothe cold sores or fever blisters on the face and lips. It's important to note that studies have produced mixed results regarding the efficacy of Abreva. In addition, Abreva does not cure HSV1 or HSV2 or prevent the virus from spreading. Typically, cold sores will resolve by themselves within a few days, but you can take medication to alleviate symptoms, such as local topical anesthetics like lidocaine. If you experience more severe recurrences, oral antiviral medication like acyclovir (Zovirax) may be prescribed.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Abreva (docosanol 10%) is an FDA-approved OTC topical treatment that reduces cold sore duration by inhibiting HSV-1 entry into skin cells. It is most effective when applied at the first sign of tingling or itching (prodrome); efficacy decreases significantly once a blister forms. While generally safe, users should consult a doctor if the lesion persists beyond 10 days or if they are immunocompromised to consider stronger prescription antivirals."
+  },
+  {
+    "question ": "In case it does turn out to be fungal, would it be bad to pick up an OTC anti-fungal like Tinactin to apply to the area or would that be a bad idea?",
+    "golden_answer ": "If you have a fungal infection like athlete's foot, jock itch or ringworm, you can use over-the-counter topical antifungal drugs such as Tinactin to treat it. Apply the medication once or twice a day until the infection goes away, which usually takes around four weeks.\nIf topical antifungal therapy doesn't work or the infection is severe, your doctor may prescribe oral systemic antifungal therapy, with drugs like terbinafine and itraconazole.\nFor fungal nail infections, topical treatment options are limited to specific medications like Efinaconazole that are designed for nail disease. Alternatively, your doctor may prescribe oral terbinafine to treat the infection.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "If it is truly fungal, an OTC antifungal like Tinactin may help for athlete’s foot, jock itch, or ringworm. If the diagnosis is uncertain, the site is unusual, or it is not improving, medical evaluation is safer."
+  },
+  {
+    "question ": "In case it does turn out to be fungal, would it be bad to pick up an OTC anti-fungal like Tinactin to apply to the area or would that be a bad idea?",
+    "golden_answer ": "If you have a fungal infection like athlete's foot, jock itch or ringworm, you can use over-the-counter topical antifungal drugs such as Tinactin to treat it. Apply the medication once or twice a day until the infection goes away, which usually takes around four weeks.\nIf topical antifungal therapy doesn't work or the infection is severe, your doctor may prescribe oral systemic antifungal therapy, with drugs like terbinafine and itraconazole.\nFor fungal nail infections, topical treatment options are limited to specific medications like Efinaconazole that are designed for nail disease. Alternatively, your doctor may prescribe oral terbinafine to treat the infection.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Tinactin (tolnaftate) is a safe OTC antifungal suitable for superficial infections like ringworm or athlete's foot, but ineffective against Candida. Reasonable to try if fungal infection is suspected, but see a doctor if no improvement within 2 weeks or if the area involves nails, scalp, or genitals."
+  },
+  {
+    "question ": "In case it does turn out to be fungal, would it be bad to pick up an OTC anti-fungal like Tinactin to apply to the area or would that be a bad idea?",
+    "golden_answer ": "If you have a fungal infection like athlete's foot, jock itch or ringworm, you can use over-the-counter topical antifungal drugs such as Tinactin to treat it. Apply the medication once or twice a day until the infection goes away, which usually takes around four weeks.\nIf topical antifungal therapy doesn't work or the infection is severe, your doctor may prescribe oral systemic antifungal therapy, with drugs like terbinafine and itraconazole.\nFor fungal nail infections, topical treatment options are limited to specific medications like Efinaconazole that are designed for nail disease. Alternatively, your doctor may prescribe oral terbinafine to treat the infection.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Applying an OTC antifungal like Tinactin (tolnaftate) is generally safe but may delay correct treatment if the underlying cause is bacterial or inflammatory. Avoid use on severely broken skin to prevent irritation. If the lesion does not improve within 2 weeks or if signs of secondary infection (pus, spreading redness) appear, discontinue use and seek clinical evaluation for a confirmed diagnosis via skin scraping or culture."
+  },
+  {
+    "question ": "Is Augmentin the same thing as Amoxcicilin?",
+    "golden_answer ": "Augmentin is an antibacterial medication which is consisted of two active drugs: amoxicillin and clavulanic acid. Amoxicillin is an antibiotic from the penicillin family, which is used against certain bacterial infections. Some bacteria developed mechanisms of resistance to amoxicillin effect. The added-on compound of clavulanic acid inhibits some of these mechanisms which results in amoxicillin having a broader spectrum of anti-bacterial activity.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "No. Augmentin is not the same as amoxicillin alone. Augmentin contains amoxicillin plus clavulanate, which helps overcome some bacterial resistance and gives it a broader spectrum than amoxicillin by itself."
+  },
+  {
+    "question ": "Is Augmentin the same thing as Amoxcicilin?",
+    "golden_answer ": "Augmentin is an antibacterial medication which is consisted of two active drugs: amoxicillin and clavulanic acid. Amoxicillin is an antibiotic from the penicillin family, which is used against certain bacterial infections. Some bacteria developed mechanisms of resistance to amoxicillin effect. The added-on compound of clavulanic acid inhibits some of these mechanisms which results in amoxicillin having a broader spectrum of anti-bacterial activity.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Augmentin is not the same as amoxicillin, though it contains it. Augmentin combines amoxicillin with clavulanate potassium, a beta-lactamase inhibitor that blocks bacterial resistance mechanisms, making it effective against a broader range of bacteria. Plain amoxicillin is used for simpler infections; Augmentin is reserved for resistant or more complex ones. They are not interchangeable without medical guidance."
+  },
+  {
+    "question ": "Is Augmentin the same thing as Amoxcicilin?",
+    "golden_answer ": "Augmentin is an antibacterial medication which is consisted of two active drugs: amoxicillin and clavulanic acid. Amoxicillin is an antibiotic from the penicillin family, which is used against certain bacterial infections. Some bacteria developed mechanisms of resistance to amoxicillin effect. The added-on compound of clavulanic acid inhibits some of these mechanisms which results in amoxicillin having a broader spectrum of anti-bacterial activity.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "No, Augmentin is not the same as amoxicillin; it is a combination of amoxicillin (a penicillin-type antibiotic) and potassium clavulanate (a beta-lactamase inhibitor). While amoxicillin kills bacteria by inhibiting cell wall synthesis, the addition of clavulanate protects the antibiotic from being deactivated by certain bacterial enzymes (beta-lactamases). This addition broadens the drug's spectrum of activity against resistant strains but may also increase the likelihood of gastrointestinal side effects. It should only be used as specifically prescribed for the diagnosed infection."
+  },
+  {
+    "question ": "Is Buspar a good medicine to take with the Zoloft?",
+    "golden_answer ": "Both Buspirone (Buspar) and Sertraline (Zoloft) elevate the serotonin levels in the brain. \nThis combination may increase the risk of serotonin syndrome, a serious and life-threatening condition. Symptoms of serotonin syndrome include diarrhea, nausea, vomiting, tremors, sweating, high fever, muscle stiffness, seizures, and abnormal or rapid heartbeat. Patients taking both medications should be closely monitored for any of these symptoms. If you suspect serotonin syndrome, seek immediate medical attention.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Buspirone can sometimes be used with sertraline, but the combination should only be taken under medical supervision because both can increase serotonin activity and may raise the risk of serotonin syndrome. Seek medical advice promptly if symptoms such as agitation, tremor, fever, diarrhea, or muscle stiffness occur."
+  },
+  {
+    "question ": "Is Buspar a good medicine to take with the Zoloft?",
+    "golden_answer ": "Both Buspirone (Buspar) and Sertraline (Zoloft) elevate the serotonin levels in the brain. \nThis combination may increase the risk of serotonin syndrome, a serious and life-threatening condition. Symptoms of serotonin syndrome include diarrhea, nausea, vomiting, tremors, sweating, high fever, muscle stiffness, seizures, and abnormal or rapid heartbeat. Patients taking both medications should be closely monitored for any of these symptoms. If you suspect serotonin syndrome, seek immediate medical attention.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Buspar (buspirone) is sometimes combined with Zoloft (sertraline) in clinical practice, particularly when anxiety symptoms are not fully controlled by sertraline alone. The combination is generally considered acceptable, but carries a low risk of serotonin syndrome, especially at higher doses. This combination should only be used under medical supervision, with careful dose adjustment and monitoring for symptoms like agitation, tremor, or rapid heartbeat. Never start, stop, or adjust either medication without your doctor's guidance."
+  },
+  {
+    "question ": "Is Buspar a good medicine to take with the Zoloft?",
+    "golden_answer ": "Both Buspirone (Buspar) and Sertraline (Zoloft) elevate the serotonin levels in the brain. \nThis combination may increase the risk of serotonin syndrome, a serious and life-threatening condition. Symptoms of serotonin syndrome include diarrhea, nausea, vomiting, tremors, sweating, high fever, muscle stiffness, seizures, and abnormal or rapid heartbeat. Patients taking both medications should be closely monitored for any of these symptoms. If you suspect serotonin syndrome, seek immediate medical attention.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Buspirone (Buspar) is often used as an adjunct to sertraline (Zoloft) to treat residual anxiety or mitigate SSRI-induced side effects. While generally safe and effective for treatment-resistant depression or generalized anxiety, both medications increase serotonin levels, creating a rare but serious risk of serotonin syndrome (agitation, tachycardia, muscle rigidity). This combination requires professional medical supervision to monitor dosing and potential drug-drug interactions based on your specific clinical profile."
+  },
+  {
+    "question ": "Is Saxenda a daily injection?",
+    "golden_answer ": "Saxenda is an injection given once a day under the skin (subcutaneous) from a multi-dose injection pen, and it is suitable for self-injection after receiving a proper explanation about how to do so.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Yes. Saxenda (liraglutide) is given as a once-daily subcutaneous injection, usually using a prefilled multi-dose pen after proper instruction on how to use it. (accessdata.fda.gov)"
+  },
+  {
+    "question ": "Is Saxenda a daily injection?",
+    "golden_answer ": "Saxenda is an injection given once a day under the skin (subcutaneous) from a multi-dose injection pen, and it is suitable for self-injection after receiving a proper explanation about how to do so.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Yes, Saxenda (liraglutide) is a once-daily subcutaneous injection used for chronic weight management. It is started at a low dose (0.6 mg/day) and gradually increased over 5 weeks to the maintenance dose of 3 mg/day to minimize side effects like nausea. It requires a prescription and should be used alongside diet and exercise under medical supervision."
+  },
+  {
+    "question ": "Is Saxenda a daily injection?",
+    "golden_answer ": "Saxenda is an injection given once a day under the skin (subcutaneous) from a multi-dose injection pen, and it is suitable for self-injection after receiving a proper explanation about how to do so.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Yes, Saxenda (liraglutide) is a once-daily subcutaneous injection for chronic weight management. It should be administered at the same time each day (abdomen, thigh, or upper arm) with or without meals. Dosing typically follows a five-week titration schedule to minimize gastrointestinal side effects. If a dose is missed, do not double the next one; if more than three consecutive doses are missed, consult a healthcare provider for instructions on how to safely restart the medication."
+  },
+  {
+    "question ": "Is Valtrex the same thing as valacyclovir?",
+    "golden_answer ": "Valtrex is the US brand name for valacyclovir, used to treat shingles and chickenpox – both caused by the varicella-zoster virus.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Yes. Valtrex is the brand name for valacyclovir. Valacyclovir is an antiviral used for infections caused by herpes viruses, including cold sores, genital herpes, and shingles."
+  },
+  {
+    "question ": "Is Valtrex the same thing as valacyclovir?",
+    "golden_answer ": "Valtrex is the US brand name for valacyclovir, used to treat shingles and chickenpox – both caused by the varicella-zoster virus.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Yes, Valtrex is simply the brand name for valacyclovir, an antiviral medication used to treat herpes infections (cold sores, genital herpes, shingles, and chickenpox). They are identical in active ingredient, dosing, and efficacy; the only difference is price, as generic valacyclovir is typically more affordable."
+  },
+  {
+    "question ": "Is Valtrex the same thing as valacyclovir?",
+    "golden_answer ": "Valtrex is the US brand name for valacyclovir, used to treat shingles and chickenpox – both caused by the varicella-zoster virus.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Yes, Valtrex is the brand name for the generic drug valacyclovir. It is an antiviral prescription medication used for herpes simplex (HSV) and varicella-zoster (VZV) infections. As a prodrug, it converts to acyclovir in the body to inhibit viral replication. Both have the same active ingredient and clinical efficacy, though they may differ in cost and inactive fillers. Always follow a healthcare provider's specific dosing instructions for outbreak management or suppression."
+  },
+  {
+    "question ": "Is accutane like an antibiotic and would it affect a baby if I got pregnant?",
+    "golden_answer ": "Isotretinoin (Accutane) is a form of vitamin A that helps to reduce the amount of oil produced by your skin's oil glands, but it's not an antibiotic. This drug is used to treat severe acne that has not responded to other treatments. It's important to note that this medication can cause severe birth defects or even fetus death if taken during pregnancy. It's crucial to have a negative pregnancy test before starting Isotretinoin and to use two forms of birth control throughout the treatment. If you're considering becoming pregnant or are already pregnant, you should speak to your healthcare provider about alternatives.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "No. Accutane (isotretinoin) is not an antibiotic; it is a retinoid used for severe acne. It can cause severe birth defects and pregnancy loss, so it must not be used during pregnancy and pregnancy should be strictly avoided during treatment and for 1 month after stopping."
+  },
+  {
+    "question ": "Is accutane like an antibiotic and would it affect a baby if I got pregnant?",
+    "golden_answer ": "Isotretinoin (Accutane) is a form of vitamin A that helps to reduce the amount of oil produced by your skin's oil glands, but it's not an antibiotic. This drug is used to treat severe acne that has not responded to other treatments. It's important to note that this medication can cause severe birth defects or even fetus death if taken during pregnancy. It's crucial to have a negative pregnancy test before starting Isotretinoin and to use two forms of birth control throughout the treatment. If you're considering becoming pregnant or are already pregnant, you should speak to your healthcare provider about alternatives.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Accutane (isotretinoin) is not an antibiotic but a retinoid (vitamin A derivative) for severe acne. It is highly teratogenic, causing serious birth defects even with brief exposure — pregnancy is strictly contraindicated during use and one month after. In the US, the iPLEDGE program requires two contraception methods and regular pregnancy testing. Strict medical supervision is mandatory."
+  },
+  {
+    "question ": "Is accutane like an antibiotic and would it affect a baby if I got pregnant?",
+    "golden_answer ": "Isotretinoin (Accutane) is a form of vitamin A that helps to reduce the amount of oil produced by your skin's oil glands, but it's not an antibiotic. This drug is used to treat severe acne that has not responded to other treatments. It's important to note that this medication can cause severe birth defects or even fetus death if taken during pregnancy. It's crucial to have a negative pregnancy test before starting Isotretinoin and to use two forms of birth control throughout the treatment. If you're considering becoming pregnant or are already pregnant, you should speak to your healthcare provider about alternatives.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Accutane (isotretinoin) is not an antibiotic; it is a potent Vitamin A-derived retinoid used for severe acne. It is strictly contraindicated during pregnancy due to an extremely high risk of severe birth defects (teratogenicity) and miscarriage. Patients must participate in a mandated safety program (like iPledge), use two forms of effective contraception, and have regular pregnancy tests during treatment and for at least one month after the final dose. If pregnancy occurs, stop the medication immediately and consult a healthcare provider."
+  },
+  {
+    "question ": "Is blepharitis contagious?",
+    "golden_answer ": "Blepharitis is an inflammation of the eyelid that causes red, swollen, and irritated eyelids. The exact cause of blepharitis is unknown, but it might be associated with bacterial buildup, seborrheic dermatitis, clogged oil glands in the eyelids, rosacea, allergies, and eyelash mites. While it could be caused by bacterial buildup on the eyelids, that bacteria is normal skin bacteria, which can not transfer and infect other people. Therefore, blepharitis is not a contagious disease.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Blepharitis is usually not contagious. It is inflammation of the eyelid margins, often related to skin conditions, blocked oil glands, or bacteria normally present on the skin, rather than something that typically spreads from person to person."
+  },
+  {
+    "question ": "Is blepharitis contagious?",
+    "golden_answer ": "Blepharitis is an inflammation of the eyelid that causes red, swollen, and irritated eyelids. The exact cause of blepharitis is unknown, but it might be associated with bacterial buildup, seborrheic dermatitis, clogged oil glands in the eyelids, rosacea, allergies, and eyelash mites. While it could be caused by bacterial buildup on the eyelids, that bacteria is normal skin bacteria, which can not transfer and infect other people. Therefore, blepharitis is not a contagious disease.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Blepharitis is generally not contagious. Caused by seborrheic dermatitis, bacterial overgrowth, or Demodex mites, it is not easily transmitted through casual contact. Basic hygiene (avoid sharing towels or eye makeup) is advised. It is a chronic condition managed with ongoing eyelid hygiene, not isolation."
+  },
+  {
+    "question ": "Is blepharitis contagious?",
+    "golden_answer ": "Blepharitis is an inflammation of the eyelid that causes red, swollen, and irritated eyelids. The exact cause of blepharitis is unknown, but it might be associated with bacterial buildup, seborrheic dermatitis, clogged oil glands in the eyelids, rosacea, allergies, and eyelash mites. While it could be caused by bacterial buildup on the eyelids, that bacteria is normal skin bacteria, which can not transfer and infect other people. Therefore, blepharitis is not a contagious disease.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Blepharitis itself is not contagious; it is a chronic inflammatory eyelid condition typically caused by skin bacteria, clogged oil glands, or rosacea. It cannot be transmitted through casual contact. However, secondary bacterial infections or mite infestations (Demodex) associated with it can spread via shared towels, linens, or makeup. Professional evaluation is recommended to identify the specific cause and establish a hygiene regimen, as the condition often requires long-term management rather than a simple cure."
+  },
+  {
+    "question ": "Is flu test same as influenza test ?",
+    "golden_answer ": "The flu test and the influenza test are the same thing. \"Flu\" is a common name for an acute respiratory illness caused by the influenza virus. If you experience a sudden fever, cough, and muscle aches during the winter months, it's likely that you have influenza. In such cases, an influenza test can be taken to confirm the diagnosis. However, in most cases, there's no need for a test since the symptoms during flu season are enough to diagnose the illness. The illness is self-limited in individuals under 65 years of age who are normally healthy. However, older patients or those at higher risk for complications may need a test. To perform the test, a sample is collected from the throat or nose and analyzed in the lab using RT-PCR or antigen immunofluorescence assays.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "Yes. A flu test and an influenza test mean the same thing, because “flu” is the common name for influenza. Depending on the test, it may look for influenza A, influenza B, or both."
+  },
+  {
+    "question ": "Is flu test same as influenza test ?",
+    "golden_answer ": "The flu test and the influenza test are the same thing. \"Flu\" is a common name for an acute respiratory illness caused by the influenza virus. If you experience a sudden fever, cough, and muscle aches during the winter months, it's likely that you have influenza. In such cases, an influenza test can be taken to confirm the diagnosis. However, in most cases, there's no need for a test since the symptoms during flu season are enough to diagnose the illness. The illness is self-limited in individuals under 65 years of age who are normally healthy. However, older patients or those at higher risk for complications may need a test. To perform the test, a sample is collected from the throat or nose and analyzed in the lab using RT-PCR or antigen immunofluorescence assays.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Yes, \"flu test\" and \"influenza test\" are the same. The most common is the Rapid Influenza Diagnostic Test (RIDT), detecting influenza A and B via nasal swab in 15–30 minutes, but sensitivity is only ~50–70%, making false negatives possible. PCR testing is more accurate. Results should always be interpreted alongside clinical symptoms by a doctor."
+  },
+  {
+    "question ": "Is flu test same as influenza test ?",
+    "golden_answer ": "The flu test and the influenza test are the same thing. \"Flu\" is a common name for an acute respiratory illness caused by the influenza virus. If you experience a sudden fever, cough, and muscle aches during the winter months, it's likely that you have influenza. In such cases, an influenza test can be taken to confirm the diagnosis. However, in most cases, there's no need for a test since the symptoms during flu season are enough to diagnose the illness. The illness is self-limited in individuals under 65 years of age who are normally healthy. However, older patients or those at higher risk for complications may need a test. To perform the test, a sample is collected from the throat or nose and analyzed in the lab using RT-PCR or antigen immunofluorescence assays.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "Yes, a \"flu test\" is synonymous with an \"influenza test,\" as \"flu\" is the clinical abbreviation for the influenza virus. Tests like RIDT (rapid) or PCR (molecular) specifically detect influenza A and B from nasopharyngeal samples. They do not identify other respiratory viruses with similar symptoms, such as rhinovirus, RSV, or COVID-19. For maximum accuracy, testing should occur within 3 to 4 days of symptom onset when viral shedding is at its peak."
+  },
+  {
+    "question ": "Is ibuprofen a part of tylenol?",
+    "golden_answer ": "Ibuprofen( Advil, Motrin) and Acetaminophen (Tylenol) are common pain and fever relievers. Whilst the two drugs share some similar features, the active ingredient is different, and Ibuprofen is not a part of Acetaminophen.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "No. Ibuprofen is not part of Tylenol. Tylenol contains acetaminophen (paracetamol), while ibuprofen is a different medicine in the NSAID class."
+  },
+  {
+    "question ": "Is ibuprofen a part of tylenol?",
+    "golden_answer ": "Ibuprofen( Advil, Motrin) and Acetaminophen (Tylenol) are common pain and fever relievers. Whilst the two drugs share some similar features, the active ingredient is different, and Ibuprofen is not a part of Acetaminophen.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "No, ibuprofen and Tylenol (acetaminophen) are entirely different drugs. Ibuprofen is an NSAID reducing pain, fever, and inflammation; acetaminophen relieves pain and fever but has no anti-inflammatory effect. They can be safely alternated under medical guidance but are not interchangeable."
+  },
+  {
+    "question ": "Is ibuprofen a part of tylenol?",
+    "golden_answer ": "Ibuprofen( Advil, Motrin) and Acetaminophen (Tylenol) are common pain and fever relievers. Whilst the two drugs share some similar features, the active ingredient is different, and Ibuprofen is not a part of Acetaminophen.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "No, ibuprofen is not an ingredient in Tylenol. They are distinct medications: Tylenol contains acetaminophen (a pain reliever/fever reducer), while ibuprofen (Advil/Motrin) is an NSAID (anti-inflammatory). While some \"dual-action\" products combine both, standard Tylenol does not. Always check the \"Drug Facts\" label to verify active ingredients and prevent accidental overdosage, as each medication has different safety profiles and daily limits."
+  },
+  {
+    "question ": "Is it common to have an abscess with no pain?",
+    "golden_answer ": "An abscess is a pocket of pus that can develop anywhere in your body, including the skin, mouth, and internal organs. Typically, pain is the primary symptom of an abscess, and it is often what prompts patients to seek medical help. However, some abscesses can be painless due to factors like size, location, and the patient's individual characteristics. If you suspect that you have an abscess, it is crucial to consult with a healthcare provider for proper diagnosis and treatment. Medical intervention is usually necessary for abscesses.",
+    "model_name ": "GPT-5.4 Thinking",
+    "model_answer ": "An abscess often causes pain, but it can sometimes be painless depending on its size, depth, and location. A painless lump can still be an abscess, so medical evaluation is important, especially if there is swelling, redness, drainage, fever, or the lump is getting larger."
+  },
+  {
+    "question ": "Is it common to have an abscess with no pain?",
+    "golden_answer ": "An abscess is a pocket of pus that can develop anywhere in your body, including the skin, mouth, and internal organs. Typically, pain is the primary symptom of an abscess, and it is often what prompts patients to seek medical help. However, some abscesses can be painless due to factors like size, location, and the patient's individual characteristics. If you suspect that you have an abscess, it is crucial to consult with a healthcare provider for proper diagnosis and treatment. Medical intervention is usually necessary for abscesses.",
+    "model_name ": "Claude 4.6 Sonnet",
+    "model_answer ": "Yes, painless abscesses can occur, particularly in diabetics (neuropathy), immunocompromised patients, or with deep-seated/early-stage collections. Lack of pain does not mean lack of risk — untreated abscesses can progress to sepsis. Any suspected abscess should be evaluated by a doctor regardless of pain level."
+  },
+  {
+    "question ": "Is it common to have an abscess with no pain?",
+    "golden_answer ": "An abscess is a pocket of pus that can develop anywhere in your body, including the skin, mouth, and internal organs. Typically, pain is the primary symptom of an abscess, and it is often what prompts patients to seek medical help. However, some abscesses can be painless due to factors like size, location, and the patient's individual characteristics. If you suspect that you have an abscess, it is crucial to consult with a healthcare provider for proper diagnosis and treatment. Medical intervention is usually necessary for abscesses.",
+    "model_name ": "Gemini 3.0",
+    "model_answer ": "While less common, an abscess can be painless, particularly in early stages or in patients with peripheral neuropathy (e.g., diabetes) or those on immunosuppressants. \"Cold abscesses\" associated with fungal infections or tuberculosis also lack typical inflammatory pain. Any painless, firm, or growing lump requires clinical evaluation to distinguish an abscess from a cyst or other soft tissue lesion."
+  }
+]

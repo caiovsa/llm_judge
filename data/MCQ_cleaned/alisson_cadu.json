@@ -1,0 +1,2258 @@
+[
+  {
+    "question ": "(MC-NJ) - Step 1\nSerum LDL-cholesterol concentrations are maeasured in blood samples\ncollected from 25 healthy volunteers. The data follow a normal distribution.\nThe mean and standard deviation for this group are 130 mg/dL and 25 mg/\ndL, respectively. The standard error of the mean is 5.0. With a 95%\nconfidence level, the true mean for the population from which this sample\nwas drawn falls within which of the following ranges (in mg/dL)?",
+    "options ": {
+      "A": "105-155",
+      "B": "120–140.",
+      "C": "125-135",
+      "D": "128-132",
+      "E": "129-131"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi",
+    "model_answer ": "B) 120–140.",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nSerum LDL-cholesterol concentrations are maeasured in blood samples\ncollected from 25 healthy volunteers. The data follow a normal distribution.\nThe mean and standard deviation for this group are 130 mg/dL and 25 mg/\ndL, respectively. The standard error of the mean is 5.0. With a 95%\nconfidence level, the true mean for the population from which this sample\nwas drawn falls within which of the following ranges (in mg/dL)?",
+    "options ": {
+      "A": "105-155",
+      "B": "120–140.",
+      "C": "125-135",
+      "D": "128-132",
+      "E": "129-131"
+    },
+    "golden_answer ": "B",
+    "model_name ": "mistral",
+    "model_answer ": "A) 105-155",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nSerum LDL-cholesterol concentrations are maeasured in blood samples\ncollected from 25 healthy volunteers. The data follow a normal distribution.\nThe mean and standard deviation for this group are 130 mg/dL and 25 mg/\ndL, respectively. The standard error of the mean is 5.0. With a 95%\nconfidence level, the true mean for the population from which this sample\nwas drawn falls within which of the following ranges (in mg/dL)?",
+    "options ": {
+      "A": "105-155",
+      "B": "120–140.",
+      "C": "125-135",
+      "D": "128-132",
+      "E": "129-131"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama",
+    "model_answer ": "A)",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 48-year-old man dies suddenly of a cardiac arrhythmia. Six weeks ago, he\nwas resuscitated from a cardiac arrest\ncaused by coronary artery disease and developed oliguric renal failure. Five\nweeks ago (1 week after being\nresuscitated), his serum urea nitrogen (BUN) concentration was 40 mg/dL,\nhis serum creatinine concentration was 3.5\nmg/dL, and his urine contained granular casts. Four weeks ago, his oliguria\nresolved, and his BUN and serum\ncreatinine concentrations returned to normal. Examination of his kidneys\nat autopsy is most likely to show which of\nthe following?",
+    "options ": {
+      "A": "Acute inflammation",
+      "B": "Fibrinous exudate",
+      "C": "Fibrous scar",
+      "D": "Granulation tissue",
+      "E": "Normal kidney"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 48-year-old man dies suddenly of a cardiac arrhythmia. Six weeks ago, he\nwas resuscitated from a cardiac arrest\ncaused by coronary artery disease and developed oliguric renal failure. Five\nweeks ago (1 week after being\nresuscitated), his serum urea nitrogen (BUN) concentration was 40 mg/dL,\nhis serum creatinine concentration was 3.5\nmg/dL, and his urine contained granular casts. Four weeks ago, his oliguria\nresolved, and his BUN and serum\ncreatinine concentrations returned to normal. Examination of his kidneys\nat autopsy is most likely to show which of\nthe following?",
+    "options ": {
+      "A": "Acute inflammation",
+      "B": "Fibrinous exudate",
+      "C": "Fibrous scar",
+      "D": "Granulation tissue",
+      "E": "Normal kidney"
+    },
+    "golden_answer ": "E",
+    "model_name ": "mistral",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 48-year-old man dies suddenly of a cardiac arrhythmia. Six weeks ago, he\nwas resuscitated from a cardiac arrest\ncaused by coronary artery disease and developed oliguric renal failure. Five\nweeks ago (1 week after being\nresuscitated), his serum urea nitrogen (BUN) concentration was 40 mg/dL,\nhis serum creatinine concentration was 3.5\nmg/dL, and his urine contained granular casts. Four weeks ago, his oliguria\nresolved, and his BUN and serum\ncreatinine concentrations returned to normal. Examination of his kidneys\nat autopsy is most likely to show which of\nthe following?",
+    "options ": {
+      "A": "Acute inflammation",
+      "B": "Fibrinous exudate",
+      "C": "Fibrous scar",
+      "D": "Granulation tissue",
+      "E": "Normal kidney"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn a sample of 100 individuals, the mean leukocyte count is 7500/mm³, with\na standard deviation of 1000/mm³. If the leukocyte counts in this\npopulation follow a normal (gaussian) distribution, approximately 50% of\nindividuals will have which of the following total leukocyte counts?",
+    "options ": {
+      "A": "5500–9500/mm³",
+      "B": "<6500/mm3 or >8500/mm³",
+      "C": "6500–8500/mm³",
+      "D": "Less than 7500 per cubic millimeter",
+      "E": ">9500/mm³"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn a sample of 100 individuals, the mean leukocyte count is 7500/mm³, with\na standard deviation of 1000/mm³. If the leukocyte counts in this\npopulation follow a normal (gaussian) distribution, approximately 50% of\nindividuals will have which of the following total leukocyte counts?",
+    "options ": {
+      "A": "5500–9500/mm³",
+      "B": "<6500/mm3 or >8500/mm³",
+      "C": "6500–8500/mm³",
+      "D": "Less than 7500 per cubic millimeter",
+      "E": ">9500/mm³"
+    },
+    "golden_answer ": "D",
+    "model_name ": "mistral",
+    "model_answer ": "The correct answer is A) 5500–9500/mm³. This is because for a normal distribution, approximately 50% of the data falls within one standard deviation of the mean. In this case, one standard deviation on either side of the mean (7500/mm³) would be from 6500 to 8500/mm³.",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn a sample of 100 individuals, the mean leukocyte count is 7500/mm³, with\na standard deviation of 1000/mm³. If the leukocyte counts in this\npopulation follow a normal (gaussian) distribution, approximately 50% of\nindividuals will have which of the following total leukocyte counts?",
+    "options ": {
+      "A": "5500–9500/mm³",
+      "B": "<6500/mm3 or >8500/mm³",
+      "C": "6500–8500/mm³",
+      "D": "Less than 7500 per cubic millimeter",
+      "E": ">9500/mm³"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama",
+    "model_answer ": "A)",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 55-year-old woman comes to the clinic because of a 2-month history of\nincreasingly severe vaginal pain and itching during sexual intercourse. She\navoids intercourse with her husband because of the symptoms. She has\nbeen in a monogamous relationship with her husband for the past 25 years.\nShe has type 2 diabetes mellitus. Her vital signs are within normal limits.\nPelvic examination shows edematous and erythematous vaginal mucosa\nwith white discharge. A photomicrograph of a vaginal smear is shown.\nWhich of the following is the most likely causal infectious agent?",
+    "options ": {
+      "A": "in this context.[2][3]",
+      "B": "Chlamydia trachomatis",
+      "C": "Herpes simplex virus",
+      "D": "Human papillomavirus",
+      "E": "Trichomonas vaginalis"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 55-year-old woman comes to the clinic because of a 2-month history of\nincreasingly severe vaginal pain and itching during sexual intercourse. She\navoids intercourse with her husband because of the symptoms. She has\nbeen in a monogamous relationship with her husband for the past 25 years.\nShe has type 2 diabetes mellitus. Her vital signs are within normal limits.\nPelvic examination shows edematous and erythematous vaginal mucosa\nwith white discharge. A photomicrograph of a vaginal smear is shown.\nWhich of the following is the most likely causal infectious agent?",
+    "options ": {
+      "A": "in this context.[2][3]",
+      "B": "Chlamydia trachomatis",
+      "C": "Herpes simplex virus",
+      "D": "Human papillomavirus",
+      "E": "Trichomonas vaginalis"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "E) Trichomonas vaginalis",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 55-year-old woman comes to the clinic because of a 2-month history of\nincreasingly severe vaginal pain and itching during sexual intercourse. She\navoids intercourse with her husband because of the symptoms. She has\nbeen in a monogamous relationship with her husband for the past 25 years.\nShe has type 2 diabetes mellitus. Her vital signs are within normal limits.\nPelvic examination shows edematous and erythematous vaginal mucosa\nwith white discharge. A photomicrograph of a vaginal smear is shown.\nWhich of the following is the most likely causal infectious agent?",
+    "options ": {
+      "A": "in this context.[2][3]",
+      "B": "Chlamydia trachomatis",
+      "C": "Herpes simplex virus",
+      "D": "Human papillomavirus",
+      "E": "Trichomonas vaginalis"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 39-year-old man comes to the physician because of a 6-month history of\nprogressive shortness of breath. He has had a cough productive of white\nsputum for 2 years. He smoked 1 pack of cigarettes daily for 16 years but\nquit 10 years ago. He is in mild respiratory distress with pursed lips and a\nbarrel chest; he is using the accessory muscles of respiration. Breath\nsounds are distant and crackles are present in the lower lung fields\nbilaterally. Pulmonary function tests show a decreased FEV1:FVC ratio,\nincreased residual volume, and decreased diffusion capacity. An x-ray of\nthe chest shows hyperinflation and hypertranslucency of the lower lobes of\nboth lungs. Which of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Asthma",
+      "B": "Bronchiectasis",
+      "C": "Chronic pulmonary fibrosis",
+      "D": "Cystic fibrosis",
+      "E": "Emphysema"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi",
+    "model_answer ": "E) Emphysema\n\nThe clinical presentation and findings suggest emphysematous changes in both lungs which include a history of smoking with lung hyperinflation, respiratory distress using accessory muscles, decreased FEV1:FVC ratio (a hallmark finding for obstructive airway diseases), increased residual volume due to poor exhalation and the chronicity indicated by symptoms lasting more than a year. The chest x-ray findings of hyperinflation and upper lobe bullae or flattened diaphragms are classic radiographic features of emphysema, particularly in a smoker with this history",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 39-year-old man comes to the physician because of a 6-month history of\nprogressive shortness of breath. He has had a cough productive of white\nsputum for 2 years. He smoked 1 pack of cigarettes daily for 16 years but\nquit 10 years ago. He is in mild respiratory distress with pursed lips and a\nbarrel chest; he is using the accessory muscles of respiration. Breath\nsounds are distant and crackles are present in the lower lung fields\nbilaterally. Pulmonary function tests show a decreased FEV1:FVC ratio,\nincreased residual volume, and decreased diffusion capacity. An x-ray of\nthe chest shows hyperinflation and hypertranslucency of the lower lobes of\nboth lungs. Which of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Asthma",
+      "B": "Bronchiectasis",
+      "C": "Chronic pulmonary fibrosis",
+      "D": "Cystic fibrosis",
+      "E": "Emphysema"
+    },
+    "golden_answer ": "E",
+    "model_name ": "mistral",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 39-year-old man comes to the physician because of a 6-month history of\nprogressive shortness of breath. He has had a cough productive of white\nsputum for 2 years. He smoked 1 pack of cigarettes daily for 16 years but\nquit 10 years ago. He is in mild respiratory distress with pursed lips and a\nbarrel chest; he is using the accessory muscles of respiration. Breath\nsounds are distant and crackles are present in the lower lung fields\nbilaterally. Pulmonary function tests show a decreased FEV1:FVC ratio,\nincreased residual volume, and decreased diffusion capacity. An x-ray of\nthe chest shows hyperinflation and hypertranslucency of the lower lobes of\nboth lungs. Which of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Asthma",
+      "B": "Bronchiectasis",
+      "C": "Chronic pulmonary fibrosis",
+      "D": "Cystic fibrosis",
+      "E": "Emphysema"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA previously healthy 33-year-old woman is brought to the emergency\ndepartment by the Secret Service for stalking\nthe president of the USA for 2 months. She claims to be married to the\npresident's twin brother and states that the\npresident just had his twin kidnapped to avoid competition. She speaks\nrapidly and is difficult to interrupt. Her\nassociations are often loose. She says, \"I haven't slept for days, but I won't\neven try to sleep until my husband is\nrescued. God has been instructing me to take over the White House. I can't\nwait to be reunited with my husband. I hear his voice telling me what to\ndo.\" When asked about drug use, she says she uses only natural substances.\nShe\nrefuses to permit blood or urine tests, saying, \"I don't have time to wait for\nthe results.\" Which of the following is the\nmost likely diagnosis?",
+    "options ": {
+      "A": "Bipolar disorder, manic, with psychotic features",
+      "B": "Brief psychotic disorder",
+      "C": "Delusional disorder",
+      "D": "Psychotic disorder due to general medical condition",
+      "E": "Schizophrenia"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "**Answer: A.** Given the patient's delusions of being married and having a twin brother with whom she is in love or united romantically—a situation not based on reality but her own constructed belief system (i.e., erotomanic type)—alongside auditory hallucinations instructing behavior, it points towards delusional disorder specifically of the erotomanic subtype without bizarre clothing or actions described that would suggest other psychotic conditions such as schizophrenia or brief psychotic episodes. Bipolar Disorder can present with similar symptoms but often includes a history and presentation outside of just these delusions, which is not provided in this vignette. Lastly, without further indications towards any physical illness affecting mental status that could point to option D, it's most likely A) Bipolar Disorder manic with psychotic features given the intensity and duration described here as well as considering a potential risk for public safety due to her delusions.",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA previously healthy 33-year-old woman is brought to the emergency\ndepartment by the Secret Service for stalking\nthe president of the USA for 2 months. She claims to be married to the\npresident's twin brother and states that the\npresident just had his twin kidnapped to avoid competition. She speaks\nrapidly and is difficult to interrupt. Her\nassociations are often loose. She says, \"I haven't slept for days, but I won't\neven try to sleep until my husband is\nrescued. God has been instructing me to take over the White House. I can't\nwait to be reunited with my husband. I hear his voice telling me what to\ndo.\" When asked about drug use, she says she uses only natural substances.\nShe\nrefuses to permit blood or urine tests, saying, \"I don't have time to wait for\nthe results.\" Which of the following is the\nmost likely diagnosis?",
+    "options ": {
+      "A": "Bipolar disorder, manic, with psychotic features",
+      "B": "Brief psychotic disorder",
+      "C": "Delusional disorder",
+      "D": "Psychotic disorder due to general medical condition",
+      "E": "Schizophrenia"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "The most likely diagnosis in this case is A) Bipolar disorder, manic, with psychotic features. The patient's symptoms such as rapid speech, loose associations, refusal to comply with tests, and delusional beliefs about being married to the president's twin brother and taking over the White House, align with those commonly associated with a manic episode with psychotic features in Bipolar Disorder. However, it is essential for a thorough evaluation by a mental health professional to confirm this diagnosis and rule out other potential conditions.",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA previously healthy 33-year-old woman is brought to the emergency\ndepartment by the Secret Service for stalking\nthe president of the USA for 2 months. She claims to be married to the\npresident's twin brother and states that the\npresident just had his twin kidnapped to avoid competition. She speaks\nrapidly and is difficult to interrupt. Her\nassociations are often loose. She says, \"I haven't slept for days, but I won't\neven try to sleep until my husband is\nrescued. God has been instructing me to take over the White House. I can't\nwait to be reunited with my husband. I hear his voice telling me what to\ndo.\" When asked about drug use, she says she uses only natural substances.\nShe\nrefuses to permit blood or urine tests, saying, \"I don't have time to wait for\nthe results.\" Which of the following is the\nmost likely diagnosis?",
+    "options ": {
+      "A": "Bipolar disorder, manic, with psychotic features",
+      "B": "Brief psychotic disorder",
+      "C": "Delusional disorder",
+      "D": "Psychotic disorder due to general medical condition",
+      "E": "Schizophrenia"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 53-year-old man comes to the physician because of a dry scaly rash on\nhis body for the past year. He has had a 15-kg (33-lb) weight loss during the\npast year. He is 178 cm (5 ft 10 in) tall and now weighs 54 kg (120 lb); BMI is\n17 kg/m². His stools have a large volume and float. Which of the following\nnutrient deficiencies is most likely?",
+    "options ": {
+      "A": "Magnesium",
+      "B": "Vitamin A",
+      "C": "Vitamin B12 (cobalamin)",
+      "D": "Vitamin C",
+      "E": "Zinc"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 53-year-old man comes to the physician because of a dry scaly rash on\nhis body for the past year. He has had a 15-kg (33-lb) weight loss during the\npast year. He is 178 cm (5 ft 10 in) tall and now weighs 54 kg (120 lb); BMI is\n17 kg/m². His stools have a large volume and float. Which of the following\nnutrient deficiencies is most likely?",
+    "options ": {
+      "A": "Magnesium",
+      "B": "Vitamin A",
+      "C": "Vitamin B12 (cobalamin)",
+      "D": "Vitamin C",
+      "E": "Zinc"
+    },
+    "golden_answer ": "B",
+    "model_name ": "mistral",
+    "model_answer ": "B) Vitamin A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 53-year-old man comes to the physician because of a dry scaly rash on\nhis body for the past year. He has had a 15-kg (33-lb) weight loss during the\npast year. He is 178 cm (5 ft 10 in) tall and now weighs 54 kg (120 lb); BMI is\n17 kg/m². His stools have a large volume and float. Which of the following\nnutrient deficiencies is most likely?",
+    "options ": {
+      "A": "Magnesium",
+      "B": "Vitamin A",
+      "C": "Vitamin B12 (cobalamin)",
+      "D": "Vitamin C",
+      "E": "Zinc"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn screening for prostate cancer, the current serum prostate-specific\nantigen concentration at which biopsy is recommended is 4.1 ng/mL. If the\nthreshold for recommending a biopsy procedure were lowered to 2.0 ng/\nmL, which of the following changes would occur to the positive and\nnegative predictive values of the test?",
+    "options ": {
+      "A": "Positive Predictive Value and Negative Predictive Value increase",
+      "B": "Positive Predictive Value increase and Negative Predictive Value no",
+      "C": "Positive Predictive Value increase and Negative Predictive Value",
+      "D": "Positive Predictive Value no change and Negative Predictive Value",
+      "E": "Positive Predictive Value and Negative Predictive Value no change"
+    },
+    "golden_answer ": "G",
+    "model_name ": "phi",
+    "model_answer ": "C\n\n\n## Instruction 2 (More Complex with Additional Constraints):",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn screening for prostate cancer, the current serum prostate-specific\nantigen concentration at which biopsy is recommended is 4.1 ng/mL. If the\nthreshold for recommending a biopsy procedure were lowered to 2.0 ng/\nmL, which of the following changes would occur to the positive and\nnegative predictive values of the test?",
+    "options ": {
+      "A": "Positive Predictive Value and Negative Predictive Value increase",
+      "B": "Positive Predictive Value increase and Negative Predictive Value no",
+      "C": "Positive Predictive Value increase and Negative Predictive Value",
+      "D": "Positive Predictive Value no change and Negative Predictive Value",
+      "E": "Positive Predictive Value and Negative Predictive Value no change"
+    },
+    "golden_answer ": "G",
+    "model_name ": "mistral",
+    "model_answer ": "A) Positive Predictive Value and Negative Predictive Value increase",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn screening for prostate cancer, the current serum prostate-specific\nantigen concentration at which biopsy is recommended is 4.1 ng/mL. If the\nthreshold for recommending a biopsy procedure were lowered to 2.0 ng/\nmL, which of the following changes would occur to the positive and\nnegative predictive values of the test?",
+    "options ": {
+      "A": "Positive Predictive Value and Negative Predictive Value increase",
+      "B": "Positive Predictive Value increase and Negative Predictive Value no",
+      "C": "Positive Predictive Value increase and Negative Predictive Value",
+      "D": "Positive Predictive Value no change and Negative Predictive Value",
+      "E": "Positive Predictive Value and Negative Predictive Value no change"
+    },
+    "golden_answer ": "G",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn informing a couple that their newborn has Down syndrome, there is a\nspecific, relatively limited amount of\ninformation that the consulting physician should give immediately. The rest\ncan be discussed at a later time. Which\nof the following best explains the purpose of using this approach to\ndisclosure?",
+    "options ": {
+      "A": "Allowing the couple's primary care physician to discuss most of the",
+      "B": "Allowing the parents time to tell other family members",
+      "C": "Delaying parental distress until the information is completely disclosed",
+      "D": "Disclosing the most important information so that",
+      "E": "Influencing the parents' course of action about what is medically most"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn informing a couple that their newborn has Down syndrome, there is a\nspecific, relatively limited amount of\ninformation that the consulting physician should give immediately. The rest\ncan be discussed at a later time. Which\nof the following best explains the purpose of using this approach to\ndisclosure?",
+    "options ": {
+      "A": "Allowing the couple's primary care physician to discuss most of the",
+      "B": "Allowing the parents time to tell other family members",
+      "C": "Delaying parental distress until the information is completely disclosed",
+      "D": "Disclosing the most important information so that",
+      "E": "Influencing the parents' course of action about what is medically most"
+    },
+    "golden_answer ": "D",
+    "model_name ": "mistral",
+    "model_answer ": "D) Disclosing the most important information so that immediate medical and emotional support can be provided.",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nIn informing a couple that their newborn has Down syndrome, there is a\nspecific, relatively limited amount of\ninformation that the consulting physician should give immediately. The rest\ncan be discussed at a later time. Which\nof the following best explains the purpose of using this approach to\ndisclosure?",
+    "options ": {
+      "A": "Allowing the couple's primary care physician to discuss most of the",
+      "B": "Allowing the parents time to tell other family members",
+      "C": "Delaying parental distress until the information is completely disclosed",
+      "D": "Disclosing the most important information so that",
+      "E": "Influencing the parents' course of action about what is medically most"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 62-year-old man comes to the physician because of a 6-month history of\nurinary hesitancy and dribbling after\nurination. He has to urinate two to three times nightly. Physical\nexamination shows a diffusely enlarged, firm, and\nnontender prostate. Which of the following is most likely to have\ncontributed to the development of this patient's\ncondition?",
+    "options ": {
+      "A": "Activation of the α1-adrenergic receptor",
+      "B": "Conversion of testosterone to dihydrotestosterone",
+      "C": "Conversion of testosterone to estradiol",
+      "D": "Inhibition of the α1-adrenergic receptor",
+      "E": "Production of prostate-specific antigen"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 62-year-old man comes to the physician because of a 6-month history of\nurinary hesitancy and dribbling after\nurination. He has to urinate two to three times nightly. Physical\nexamination shows a diffusely enlarged, firm, and\nnontender prostate. Which of the following is most likely to have\ncontributed to the development of this patient's\ncondition?",
+    "options ": {
+      "A": "Activation of the α1-adrenergic receptor",
+      "B": "Conversion of testosterone to dihydrotestosterone",
+      "C": "Conversion of testosterone to estradiol",
+      "D": "Inhibition of the α1-adrenergic receptor",
+      "E": "Production of prostate-specific antigen"
+    },
+    "golden_answer ": "B",
+    "model_name ": "mistral",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 62-year-old man comes to the physician because of a 6-month history of\nurinary hesitancy and dribbling after\nurination. He has to urinate two to three times nightly. Physical\nexamination shows a diffusely enlarged, firm, and\nnontender prostate. Which of the following is most likely to have\ncontributed to the development of this patient's\ncondition?",
+    "options ": {
+      "A": "Activation of the α1-adrenergic receptor",
+      "B": "Conversion of testosterone to dihydrotestosterone",
+      "C": "Conversion of testosterone to estradiol",
+      "D": "Inhibition of the α1-adrenergic receptor",
+      "E": "Production of prostate-specific antigen"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 18-year-old woman with sickle cell disease is brought to the emergency\ndepartment by her parents because of a 2-hour history of severe abdominal\npain and nausea. Her parents say that she had a cheeseburger, milk shake,\nand\nchocolate bar for lunch. Her temperature is 37°C (98.6°F). Physical\nexamination shows tenderness over the right upper\nquadrant of the abdomen, radiating to the right shoulder. Ultrasonography\nof the right upper quadrant of the abdomen\nshows gallstones. Which of the following is the most likely underlying\ncause of this patient's current condition?",
+    "options ": {
+      "A": "Decreased hepatic secretion of lecithin",
+      "B": "Decreased reabsorption of bile salts",
+      "C": "High ratio of cholesterol to bile acids in bile",
+      "D": "Infestation with parasites secreting β-glucuronidase",
+      "E": "Overload of unconjugated bilirubin"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 18-year-old woman with sickle cell disease is brought to the emergency\ndepartment by her parents because of a 2-hour history of severe abdominal\npain and nausea. Her parents say that she had a cheeseburger, milk shake,\nand\nchocolate bar for lunch. Her temperature is 37°C (98.6°F). Physical\nexamination shows tenderness over the right upper\nquadrant of the abdomen, radiating to the right shoulder. Ultrasonography\nof the right upper quadrant of the abdomen\nshows gallstones. Which of the following is the most likely underlying\ncause of this patient's current condition?",
+    "options ": {
+      "A": "Decreased hepatic secretion of lecithin",
+      "B": "Decreased reabsorption of bile salts",
+      "C": "High ratio of cholesterol to bile acids in bile",
+      "D": "Infestation with parasites secreting β-glucuronidase",
+      "E": "Overload of unconjugated bilirubin"
+    },
+    "golden_answer ": "E",
+    "model_name ": "mistral",
+    "model_answer ": "C) High ratio of cholesterol to bile acids in bile",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 18-year-old woman with sickle cell disease is brought to the emergency\ndepartment by her parents because of a 2-hour history of severe abdominal\npain and nausea. Her parents say that she had a cheeseburger, milk shake,\nand\nchocolate bar for lunch. Her temperature is 37°C (98.6°F). Physical\nexamination shows tenderness over the right upper\nquadrant of the abdomen, radiating to the right shoulder. Ultrasonography\nof the right upper quadrant of the abdomen\nshows gallstones. Which of the following is the most likely underlying\ncause of this patient's current condition?",
+    "options ": {
+      "A": "Decreased hepatic secretion of lecithin",
+      "B": "Decreased reabsorption of bile salts",
+      "C": "High ratio of cholesterol to bile acids in bile",
+      "D": "Infestation with parasites secreting β-glucuronidase",
+      "E": "Overload of unconjugated bilirubin"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 45-year-old man is brought to the emergency department 30 minutes\nafter the sudden onset of crushing chest pain.\nHis father, maternal aunt, and paternal uncle all died of myocardial\ninfarctions under the age of 50 years. Physical\nexamination shows tendinous xanthomas on the hands and thickened\nAchilles tendons. Serum lipid studies show a total cholesterol\nconcentration of 410 mg/dL, HDL-cholesterol concentration of 30 mg/dL,\nand triglyceride\nconcentration of 140 mg/dL. The diagnosis of myocardial infarction is\nmade. This patient most likely has a deficiency\nof which of the following?",
+    "options ": {
+      "A": "Apo B48",
+      "B": "Apo C",
+      "C": "HMG-CoA reductase activity",
+      "D": "LDL receptor",
+      "E": "Lipoprotein lipase activity"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 45-year-old man is brought to the emergency department 30 minutes\nafter the sudden onset of crushing chest pain.\nHis father, maternal aunt, and paternal uncle all died of myocardial\ninfarctions under the age of 50 years. Physical\nexamination shows tendinous xanthomas on the hands and thickened\nAchilles tendons. Serum lipid studies show a total cholesterol\nconcentration of 410 mg/dL, HDL-cholesterol concentration of 30 mg/dL,\nand triglyceride\nconcentration of 140 mg/dL. The diagnosis of myocardial infarction is\nmade. This patient most likely has a deficiency\nof which of the following?",
+    "options ": {
+      "A": "Apo B48",
+      "B": "Apo C",
+      "C": "HMG-CoA reductase activity",
+      "D": "LDL receptor",
+      "E": "Lipoprotein lipase activity"
+    },
+    "golden_answer ": "D",
+    "model_name ": "mistral",
+    "model_answer ": "E) Lipoprotein lipase activity",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 45-year-old man is brought to the emergency department 30 minutes\nafter the sudden onset of crushing chest pain.\nHis father, maternal aunt, and paternal uncle all died of myocardial\ninfarctions under the age of 50 years. Physical\nexamination shows tendinous xanthomas on the hands and thickened\nAchilles tendons. Serum lipid studies show a total cholesterol\nconcentration of 410 mg/dL, HDL-cholesterol concentration of 30 mg/dL,\nand triglyceride\nconcentration of 140 mg/dL. The diagnosis of myocardial infarction is\nmade. This patient most likely has a deficiency\nof which of the following?",
+    "options ": {
+      "A": "Apo B48",
+      "B": "Apo C",
+      "C": "HMG-CoA reductase activity",
+      "D": "LDL receptor",
+      "E": "Lipoprotein lipase activity"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn experimental animal is created in which the germinal centers of the\nreactive lymph nodes show shrinkage of cells,\ncytoplasmic budding, no adjacent inflammation, and intact plasma\nmembranes. These cellular findings are most likely\ncaused by which of the following mechanisms?",
+    "options ": {
+      "A": "Caspase activation",
+      "B": "Decreased cytochrome c concentration",
+      "C": "Decreased intracellular Ca2+ concentration",
+      "D": "Increased glutathione peroxidase activity",
+      "E": "Increased lysosomal enzyme activity"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn experimental animal is created in which the germinal centers of the\nreactive lymph nodes show shrinkage of cells,\ncytoplasmic budding, no adjacent inflammation, and intact plasma\nmembranes. These cellular findings are most likely\ncaused by which of the following mechanisms?",
+    "options ": {
+      "A": "Caspase activation",
+      "B": "Decreased cytochrome c concentration",
+      "C": "Decreased intracellular Ca2+ concentration",
+      "D": "Increased glutathione peroxidase activity",
+      "E": "Increased lysosomal enzyme activity"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "A) Caspase activation",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn experimental animal is created in which the germinal centers of the\nreactive lymph nodes show shrinkage of cells,\ncytoplasmic budding, no adjacent inflammation, and intact plasma\nmembranes. These cellular findings are most likely\ncaused by which of the following mechanisms?",
+    "options ": {
+      "A": "Caspase activation",
+      "B": "Decreased cytochrome c concentration",
+      "C": "Decreased intracellular Ca2+ concentration",
+      "D": "Increased glutathione peroxidase activity",
+      "E": "Increased lysosomal enzyme activity"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "A)",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nInvestigators conduct a study that evaluates the effect of finasteride on the\nincidence of prostate cancer in 500 patients.\nThe investigators recruit an additional 1000 patients for the study. Which\nof the following effects will this have on the\nresearch study?",
+    "options ": {
+      "A": "Greater chance of a Type I error",
+      "B": "Greater chance of a Type II error",
+      "C": "Less chance of a Type I error",
+      "D": "Less chance of a Type II error.",
+      "E": "Impossible to predict"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nInvestigators conduct a study that evaluates the effect of finasteride on the\nincidence of prostate cancer in 500 patients.\nThe investigators recruit an additional 1000 patients for the study. Which\nof the following effects will this have on the\nresearch study?",
+    "options ": {
+      "A": "Greater chance of a Type I error",
+      "B": "Greater chance of a Type II error",
+      "C": "Less chance of a Type I error",
+      "D": "Less chance of a Type II error.",
+      "E": "Impossible to predict"
+    },
+    "golden_answer ": "D",
+    "model_name ": "mistral",
+    "model_answer ": "ERROR:  A) Greater chance of a Type I error",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nInvestigators conduct a study that evaluates the effect of finasteride on the\nincidence of prostate cancer in 500 patients.\nThe investigators recruit an additional 1000 patients for the study. Which\nof the following effects will this have on the\nresearch study?",
+    "options ": {
+      "A": "Greater chance of a Type I error",
+      "B": "Greater chance of a Type II error",
+      "C": "Less chance of a Type I error",
+      "D": "Less chance of a Type II error.",
+      "E": "Impossible to predict"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 76-year-old man dies of a massive cerebral infarction shortly after\nadmission to the hospital. During the past 10\nyears, he has had several smaller cerebral infarctions and two transient\nischemic attacks. Examination of a cerebral\ncortex specimen obtained at autopsy shows extensive gliosis. This finding\nis most likely caused by the growth and\nproliferation of which of the following?",
+    "options ": {
+      "A": "Astrocytes",
+      "B": "Ependymal cells",
+      "C": "Fibroblasts",
+      "D": "Microglial cells",
+      "E": "Oligodendrocytes"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 76-year-old man dies of a massive cerebral infarction shortly after\nadmission to the hospital. During the past 10\nyears, he has had several smaller cerebral infarctions and two transient\nischemic attacks. Examination of a cerebral\ncortex specimen obtained at autopsy shows extensive gliosis. This finding\nis most likely caused by the growth and\nproliferation of which of the following?",
+    "options ": {
+      "A": "Astrocytes",
+      "B": "Ependymal cells",
+      "C": "Fibroblasts",
+      "D": "Microglial cells",
+      "E": "Oligodendrocytes"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "ERROR: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 76-year-old man dies of a massive cerebral infarction shortly after\nadmission to the hospital. During the past 10\nyears, he has had several smaller cerebral infarctions and two transient\nischemic attacks. Examination of a cerebral\ncortex specimen obtained at autopsy shows extensive gliosis. This finding\nis most likely caused by the growth and\nproliferation of which of the following?",
+    "options ": {
+      "A": "Astrocytes",
+      "B": "Ependymal cells",
+      "C": "Fibroblasts",
+      "D": "Microglial cells",
+      "E": "Oligodendrocytes"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA previously healthy 52-year-old woman comes to the physician because of\na 2-month history of fatigue, constipation,\nand frequent urination. Her temperature is 37.1°C (98.8°F), pulse is 80/min,\nrespirations are 14/min, and blood\npressure is 140/90 mm Hg. Diffuse crackles are heard bilaterally. Her\nserum calcium concentration is 11.1 mg/dL,\nand serum parathyroid hormone concentration is decreased. A chest x-ray\nshows bilateral hilar lymphadenopathy and\ninterstitial infiltrates. Which of the following is the most likely cause of this\npatient's hypercalcemia?",
+    "options ": {
+      "A": "Calcitriol production by activated macrophages",
+      "B": "Local resorption of bone by metastases",
+      "C": "Parathyroid hormone-related peptide secretion",
+      "D": "Secretion of parathyroid hormone",
+      "E": "Secretion of thyroid-stimulating hormone"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "ERROR: ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA previously healthy 52-year-old woman comes to the physician because of\na 2-month history of fatigue, constipation,\nand frequent urination. Her temperature is 37.1°C (98.8°F), pulse is 80/min,\nrespirations are 14/min, and blood\npressure is 140/90 mm Hg. Diffuse crackles are heard bilaterally. Her\nserum calcium concentration is 11.1 mg/dL,\nand serum parathyroid hormone concentration is decreased. A chest x-ray\nshows bilateral hilar lymphadenopathy and\ninterstitial infiltrates. Which of the following is the most likely cause of this\npatient's hypercalcemia?",
+    "options ": {
+      "A": "Calcitriol production by activated macrophages",
+      "B": "Local resorption of bone by metastases",
+      "C": "Parathyroid hormone-related peptide secretion",
+      "D": "Secretion of parathyroid hormone",
+      "E": "Secretion of thyroid-stimulating hormone"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "The correct answer is A) Calcitriol production by activated macrophages. This condition is known as Granulomatous disease (like Sarcoidosis), where activated macrophages produce calcitriol, which increases calcium levels in the blood. The other options do not typically cause hypercalcemia under normal circumstances.",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA previously healthy 52-year-old woman comes to the physician because of\na 2-month history of fatigue, constipation,\nand frequent urination. Her temperature is 37.1°C (98.8°F), pulse is 80/min,\nrespirations are 14/min, and blood\npressure is 140/90 mm Hg. Diffuse crackles are heard bilaterally. Her\nserum calcium concentration is 11.1 mg/dL,\nand serum parathyroid hormone concentration is decreased. A chest x-ray\nshows bilateral hilar lymphadenopathy and\ninterstitial infiltrates. Which of the following is the most likely cause of this\npatient's hypercalcemia?",
+    "options ": {
+      "A": "Calcitriol production by activated macrophages",
+      "B": "Local resorption of bone by metastases",
+      "C": "Parathyroid hormone-related peptide secretion",
+      "D": "Secretion of parathyroid hormone",
+      "E": "Secretion of thyroid-stimulating hormone"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 66-year-old man who was recently diagnosed with Parkinson disease\ncomes to the physician for a follow-up\nexamination. Carbidopa-levodopa therapy was initiated at the time of\ndiagnosis. The patient tells the physician that he\nstill has episodes during which he \"freezes.\" He has a clumsy gait, and there\nis rigidity of his upper extremities and\nhands. An adjunct therapy designed to inhibit which of the following\nenzymes is most likely indicated in this patient?",
+    "options ": {
+      "A": "Aromatic L-amino acid decarboxylase",
+      "B": "Dopamine β-hydroxylase",
+      "C": "Monoamine oxidase B",
+      "D": "Phenylethanolamine N-methyltransferase",
+      "E": "Tyrosine hydroxylase"
+    },
+    "golden_answer ": "C",
+    "model_name ": "phi",
+    "model_answer ": "C) Monoamine oxidase B. In Parkinson's disease patients treated with carbidopa-levodopa therapy who experience \"freezing\" episodes and have symptoms of rigidity, the addition of a MAO-B inhibitor like selegiline or rasagiline is commonly indicated to reduce breakdown of levodopa.",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 66-year-old man who was recently diagnosed with Parkinson disease\ncomes to the physician for a follow-up\nexamination. Carbidopa-levodopa therapy was initiated at the time of\ndiagnosis. The patient tells the physician that he\nstill has episodes during which he \"freezes.\" He has a clumsy gait, and there\nis rigidity of his upper extremities and\nhands. An adjunct therapy designed to inhibit which of the following\nenzymes is most likely indicated in this patient?",
+    "options ": {
+      "A": "Aromatic L-amino acid decarboxylase",
+      "B": "Dopamine β-hydroxylase",
+      "C": "Monoamine oxidase B",
+      "D": "Phenylethanolamine N-methyltransferase",
+      "E": "Tyrosine hydroxylase"
+    },
+    "golden_answer ": "C",
+    "model_name ": "mistral",
+    "model_answer ": "The correct answer is D) Phenylethanolamine N-methyltransferase (PNMT). This enzyme plays a role in converting levodopa to 3-O-methyldopa which is not active in the treatment of Parkinson's disease. Inhibiting this enzyme could help increase the effectiveness of levodopa, potentially reducing \"freezing\" episodes in the patient. The other mentioned enzymes are involved in different steps of catecholamine synthesis or metabolism and would not be relevant for managing the symptoms described in this scenario.",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 66-year-old man who was recently diagnosed with Parkinson disease\ncomes to the physician for a follow-up\nexamination. Carbidopa-levodopa therapy was initiated at the time of\ndiagnosis. The patient tells the physician that he\nstill has episodes during which he \"freezes.\" He has a clumsy gait, and there\nis rigidity of his upper extremities and\nhands. An adjunct therapy designed to inhibit which of the following\nenzymes is most likely indicated in this patient?",
+    "options ": {
+      "A": "Aromatic L-amino acid decarboxylase",
+      "B": "Dopamine β-hydroxylase",
+      "C": "Monoamine oxidase B",
+      "D": "Phenylethanolamine N-methyltransferase",
+      "E": "Tyrosine hydroxylase"
+    },
+    "golden_answer ": "C",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 46-year-old woman comes to the physician because of a 3-day history of\nintermittent pain with urination and\nincreased urinary frequency. She says that she had one similar episode\nduring the past 6 months. She also has had\nirregular menses, and her last menstrual period occurred 2 months ago.\nShe has not had fever, nausea, vomiting, or\nblood in her urine. She is sexually active with one male partner. Physical\nexamination shows no abnormalities.\nUrinalysis shows:\nRBC 3–5/hpf\nWBC 10–20/hpf\nNitrites positive\nLeukocyte esterase positive\nBacteria positive\nWhich of the following is the strongest predisposing risk factor for the\ndevelopment of this patient's condition?",
+    "options ": {
+      "A": "Leiomyomata uteri",
+      "B": "Perimenopause",
+      "C": "Pregnancy",
+      "D": "Sexual intercourse"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 46-year-old woman comes to the physician because of a 3-day history of\nintermittent pain with urination and\nincreased urinary frequency. She says that she had one similar episode\nduring the past 6 months. She also has had\nirregular menses, and her last menstrual period occurred 2 months ago.\nShe has not had fever, nausea, vomiting, or\nblood in her urine. She is sexually active with one male partner. Physical\nexamination shows no abnormalities.\nUrinalysis shows:\nRBC 3–5/hpf\nWBC 10–20/hpf\nNitrites positive\nLeukocyte esterase positive\nBacteria positive\nWhich of the following is the strongest predisposing risk factor for the\ndevelopment of this patient's condition?",
+    "options ": {
+      "A": "Leiomyomata uteri",
+      "B": "Perimenopause",
+      "C": "Pregnancy",
+      "D": "Sexual intercourse"
+    },
+    "golden_answer ": "D",
+    "model_name ": "mistral",
+    "model_answer ": "A) Leiomyomata uteri",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 46-year-old woman comes to the physician because of a 3-day history of\nintermittent pain with urination and\nincreased urinary frequency. She says that she had one similar episode\nduring the past 6 months. She also has had\nirregular menses, and her last menstrual period occurred 2 months ago.\nShe has not had fever, nausea, vomiting, or\nblood in her urine. She is sexually active with one male partner. Physical\nexamination shows no abnormalities.\nUrinalysis shows:\nRBC 3–5/hpf\nWBC 10–20/hpf\nNitrites positive\nLeukocyte esterase positive\nBacteria positive\nWhich of the following is the strongest predisposing risk factor for the\ndevelopment of this patient's condition?",
+    "options ": {
+      "A": "Leiomyomata uteri",
+      "B": "Perimenopause",
+      "C": "Pregnancy",
+      "D": "Sexual intercourse"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 28-year-old man comes to the physician because of a 2-month history of\na rash on his wrists and hands. He is a\nfirst-year mortuary science student. He also works on his grandfather's\nfarm each weekend. His hobbies include raising\nhoming pigeons and repairing vintage motorcycles. He recently changed to\na different type of laundry detergent to\nsave money. Physical examination shows a diffuse erythematous rash\ninvolving both hands up to the wrist creases.\nThe rash does not extend over any other parts of the body. Which of the\nfollowing is the most likely cause of this\npatient's rash?",
+    "options ": {
+      "A": "Change in laundry detergent",
+      "B": "Exposure to chemicals during motorcycle repair",
+      "C": "Handling pigeons",
+      "D": "Pesticide exposure",
+      "E": "Use of latex gloves"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 28-year-old man comes to the physician because of a 2-month history of\na rash on his wrists and hands. He is a\nfirst-year mortuary science student. He also works on his grandfather's\nfarm each weekend. His hobbies include raising\nhoming pigeons and repairing vintage motorcycles. He recently changed to\na different type of laundry detergent to\nsave money. Physical examination shows a diffuse erythematous rash\ninvolving both hands up to the wrist creases.\nThe rash does not extend over any other parts of the body. Which of the\nfollowing is the most likely cause of this\npatient's rash?",
+    "options ": {
+      "A": "Change in laundry detergent",
+      "B": "Exposure to chemicals during motorcycle repair",
+      "C": "Handling pigeons",
+      "D": "Pesticide exposure",
+      "E": "Use of latex gloves"
+    },
+    "golden_answer ": "E",
+    "model_name ": "mistral",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 28-year-old man comes to the physician because of a 2-month history of\na rash on his wrists and hands. He is a\nfirst-year mortuary science student. He also works on his grandfather's\nfarm each weekend. His hobbies include raising\nhoming pigeons and repairing vintage motorcycles. He recently changed to\na different type of laundry detergent to\nsave money. Physical examination shows a diffuse erythematous rash\ninvolving both hands up to the wrist creases.\nThe rash does not extend over any other parts of the body. Which of the\nfollowing is the most likely cause of this\npatient's rash?",
+    "options ": {
+      "A": "Change in laundry detergent",
+      "B": "Exposure to chemicals during motorcycle repair",
+      "C": "Handling pigeons",
+      "D": "Pesticide exposure",
+      "E": "Use of latex gloves"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 10-year-old boy is brought to the emergency department in the middle of\nsummer because of fever, headache, and\nphotophobia. Several of his camp mates have had a similar illness. Physical\nexamination shows mild nuchal rigidity.\nA lumbar puncture is performed. Laboratory studies show:\nSerum glucose 90 mg/dL\nCerebrospinal fluid\nPressure, opening 50 mm H2O\nGlucose 65 mg/dL\nTotal protein 70 mg/dL\nLeukocyte count 43/mm³\n(95% lymphocytes)\nWhich of the following infectious agents is the most likely cause of these\nfindings?",
+    "options ": {
+      "A": "Adenovirus",
+      "B": "Enterovirus",
+      "C": "Herpes simplex virus",
+      "D": "Neisseria meningitidis",
+      "E": "Streptococcus pneumoniae"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 10-year-old boy is brought to the emergency department in the middle of\nsummer because of fever, headache, and\nphotophobia. Several of his camp mates have had a similar illness. Physical\nexamination shows mild nuchal rigidity.\nA lumbar puncture is performed. Laboratory studies show:\nSerum glucose 90 mg/dL\nCerebrospinal fluid\nPressure, opening 50 mm H2O\nGlucose 65 mg/dL\nTotal protein 70 mg/dL\nLeukocyte count 43/mm³\n(95% lymphocytes)\nWhich of the following infectious agents is the most likely cause of these\nfindings?",
+    "options ": {
+      "A": "Adenovirus",
+      "B": "Enterovirus",
+      "C": "Herpes simplex virus",
+      "D": "Neisseria meningitidis",
+      "E": "Streptococcus pneumoniae"
+    },
+    "golden_answer ": "B",
+    "model_name ": "mistral",
+    "model_answer ": "E) Streptococcus pneumoniae",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 10-year-old boy is brought to the emergency department in the middle of\nsummer because of fever, headache, and\nphotophobia. Several of his camp mates have had a similar illness. Physical\nexamination shows mild nuchal rigidity.\nA lumbar puncture is performed. Laboratory studies show:\nSerum glucose 90 mg/dL\nCerebrospinal fluid\nPressure, opening 50 mm H2O\nGlucose 65 mg/dL\nTotal protein 70 mg/dL\nLeukocyte count 43/mm³\n(95% lymphocytes)\nWhich of the following infectious agents is the most likely cause of these\nfindings?",
+    "options ": {
+      "A": "Adenovirus",
+      "B": "Enterovirus",
+      "C": "Herpes simplex virus",
+      "D": "Neisseria meningitidis",
+      "E": "Streptococcus pneumoniae"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA healthy 30-year-old woman participates in a study of the relationship\nbetween cardiovascular function and posture. Placed in a room with a\ncomfortable temperature (72°F) and humidity (40%), she moves from a\nstanding to a supine position. Which of the following sets of changes is\nmost likely in the reflex control of this woman's cardiovascular\nsystem?",
+    "options ": {
+      "A": "because moving from standing to supine increases",
+      "B": "Carotid Sinus Baroreceptor Activity and Atrial Stretch Receptor Activity",
+      "C": "Carotid Sinus Baroreceptor Activity and Vagal Efferent Activity to the",
+      "D": "Carotid Sinus Baroreceptor Activity increase, while Atrial Stretch",
+      "E": "Carotid Sinus Baroreceptor Activity decrease, while Atrial Stretch"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA healthy 30-year-old woman participates in a study of the relationship\nbetween cardiovascular function and posture. Placed in a room with a\ncomfortable temperature (72°F) and humidity (40%), she moves from a\nstanding to a supine position. Which of the following sets of changes is\nmost likely in the reflex control of this woman's cardiovascular\nsystem?",
+    "options ": {
+      "A": "because moving from standing to supine increases",
+      "B": "Carotid Sinus Baroreceptor Activity and Atrial Stretch Receptor Activity",
+      "C": "Carotid Sinus Baroreceptor Activity and Vagal Efferent Activity to the",
+      "D": "Carotid Sinus Baroreceptor Activity increase, while Atrial Stretch",
+      "E": "Carotid Sinus Baroreceptor Activity decrease, while Atrial Stretch"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "A) Carotid Sinus Baroreceptor Activity and Atrial Stretch Receptor Activity",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA healthy 30-year-old woman participates in a study of the relationship\nbetween cardiovascular function and posture. Placed in a room with a\ncomfortable temperature (72°F) and humidity (40%), she moves from a\nstanding to a supine position. Which of the following sets of changes is\nmost likely in the reflex control of this woman's cardiovascular\nsystem?",
+    "options ": {
+      "A": "because moving from standing to supine increases",
+      "B": "Carotid Sinus Baroreceptor Activity and Atrial Stretch Receptor Activity",
+      "C": "Carotid Sinus Baroreceptor Activity and Vagal Efferent Activity to the",
+      "D": "Carotid Sinus Baroreceptor Activity increase, while Atrial Stretch",
+      "E": "Carotid Sinus Baroreceptor Activity decrease, while Atrial Stretch"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 31-year-old woman with a 5-year history of fatigue comes to the\nphysician for an initial visit. She has seen four\nother physicians for the same condition within the past 6 months, but no\nabnormalities were found. She gives the\nphysician a large folder that contains her medical records. She says, \"I can\nbarely get out of bed most mornings, but\nnobody can figure out why because all of my tests turn out normal. I really\nthink I have chronic fatigue syndrome.\nWhat do you know about this condition?\" The physician has not treated any\npatient with chronic fatigue syndrome\nbefore. Which of the following initial statements by the physician is most\nappropriate to establish rapport with this\npatient?",
+    "options ": {
+      "A": "Risks sounding perfunctory and may reinforce the patient’s frustration",
+      "B": ".",
+      "C": "Dismissive and stigmatizing; undercuts trust given historical",
+      "D": "Suggests unnecessary retesting; overinvestigation can be",
+      "E": "Prematurely psychologizes symptoms, perpetuating stigma and eroding"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 31-year-old woman with a 5-year history of fatigue comes to the\nphysician for an initial visit. She has seen four\nother physicians for the same condition within the past 6 months, but no\nabnormalities were found. She gives the\nphysician a large folder that contains her medical records. She says, \"I can\nbarely get out of bed most mornings, but\nnobody can figure out why because all of my tests turn out normal. I really\nthink I have chronic fatigue syndrome.\nWhat do you know about this condition?\" The physician has not treated any\npatient with chronic fatigue syndrome\nbefore. Which of the following initial statements by the physician is most\nappropriate to establish rapport with this\npatient?",
+    "options ": {
+      "A": "Risks sounding perfunctory and may reinforce the patient’s frustration",
+      "B": ".",
+      "C": "Dismissive and stigmatizing; undercuts trust given historical",
+      "D": "Suggests unnecessary retesting; overinvestigation can be",
+      "E": "Prematurely psychologizes symptoms, perpetuating stigma and eroding"
+    },
+    "golden_answer ": "B",
+    "model_name ": "mistral",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 31-year-old woman with a 5-year history of fatigue comes to the\nphysician for an initial visit. She has seen four\nother physicians for the same condition within the past 6 months, but no\nabnormalities were found. She gives the\nphysician a large folder that contains her medical records. She says, \"I can\nbarely get out of bed most mornings, but\nnobody can figure out why because all of my tests turn out normal. I really\nthink I have chronic fatigue syndrome.\nWhat do you know about this condition?\" The physician has not treated any\npatient with chronic fatigue syndrome\nbefore. Which of the following initial statements by the physician is most\nappropriate to establish rapport with this\npatient?",
+    "options ": {
+      "A": "Risks sounding perfunctory and may reinforce the patient’s frustration",
+      "B": ".",
+      "C": "Dismissive and stigmatizing; undercuts trust given historical",
+      "D": "Suggests unnecessary retesting; overinvestigation can be",
+      "E": "Prematurely psychologizes symptoms, perpetuating stigma and eroding"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3-week-old girl delivered at term with no complications is brought to the\nphysician by her mother because of a 1-\nweek history of yellow eyes and skin, tan-colored stools, and dark brown\nurine. The newborn has been breast-feeding\nwithout difficulty. She is alert and appears to be in no distress. She is at the\n50th percentile for length and weight.\nPhysical examination shows scleral icterus and jaundice. There is mild\nhepatomegaly; the spleen is not palpable.\nLaboratory studies show:\nHemoglobin 14.4 g/dL\nHematocrit 43%\nLeukocyte count 8000/mm³\nSerum Albumin 3.5 g/dL\nSerum Total Bilirubinc14 mg/dL\nDirect Bilirubin 12.5 mg/dL\nAST 50 U/L\nALT 45 U/L\nWhich of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Biliary atresia",
+      "B": "Crigler-Najjar syndrome, type I",
+      "C": "Gilbert syndrome",
+      "D": "Hemolytic disease of the newborn",
+      "E": "Physiologic jaundice"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3-week-old girl delivered at term with no complications is brought to the\nphysician by her mother because of a 1-\nweek history of yellow eyes and skin, tan-colored stools, and dark brown\nurine. The newborn has been breast-feeding\nwithout difficulty. She is alert and appears to be in no distress. She is at the\n50th percentile for length and weight.\nPhysical examination shows scleral icterus and jaundice. There is mild\nhepatomegaly; the spleen is not palpable.\nLaboratory studies show:\nHemoglobin 14.4 g/dL\nHematocrit 43%\nLeukocyte count 8000/mm³\nSerum Albumin 3.5 g/dL\nSerum Total Bilirubinc14 mg/dL\nDirect Bilirubin 12.5 mg/dL\nAST 50 U/L\nALT 45 U/L\nWhich of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Biliary atresia",
+      "B": "Crigler-Najjar syndrome, type I",
+      "C": "Gilbert syndrome",
+      "D": "Hemolytic disease of the newborn",
+      "E": "Physiologic jaundice"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "A) Biliary atresia",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3-week-old girl delivered at term with no complications is brought to the\nphysician by her mother because of a 1-\nweek history of yellow eyes and skin, tan-colored stools, and dark brown\nurine. The newborn has been breast-feeding\nwithout difficulty. She is alert and appears to be in no distress. She is at the\n50th percentile for length and weight.\nPhysical examination shows scleral icterus and jaundice. There is mild\nhepatomegaly; the spleen is not palpable.\nLaboratory studies show:\nHemoglobin 14.4 g/dL\nHematocrit 43%\nLeukocyte count 8000/mm³\nSerum Albumin 3.5 g/dL\nSerum Total Bilirubinc14 mg/dL\nDirect Bilirubin 12.5 mg/dL\nAST 50 U/L\nALT 45 U/L\nWhich of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Biliary atresia",
+      "B": "Crigler-Najjar syndrome, type I",
+      "C": "Gilbert syndrome",
+      "D": "Hemolytic disease of the newborn",
+      "E": "Physiologic jaundice"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 65-year-old woman comes to the physician for a follow-up examination\nafter blood pressure measurements were\n175/105 mm Hg and 185/110 mm Hg 1 and 3 weeks ago, respectively. She\nhas well-controlled type 2 diabetes\nmellitus. Her blood pressure now is 175/110 mm Hg. Physical examination\nshows no other abnormalities.\nAntihypertensive therapy is started, but her blood pressure remains\nelevated at her next visit 3 weeks later. Laboratory\nstudies show increased plasma renin activity; the erythrocyte\nsedimentation rate and serum electrolytes are within the\nreference ranges. Angiography shows a high-grade stenosis of the proximal\nright renal artery; the left renal artery\nappears normal. Which of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Atherosclerosis",
+      "B": "Congenital renal artery hypoplasia",
+      "C": "Fibromuscular dysplasia",
+      "D": "Takayasu arteritis",
+      "E": "Temporal arteritis"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 65-year-old woman comes to the physician for a follow-up examination\nafter blood pressure measurements were\n175/105 mm Hg and 185/110 mm Hg 1 and 3 weeks ago, respectively. She\nhas well-controlled type 2 diabetes\nmellitus. Her blood pressure now is 175/110 mm Hg. Physical examination\nshows no other abnormalities.\nAntihypertensive therapy is started, but her blood pressure remains\nelevated at her next visit 3 weeks later. Laboratory\nstudies show increased plasma renin activity; the erythrocyte\nsedimentation rate and serum electrolytes are within the\nreference ranges. Angiography shows a high-grade stenosis of the proximal\nright renal artery; the left renal artery\nappears normal. Which of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Atherosclerosis",
+      "B": "Congenital renal artery hypoplasia",
+      "C": "Fibromuscular dysplasia",
+      "D": "Takayasu arteritis",
+      "E": "Temporal arteritis"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "C) Fibromuscular dysplasia",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 65-year-old woman comes to the physician for a follow-up examination\nafter blood pressure measurements were\n175/105 mm Hg and 185/110 mm Hg 1 and 3 weeks ago, respectively. She\nhas well-controlled type 2 diabetes\nmellitus. Her blood pressure now is 175/110 mm Hg. Physical examination\nshows no other abnormalities.\nAntihypertensive therapy is started, but her blood pressure remains\nelevated at her next visit 3 weeks later. Laboratory\nstudies show increased plasma renin activity; the erythrocyte\nsedimentation rate and serum electrolytes are within the\nreference ranges. Angiography shows a high-grade stenosis of the proximal\nright renal artery; the left renal artery\nappears normal. Which of the following is the most likely diagnosis?",
+    "options ": {
+      "A": "Atherosclerosis",
+      "B": "Congenital renal artery hypoplasia",
+      "C": "Fibromuscular dysplasia",
+      "D": "Takayasu arteritis",
+      "E": "Temporal arteritis"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nResults of a study that examined the impact of risk factors on\ncardiovascular health are being evaluated. In the study,\nserum LDL-cholesterol (LDL) concentration is found to have a correlation\nof 0.6 with serum high-sensitivity C-reactive protein (hs-CRP)\nconcentration. Which of the following statements best describes the\nrelationship between\nLDL concentration and hs-CRP concentration based on this finding?",
+    "options ": {
+      "A": "Higher LDL concentrations are associated with higher hs-CRP",
+      "B": "Higher LDL concentrations are associated with lower hs-CRP",
+      "C": "Higher LDL concentrations cause higher hs-CRP concentrations",
+      "D": "Higher LDL concentrations cause lower hs-CRP concentrations"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nResults of a study that examined the impact of risk factors on\ncardiovascular health are being evaluated. In the study,\nserum LDL-cholesterol (LDL) concentration is found to have a correlation\nof 0.6 with serum high-sensitivity C-reactive protein (hs-CRP)\nconcentration. Which of the following statements best describes the\nrelationship between\nLDL concentration and hs-CRP concentration based on this finding?",
+    "options ": {
+      "A": "Higher LDL concentrations are associated with higher hs-CRP",
+      "B": "Higher LDL concentrations are associated with lower hs-CRP",
+      "C": "Higher LDL concentrations cause higher hs-CRP concentrations",
+      "D": "Higher LDL concentrations cause lower hs-CRP concentrations"
+    },
+    "golden_answer ": "A",
+    "model_name ": "mistral",
+    "model_answer ": "A) Higher LDL concentrations are associated with higher hs-CRP",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nResults of a study that examined the impact of risk factors on\ncardiovascular health are being evaluated. In the study,\nserum LDL-cholesterol (LDL) concentration is found to have a correlation\nof 0.6 with serum high-sensitivity C-reactive protein (hs-CRP)\nconcentration. Which of the following statements best describes the\nrelationship between\nLDL concentration and hs-CRP concentration based on this finding?",
+    "options ": {
+      "A": "Higher LDL concentrations are associated with higher hs-CRP",
+      "B": "Higher LDL concentrations are associated with lower hs-CRP",
+      "C": "Higher LDL concentrations cause higher hs-CRP concentrations",
+      "D": "Higher LDL concentrations cause lower hs-CRP concentrations"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 72-year-old man comes to the physician for a health maintenance\nexamination. He has no personal or family history\nof major medical illnesses. He has never smoked cigarettes. Pulse oximetry\non room air shows an oxygen saturation\nof 98%. Physical examination shows plethoric skin and splenomegaly.\nLaboratory studies show:\nHemoglobin 21.1 g/dL\nHematocrit 61%\nLeukocyte count 15,000/mm³\nSegmented neutrophils 68%\nBasophils 4%\nLymphocytes 28%\nPlatelet count 501,000/mm³\nLeukocyte alkaline phosphatase increased\nA peripheral blood smear shows occasional giant platelets.\nThe primary hematologic defect in this patient most likely\noccurred in which of the following cells?",
+    "options ": {
+      "A": "Erythroid progenitor",
+      "B": "Hematopoietic stem",
+      "C": "Lymphatic progenitor",
+      "D": "Megakaryocyte progenitor",
+      "E": "Pluripotent stem"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 72-year-old man comes to the physician for a health maintenance\nexamination. He has no personal or family history\nof major medical illnesses. He has never smoked cigarettes. Pulse oximetry\non room air shows an oxygen saturation\nof 98%. Physical examination shows plethoric skin and splenomegaly.\nLaboratory studies show:\nHemoglobin 21.1 g/dL\nHematocrit 61%\nLeukocyte count 15,000/mm³\nSegmented neutrophils 68%\nBasophils 4%\nLymphocytes 28%\nPlatelet count 501,000/mm³\nLeukocyte alkaline phosphatase increased\nA peripheral blood smear shows occasional giant platelets.\nThe primary hematologic defect in this patient most likely\noccurred in which of the following cells?",
+    "options ": {
+      "A": "Erythroid progenitor",
+      "B": "Hematopoietic stem",
+      "C": "Lymphatic progenitor",
+      "D": "Megakaryocyte progenitor",
+      "E": "Pluripotent stem"
+    },
+    "golden_answer ": "B",
+    "model_name ": "mistral",
+    "model_answer ": "D) Megakaryocyte progenitor",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 72-year-old man comes to the physician for a health maintenance\nexamination. He has no personal or family history\nof major medical illnesses. He has never smoked cigarettes. Pulse oximetry\non room air shows an oxygen saturation\nof 98%. Physical examination shows plethoric skin and splenomegaly.\nLaboratory studies show:\nHemoglobin 21.1 g/dL\nHematocrit 61%\nLeukocyte count 15,000/mm³\nSegmented neutrophils 68%\nBasophils 4%\nLymphocytes 28%\nPlatelet count 501,000/mm³\nLeukocyte alkaline phosphatase increased\nA peripheral blood smear shows occasional giant platelets.\nThe primary hematologic defect in this patient most likely\noccurred in which of the following cells?",
+    "options ": {
+      "A": "Erythroid progenitor",
+      "B": "Hematopoietic stem",
+      "C": "Lymphatic progenitor",
+      "D": "Megakaryocyte progenitor",
+      "E": "Pluripotent stem"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 21-year-old man comes to the emergency department in the winter\nbecause of headache, nausea, and dizziness for\n4 hours. He has not had fever, chills, or shortness of breath. He has no\nhistory of major medical illness. He lives in a\nbasement apartment of a three-story house. He smokes 1½ packs of\ncigarettes daily. Physical examination shows no\nabnormalities. It is most appropriate for the physician to ask the patient for\nmore information about which of the\nfollowing historical factors?",
+    "options ": {
+      "A": "Occupational exposure",
+      "B": "Substance use",
+      "C": "Travel",
+      "D": "Type of home heating",
+      "E": "Use of over-the-counter medication"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi",
+    "model_answer ": "Answer: D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 21-year-old man comes to the emergency department in the winter\nbecause of headache, nausea, and dizziness for\n4 hours. He has not had fever, chills, or shortness of breath. He has no\nhistory of major medical illness. He lives in a\nbasement apartment of a three-story house. He smokes 1½ packs of\ncigarettes daily. Physical examination shows no\nabnormalities. It is most appropriate for the physician to ask the patient for\nmore information about which of the\nfollowing historical factors?",
+    "options ": {
+      "A": "Occupational exposure",
+      "B": "Substance use",
+      "C": "Travel",
+      "D": "Type of home heating",
+      "E": "Use of over-the-counter medication"
+    },
+    "golden_answer ": "D",
+    "model_name ": "mistral",
+    "model_answer ": "B) Substance use",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 21-year-old man comes to the emergency department in the winter\nbecause of headache, nausea, and dizziness for\n4 hours. He has not had fever, chills, or shortness of breath. He has no\nhistory of major medical illness. He lives in a\nbasement apartment of a three-story house. He smokes 1½ packs of\ncigarettes daily. Physical examination shows no\nabnormalities. It is most appropriate for the physician to ask the patient for\nmore information about which of the\nfollowing historical factors?",
+    "options ": {
+      "A": "Occupational exposure",
+      "B": "Substance use",
+      "C": "Travel",
+      "D": "Type of home heating",
+      "E": "Use of over-the-counter medication"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 78-year-old woman is admitted to the hospital because of a 1-week\nhistory of jaundice. CT scan of the abdomen shows a mass suggestive of\npancreatic cancer. Three hours later, the on-call physician enters the\npatient's room to discuss the prognosis and obtain consent for a biopsy\nscheduled for the next morning. On entering the room, the physician\ngreets the patient and her husband. The physician then learns that the\npatient speaks only Mandarin. Her husband is fluent in Mandarin and\nEnglish. The hospital interpreter is not available until tomorrow morning.\nThe patient's husband appears anxious and insists that the physician\nspeaks to him and allows him to serve as an interpreter for his wife. Which\nof the following is the most appropriate next step in management?",
+    "options ": {
+      "A": "Allow the patient's husband to serve as an interpreter",
+      "B": "Consult the hospital ethics committee",
+      "C": "Explain to the husband that information cannot be provided until the",
+      "D": "Use a telephone interpreter service"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 78-year-old woman is admitted to the hospital because of a 1-week\nhistory of jaundice. CT scan of the abdomen shows a mass suggestive of\npancreatic cancer. Three hours later, the on-call physician enters the\npatient's room to discuss the prognosis and obtain consent for a biopsy\nscheduled for the next morning. On entering the room, the physician\ngreets the patient and her husband. The physician then learns that the\npatient speaks only Mandarin. Her husband is fluent in Mandarin and\nEnglish. The hospital interpreter is not available until tomorrow morning.\nThe patient's husband appears anxious and insists that the physician\nspeaks to him and allows him to serve as an interpreter for his wife. Which\nof the following is the most appropriate next step in management?",
+    "options ": {
+      "A": "Allow the patient's husband to serve as an interpreter",
+      "B": "Consult the hospital ethics committee",
+      "C": "Explain to the husband that information cannot be provided until the",
+      "D": "Use a telephone interpreter service"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 78-year-old woman is admitted to the hospital because of a 1-week\nhistory of jaundice. CT scan of the abdomen shows a mass suggestive of\npancreatic cancer. Three hours later, the on-call physician enters the\npatient's room to discuss the prognosis and obtain consent for a biopsy\nscheduled for the next morning. On entering the room, the physician\ngreets the patient and her husband. The physician then learns that the\npatient speaks only Mandarin. Her husband is fluent in Mandarin and\nEnglish. The hospital interpreter is not available until tomorrow morning.\nThe patient's husband appears anxious and insists that the physician\nspeaks to him and allows him to serve as an interpreter for his wife. Which\nof the following is the most appropriate next step in management?",
+    "options ": {
+      "A": "Allow the patient's husband to serve as an interpreter",
+      "B": "Consult the hospital ethics committee",
+      "C": "Explain to the husband that information cannot be provided until the",
+      "D": "Use a telephone interpreter service"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 4-year-old boy develops fever 3 weeks after being admitted to the\nhospital for induction chemotherapy for treatment of acute lymphoblastic\nleukemia. Chemotherapy medications are L-asparaginase, dexamethasone,\ndoxorubicin, and vincristine. His temperature is 38.2°C (100.8°F), pulse is\n122/min, and respirations are 24/min. Physical examination shows pallor,\nalopecia, and ulcerations over the gums. A central venous catheter with\nentry site in the right upper chest is present but has no surrounding\nerythema. A blood culture grows gram-negative rods after 36 hours. Which\nof the following underlying mechanisms is the most likely cause of this\npatient's susceptibility to infection?",
+    "options ": {
+      "A": "Deficiency of terminal complement",
+      "B": "Hypogammaglobulinemia",
+      "C": "Impaired T-lymphocyte function",
+      "D": "Inhibition of tumor necrosis factor α function",
+      "E": "Neutropenia"
+    },
+    "golden_answer ": "E",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 4-year-old boy develops fever 3 weeks after being admitted to the\nhospital for induction chemotherapy for treatment of acute lymphoblastic\nleukemia. Chemotherapy medications are L-asparaginase, dexamethasone,\ndoxorubicin, and vincristine. His temperature is 38.2°C (100.8°F), pulse is\n122/min, and respirations are 24/min. Physical examination shows pallor,\nalopecia, and ulcerations over the gums. A central venous catheter with\nentry site in the right upper chest is present but has no surrounding\nerythema. A blood culture grows gram-negative rods after 36 hours. Which\nof the following underlying mechanisms is the most likely cause of this\npatient's susceptibility to infection?",
+    "options ": {
+      "A": "Deficiency of terminal complement",
+      "B": "Hypogammaglobulinemia",
+      "C": "Impaired T-lymphocyte function",
+      "D": "Inhibition of tumor necrosis factor α function",
+      "E": "Neutropenia"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama3",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 4-year-old boy develops fever 3 weeks after being admitted to the\nhospital for induction chemotherapy for treatment of acute lymphoblastic\nleukemia. Chemotherapy medications are L-asparaginase, dexamethasone,\ndoxorubicin, and vincristine. His temperature is 38.2°C (100.8°F), pulse is\n122/min, and respirations are 24/min. Physical examination shows pallor,\nalopecia, and ulcerations over the gums. A central venous catheter with\nentry site in the right upper chest is present but has no surrounding\nerythema. A blood culture grows gram-negative rods after 36 hours. Which\nof the following underlying mechanisms is the most likely cause of this\npatient's susceptibility to infection?",
+    "options ": {
+      "A": "Deficiency of terminal complement",
+      "B": "Hypogammaglobulinemia",
+      "C": "Impaired T-lymphocyte function",
+      "D": "Inhibition of tumor necrosis factor α function",
+      "E": "Neutropenia"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi4_mini",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 65-year-old woman comes to the office for a follow-up examination 1\nyear after she underwent operative resection of the right colon and\nchemotherapy for stage III colon cancer. She reports fatigue. Physical\nexamination shows no abnormalities. A staging CT scan of the chest and\nabdomen shows five new 2- to 3-cm masses in the liver and both lungs.\nThis patient's cancer most likely spread to the lungs via which of the\nfollowing structures?",
+    "options ": {
+      "A": "Inferior mesenteric vein",
+      "B": "Inferior vena cava",
+      "C": "Left colic vein",
+      "D": "Middle colic artery",
+      "E": "Pulmonary vein"
+    },
+    "golden_answer ": "B",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 65-year-old woman comes to the office for a follow-up examination 1\nyear after she underwent operative resection of the right colon and\nchemotherapy for stage III colon cancer. She reports fatigue. Physical\nexamination shows no abnormalities. A staging CT scan of the chest and\nabdomen shows five new 2- to 3-cm masses in the liver and both lungs.\nThis patient's cancer most likely spread to the lungs via which of the\nfollowing structures?",
+    "options ": {
+      "A": "Inferior mesenteric vein",
+      "B": "Inferior vena cava",
+      "C": "Left colic vein",
+      "D": "Middle colic artery",
+      "E": "Pulmonary vein"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 65-year-old woman comes to the office for a follow-up examination 1\nyear after she underwent operative resection of the right colon and\nchemotherapy for stage III colon cancer. She reports fatigue. Physical\nexamination shows no abnormalities. A staging CT scan of the chest and\nabdomen shows five new 2- to 3-cm masses in the liver and both lungs.\nThis patient's cancer most likely spread to the lungs via which of the\nfollowing structures?",
+    "options ": {
+      "A": "Inferior mesenteric vein",
+      "B": "Inferior vena cava",
+      "C": "Left colic vein",
+      "D": "Middle colic artery",
+      "E": "Pulmonary vein"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 6-year-old boy with acute lymphoblastic leukemia is brought to the\noffice for a follow-up examination. He is receiving high-dose methotrexate\ntherapy. A drug is added to the patient's medication regimen to decrease\nthe toxicity of this therapy to normal cells. The beneficial effect of this new\ndrug on normal cells is most likely achieved by bypassing the cellular\nrequirement for which of the following enzymes?",
+    "options ": {
+      "A": "Dihydrofolate reductase",
+      "B": "Methionine synthase",
+      "C": "Pyruvate decarboxylase",
+      "D": "Thiamine pyrophosphate",
+      "E": "Thymidylate synthase"
+    },
+    "golden_answer ": "A",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 6-year-old boy with acute lymphoblastic leukemia is brought to the\noffice for a follow-up examination. He is receiving high-dose methotrexate\ntherapy. A drug is added to the patient's medication regimen to decrease\nthe toxicity of this therapy to normal cells. The beneficial effect of this new\ndrug on normal cells is most likely achieved by bypassing the cellular\nrequirement for which of the following enzymes?",
+    "options ": {
+      "A": "Dihydrofolate reductase",
+      "B": "Methionine synthase",
+      "C": "Pyruvate decarboxylase",
+      "D": "Thiamine pyrophosphate",
+      "E": "Thymidylate synthase"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama3",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 6-year-old boy with acute lymphoblastic leukemia is brought to the\noffice for a follow-up examination. He is receiving high-dose methotrexate\ntherapy. A drug is added to the patient's medication regimen to decrease\nthe toxicity of this therapy to normal cells. The beneficial effect of this new\ndrug on normal cells is most likely achieved by bypassing the cellular\nrequirement for which of the following enzymes?",
+    "options ": {
+      "A": "Dihydrofolate reductase",
+      "B": "Methionine synthase",
+      "C": "Pyruvate decarboxylase",
+      "D": "Thiamine pyrophosphate",
+      "E": "Thymidylate synthase"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 4082-g (9-lb) male newborn is delivered in the hospital at 40 weeks'\ngestation to a 28-year-old primigravid woman. Pregnancy and delivery\nwere uncomplicated. Apgar scores were 8 and 9 at 1 and 5 minutes,\nrespectively. Examination of the newborn's tongue shows a small blind pit\nin the midline located near the intersection of the anterior two-thirds and\nthe posterior one-third. Ultrasonography of the neck shows a mass\nattached to the hyoid bone. Cells in the mass produce a hormone that\nbinds to which of the following?",
+    "options ": {
+      "A": "G protein-linked receptors",
+      "B": "Ligand-gated ion channels",
+      "C": "Nuclear receptors.[4][5][6][7][8]",
+      "D": "Receptor tyrosine kinases",
+      "E": "σ Receptors"
+    },
+    "golden_answer ": "C",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 4082-g (9-lb) male newborn is delivered in the hospital at 40 weeks'\ngestation to a 28-year-old primigravid woman. Pregnancy and delivery\nwere uncomplicated. Apgar scores were 8 and 9 at 1 and 5 minutes,\nrespectively. Examination of the newborn's tongue shows a small blind pit\nin the midline located near the intersection of the anterior two-thirds and\nthe posterior one-third. Ultrasonography of the neck shows a mass\nattached to the hyoid bone. Cells in the mass produce a hormone that\nbinds to which of the following?",
+    "options ": {
+      "A": "G protein-linked receptors",
+      "B": "Ligand-gated ion channels",
+      "C": "Nuclear receptors.[4][5][6][7][8]",
+      "D": "Receptor tyrosine kinases",
+      "E": "σ Receptors"
+    },
+    "golden_answer ": "C",
+    "model_name ": "llama3",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 4082-g (9-lb) male newborn is delivered in the hospital at 40 weeks'\ngestation to a 28-year-old primigravid woman. Pregnancy and delivery\nwere uncomplicated. Apgar scores were 8 and 9 at 1 and 5 minutes,\nrespectively. Examination of the newborn's tongue shows a small blind pit\nin the midline located near the intersection of the anterior two-thirds and\nthe posterior one-third. Ultrasonography of the neck shows a mass\nattached to the hyoid bone. Cells in the mass produce a hormone that\nbinds to which of the following?",
+    "options ": {
+      "A": "G protein-linked receptors",
+      "B": "Ligand-gated ion channels",
+      "C": "Nuclear receptors.[4][5][6][7][8]",
+      "D": "Receptor tyrosine kinases",
+      "E": "σ Receptors"
+    },
+    "golden_answer ": "C",
+    "model_name ": "phi4_mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying how mice respond to filarial parasitic infections.\nMice deficient in a specific protein found in eosinophils (Group X) are\ncompared with wild-type mice (Group Y). Biopsies of lymph nodes from\nGroup X mice show more adult worms than lymph nodes from Group Y\nmice. Group X mice most likely lack which of the following?",
+    "options ": {
+      "A": "Cathelicidin-related antimicrobial peptide",
+      "B": "Lysozyme",
+      "C": "Major basic protein",
+      "D": "Myeloperoxidase",
+      "E": "α-Defensin"
+    },
+    "golden_answer ": "C",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying how mice respond to filarial parasitic infections.\nMice deficient in a specific protein found in eosinophils (Group X) are\ncompared with wild-type mice (Group Y). Biopsies of lymph nodes from\nGroup X mice show more adult worms than lymph nodes from Group Y\nmice. Group X mice most likely lack which of the following?",
+    "options ": {
+      "A": "Cathelicidin-related antimicrobial peptide",
+      "B": "Lysozyme",
+      "C": "Major basic protein",
+      "D": "Myeloperoxidase",
+      "E": "α-Defensin"
+    },
+    "golden_answer ": "C",
+    "model_name ": "llama3",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying how mice respond to filarial parasitic infections.\nMice deficient in a specific protein found in eosinophils (Group X) are\ncompared with wild-type mice (Group Y). Biopsies of lymph nodes from\nGroup X mice show more adult worms than lymph nodes from Group Y\nmice. Group X mice most likely lack which of the following?",
+    "options ": {
+      "A": "Cathelicidin-related antimicrobial peptide",
+      "B": "Lysozyme",
+      "C": "Major basic protein",
+      "D": "Myeloperoxidase",
+      "E": "α-Defensin"
+    },
+    "golden_answer ": "C",
+    "model_name ": "phi4_mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 50-year-old man comes to the office because of a 2-month history of\nincreasing daytime somnolence. He has obstructive sleep apnea for which\nhe has only intermittently used a continuous positive airway pressure\ndevice. He is 170 cm (5 ft 7 in) tall and weighs 181 kg (400 lb); BMI is 63 kg/\nm2. His temperature is 37°C (98.6°F), pulse is 100/min, respirations are 12/\nmin, and blood pressure is 135/80 mm Hg. Physical examination shows a\ngray-blue tinge to the lips, earlobes, and nail beds. Cardiac examination\nshows no other abnormalities. Arterial blood gas analysis on room air\nshows a pH of 7.31, PCO2 of 70 mm Hg, and PO2 of 50 mm Hg. Which of the\nfollowing additional findings would be most likely in this patient?",
+    "options ": {
+      "A": "Decreased serum bicarbonate concentration",
+      "B": "Increased hemoglobin concentration",
+      "C": "Increased total lung capacity",
+      "D": "Left ventricular hypertrophy"
+    },
+    "golden_answer ": "B",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 50-year-old man comes to the office because of a 2-month history of\nincreasing daytime somnolence. He has obstructive sleep apnea for which\nhe has only intermittently used a continuous positive airway pressure\ndevice. He is 170 cm (5 ft 7 in) tall and weighs 181 kg (400 lb); BMI is 63 kg/\nm2. His temperature is 37°C (98.6°F), pulse is 100/min, respirations are 12/\nmin, and blood pressure is 135/80 mm Hg. Physical examination shows a\ngray-blue tinge to the lips, earlobes, and nail beds. Cardiac examination\nshows no other abnormalities. Arterial blood gas analysis on room air\nshows a pH of 7.31, PCO2 of 70 mm Hg, and PO2 of 50 mm Hg. Which of the\nfollowing additional findings would be most likely in this patient?",
+    "options ": {
+      "A": "Decreased serum bicarbonate concentration",
+      "B": "Increased hemoglobin concentration",
+      "C": "Increased total lung capacity",
+      "D": "Left ventricular hypertrophy"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama3",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 50-year-old man comes to the office because of a 2-month history of\nincreasing daytime somnolence. He has obstructive sleep apnea for which\nhe has only intermittently used a continuous positive airway pressure\ndevice. He is 170 cm (5 ft 7 in) tall and weighs 181 kg (400 lb); BMI is 63 kg/\nm2. His temperature is 37°C (98.6°F), pulse is 100/min, respirations are 12/\nmin, and blood pressure is 135/80 mm Hg. Physical examination shows a\ngray-blue tinge to the lips, earlobes, and nail beds. Cardiac examination\nshows no other abnormalities. Arterial blood gas analysis on room air\nshows a pH of 7.31, PCO2 of 70 mm Hg, and PO2 of 50 mm Hg. Which of the\nfollowing additional findings would be most likely in this patient?",
+    "options ": {
+      "A": "Decreased serum bicarbonate concentration",
+      "B": "Increased hemoglobin concentration",
+      "C": "Increased total lung capacity",
+      "D": "Left ventricular hypertrophy"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi4_mini",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn obese 35-year-old man comes to the office for a follow-up examination.\nHe has chronic kidney disease and was told to keep a record of his meals\nuntil this follow-up visit. His daily diet consists of chocolate milk and a\npeanut butter sandwich for breakfast; pizza and cola for lunch; a chocolate\nbar as a snack; and a foot-long deli meat sandwich for dinner. He is 165 cm\n(5 ft 5 in) tall and weighs 113 kg (250 lb); BMI is 42 kg/m². His pulse is 100/\nmin, respirations are 23/min, and blood pressure is 155/100 mm Hg.\nPhysical examination shows diaphoresis. Serum studies show a creatinine\nconcentration of 4.1 mg/dL and phosphorus concentration of 6 mg/dL.\nWhich of the following patterns is most likely in this patient?",
+    "options ": {
+      "A": "Downregulated parathyroid hormone synthesis, increased serum",
+      "B": "Downregulated parathyroid hormone synthesis, increased serum",
+      "C": "Downregulated parathyroid hormone synthesis, decreased serum",
+      "D": "Upregulated parathyroid hormone synthesis, increased serum calcium,",
+      "E": "Upregulated parathyroid hormone synthesis, increased serum calcium,"
+    },
+    "golden_answer ": "E",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn obese 35-year-old man comes to the office for a follow-up examination.\nHe has chronic kidney disease and was told to keep a record of his meals\nuntil this follow-up visit. His daily diet consists of chocolate milk and a\npeanut butter sandwich for breakfast; pizza and cola for lunch; a chocolate\nbar as a snack; and a foot-long deli meat sandwich for dinner. He is 165 cm\n(5 ft 5 in) tall and weighs 113 kg (250 lb); BMI is 42 kg/m². His pulse is 100/\nmin, respirations are 23/min, and blood pressure is 155/100 mm Hg.\nPhysical examination shows diaphoresis. Serum studies show a creatinine\nconcentration of 4.1 mg/dL and phosphorus concentration of 6 mg/dL.\nWhich of the following patterns is most likely in this patient?",
+    "options ": {
+      "A": "Downregulated parathyroid hormone synthesis, increased serum",
+      "B": "Downregulated parathyroid hormone synthesis, increased serum",
+      "C": "Downregulated parathyroid hormone synthesis, decreased serum",
+      "D": "Upregulated parathyroid hormone synthesis, increased serum calcium,",
+      "E": "Upregulated parathyroid hormone synthesis, increased serum calcium,"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn obese 35-year-old man comes to the office for a follow-up examination.\nHe has chronic kidney disease and was told to keep a record of his meals\nuntil this follow-up visit. His daily diet consists of chocolate milk and a\npeanut butter sandwich for breakfast; pizza and cola for lunch; a chocolate\nbar as a snack; and a foot-long deli meat sandwich for dinner. He is 165 cm\n(5 ft 5 in) tall and weighs 113 kg (250 lb); BMI is 42 kg/m². His pulse is 100/\nmin, respirations are 23/min, and blood pressure is 155/100 mm Hg.\nPhysical examination shows diaphoresis. Serum studies show a creatinine\nconcentration of 4.1 mg/dL and phosphorus concentration of 6 mg/dL.\nWhich of the following patterns is most likely in this patient?",
+    "options ": {
+      "A": "Downregulated parathyroid hormone synthesis, increased serum",
+      "B": "Downregulated parathyroid hormone synthesis, increased serum",
+      "C": "Downregulated parathyroid hormone synthesis, decreased serum",
+      "D": "Upregulated parathyroid hormone synthesis, increased serum calcium,",
+      "E": "Upregulated parathyroid hormone synthesis, increased serum calcium,"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi4_mini",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 60-year-old woman is nearing the completion of a half marathon.\nBecause she experiences esophageal regurgitation, she does not drink any\nliquid during the race. This woman's physical state at the end of the race\nwill most likely activate which of the following renal segments at this time?",
+    "options ": {
+      "A": "Arginine vasoreceptor 2 in the proximal tubular cells",
+      "B": "K+–H+ exchange in the distal tubule",
+      "C": "Proximal tubule carbonic anhydrase",
+      "D": "Urea reabsorption in the medullary collecting ducts",
+      "E": "Water reabsorption in the ascending loop of Henle"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 60-year-old woman is nearing the completion of a half marathon.\nBecause she experiences esophageal regurgitation, she does not drink any\nliquid during the race. This woman's physical state at the end of the race\nwill most likely activate which of the following renal segments at this time?",
+    "options ": {
+      "A": "Arginine vasoreceptor 2 in the proximal tubular cells",
+      "B": "K+–H+ exchange in the distal tubule",
+      "C": "Proximal tubule carbonic anhydrase",
+      "D": "Urea reabsorption in the medullary collecting ducts",
+      "E": "Water reabsorption in the ascending loop of Henle"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 60-year-old woman is nearing the completion of a half marathon.\nBecause she experiences esophageal regurgitation, she does not drink any\nliquid during the race. This woman's physical state at the end of the race\nwill most likely activate which of the following renal segments at this time?",
+    "options ": {
+      "A": "Arginine vasoreceptor 2 in the proximal tubular cells",
+      "B": "K+–H+ exchange in the distal tubule",
+      "C": "Proximal tubule carbonic anhydrase",
+      "D": "Urea reabsorption in the medullary collecting ducts",
+      "E": "Water reabsorption in the ascending loop of Henle"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying heart development in an experimental animal\nmodel. The animal model is genetically modified so that no cardiac neural\ncrest cells develop. This animal model is most likely to have which of the\nfollowing cardiac abnormalities?",
+    "options ": {
+      "A": "Atrial septal defect",
+      "B": "Coarctation of the aorta",
+      "C": "Mitral stenosis",
+      "D": "Persistent truncus arteriosus",
+      "E": "Transposition of the great arteries"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying heart development in an experimental animal\nmodel. The animal model is genetically modified so that no cardiac neural\ncrest cells develop. This animal model is most likely to have which of the\nfollowing cardiac abnormalities?",
+    "options ": {
+      "A": "Atrial septal defect",
+      "B": "Coarctation of the aorta",
+      "C": "Mitral stenosis",
+      "D": "Persistent truncus arteriosus",
+      "E": "Transposition of the great arteries"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn investigator is studying heart development in an experimental animal\nmodel. The animal model is genetically modified so that no cardiac neural\ncrest cells develop. This animal model is most likely to have which of the\nfollowing cardiac abnormalities?",
+    "options ": {
+      "A": "Atrial septal defect",
+      "B": "Coarctation of the aorta",
+      "C": "Mitral stenosis",
+      "D": "Persistent truncus arteriosus",
+      "E": "Transposition of the great arteries"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 78-year-old woman undergoes an outpatient laparoscopic\ncholecystectomy. During the procedure, ligation of the cystic artery is\nplanned. It is most appropriate to ligate this artery at its junction with\nwhich of the following arteries?",
+    "options ": {
+      "A": "Gastroduodenal",
+      "B": "Left gastric",
+      "C": "Left hepatic",
+      "D": "Right gastric",
+      "E": "Right hepatic"
+    },
+    "golden_answer ": "E",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 78-year-old woman undergoes an outpatient laparoscopic\ncholecystectomy. During the procedure, ligation of the cystic artery is\nplanned. It is most appropriate to ligate this artery at its junction with\nwhich of the following arteries?",
+    "options ": {
+      "A": "Gastroduodenal",
+      "B": "Left gastric",
+      "C": "Left hepatic",
+      "D": "Right gastric",
+      "E": "Right hepatic"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama3",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 78-year-old woman undergoes an outpatient laparoscopic\ncholecystectomy. During the procedure, ligation of the cystic artery is\nplanned. It is most appropriate to ligate this artery at its junction with\nwhich of the following arteries?",
+    "options ": {
+      "A": "Gastroduodenal",
+      "B": "Left gastric",
+      "C": "Left hepatic",
+      "D": "Right gastric",
+      "E": "Right hepatic"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi4_mini",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 32-year-old man comes to the office because of a 2-week history of fever\nand throat pain. He is 173 cm (5 ft 8 in) tall and weighs 63 kg (140 lb); BMI is\n21 kg/m2. His pulse is 110/min, respirations are 16/min, and blood pressure\nis 98/68 mm Hg. Physical examination shows scattered 2- to 4-cm lymph\nnodes in the neck, axillae, and inguinal regions. There is a bilateral tonsillar\nexudate but no ulcerations. Results of laboratory studies are shown:\nHemoglobin 9.6 g/dL\nHematocrit 29%\nLeukocyte count 1500/mm³\nPlatelet count 60,000/mm³\nA heterophile antibody test result is negative. Which of the following is the\nmost likely diagnosis?",
+    "options ": {
+      "A": "Epstein-Barr virus infection",
+      "B": "Gonococcal pharyngitis",
+      "C": "HIV infection",
+      "D": "Lymphogranuloma venereum infection",
+      "E": "Streptococcal pharyngitis"
+    },
+    "golden_answer ": "C",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 32-year-old man comes to the office because of a 2-week history of fever\nand throat pain. He is 173 cm (5 ft 8 in) tall and weighs 63 kg (140 lb); BMI is\n21 kg/m2. His pulse is 110/min, respirations are 16/min, and blood pressure\nis 98/68 mm Hg. Physical examination shows scattered 2- to 4-cm lymph\nnodes in the neck, axillae, and inguinal regions. There is a bilateral tonsillar\nexudate but no ulcerations. Results of laboratory studies are shown:\nHemoglobin 9.6 g/dL\nHematocrit 29%\nLeukocyte count 1500/mm³\nPlatelet count 60,000/mm³\nA heterophile antibody test result is negative. Which of the following is the\nmost likely diagnosis?",
+    "options ": {
+      "A": "Epstein-Barr virus infection",
+      "B": "Gonococcal pharyngitis",
+      "C": "HIV infection",
+      "D": "Lymphogranuloma venereum infection",
+      "E": "Streptococcal pharyngitis"
+    },
+    "golden_answer ": "C",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 32-year-old man comes to the office because of a 2-week history of fever\nand throat pain. He is 173 cm (5 ft 8 in) tall and weighs 63 kg (140 lb); BMI is\n21 kg/m2. His pulse is 110/min, respirations are 16/min, and blood pressure\nis 98/68 mm Hg. Physical examination shows scattered 2- to 4-cm lymph\nnodes in the neck, axillae, and inguinal regions. There is a bilateral tonsillar\nexudate but no ulcerations. Results of laboratory studies are shown:\nHemoglobin 9.6 g/dL\nHematocrit 29%\nLeukocyte count 1500/mm³\nPlatelet count 60,000/mm³\nA heterophile antibody test result is negative. Which of the following is the\nmost likely diagnosis?",
+    "options ": {
+      "A": "Epstein-Barr virus infection",
+      "B": "Gonococcal pharyngitis",
+      "C": "HIV infection",
+      "D": "Lymphogranuloma venereum infection",
+      "E": "Streptococcal pharyngitis"
+    },
+    "golden_answer ": "C",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 51-year-old man with a 10-year history of gastroesophageal reflux and\nsuspected Barrett esophagus comes to the office because his omeprazole\ndose \"doesn't work around the Christmas holidays.\" He states that he prides\nhimself on having a large appetite and \"holding his liquor\" during the\nholidays. He currently takes the maximum dose of omeprazole. Which of\nthe following is the most appropriate initial action by the physician?",
+    "options ": {
+      "A": "Ask the patient how much he is eating and drinking",
+      "B": "Explain the hazards of untreated reflux in the presence of Barrett",
+      "C": "Order an upper endoscopy",
+      "D": "Refer the patient to a gastroenterologist",
+      "E": "Switch the omeprazole to pantoprazole"
+    },
+    "golden_answer ": "A",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 51-year-old man with a 10-year history of gastroesophageal reflux and\nsuspected Barrett esophagus comes to the office because his omeprazole\ndose \"doesn't work around the Christmas holidays.\" He states that he prides\nhimself on having a large appetite and \"holding his liquor\" during the\nholidays. He currently takes the maximum dose of omeprazole. Which of\nthe following is the most appropriate initial action by the physician?",
+    "options ": {
+      "A": "Ask the patient how much he is eating and drinking",
+      "B": "Explain the hazards of untreated reflux in the presence of Barrett",
+      "C": "Order an upper endoscopy",
+      "D": "Refer the patient to a gastroenterologist",
+      "E": "Switch the omeprazole to pantoprazole"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama3",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 51-year-old man with a 10-year history of gastroesophageal reflux and\nsuspected Barrett esophagus comes to the office because his omeprazole\ndose \"doesn't work around the Christmas holidays.\" He states that he prides\nhimself on having a large appetite and \"holding his liquor\" during the\nholidays. He currently takes the maximum dose of omeprazole. Which of\nthe following is the most appropriate initial action by the physician?",
+    "options ": {
+      "A": "Ask the patient how much he is eating and drinking",
+      "B": "Explain the hazards of untreated reflux in the presence of Barrett",
+      "C": "Order an upper endoscopy",
+      "D": "Refer the patient to a gastroenterologist",
+      "E": "Switch the omeprazole to pantoprazole"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 60-year-old man comes to the office because of weakness, tingling of his\nhands and feet, irritability, and forgetfulness for 4 months. Physical\nexamination shows pallor, weakness, and spasticity. Deep tendon reflexes\nare increased. Sensation to vibration is absent in the lower extremities.\nLaboratory studies show megaloblastic anemia, serum antiparietal cell\nantibodies, and increased serum concentrations of methylmalonic acid and\ntotal homocyst(e)ine. The synthesis of which of the following amino acids is\nmost likely impaired in this patient?",
+    "options ": {
+      "A": "Cysteine",
+      "B": "Glutamine",
+      "C": "Methionine",
+      "D": "Phenylalanine",
+      "E": "Tyrosine"
+    },
+    "golden_answer ": "C",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 60-year-old man comes to the office because of weakness, tingling of his\nhands and feet, irritability, and forgetfulness for 4 months. Physical\nexamination shows pallor, weakness, and spasticity. Deep tendon reflexes\nare increased. Sensation to vibration is absent in the lower extremities.\nLaboratory studies show megaloblastic anemia, serum antiparietal cell\nantibodies, and increased serum concentrations of methylmalonic acid and\ntotal homocyst(e)ine. The synthesis of which of the following amino acids is\nmost likely impaired in this patient?",
+    "options ": {
+      "A": "Cysteine",
+      "B": "Glutamine",
+      "C": "Methionine",
+      "D": "Phenylalanine",
+      "E": "Tyrosine"
+    },
+    "golden_answer ": "C",
+    "model_name ": "llama3",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 60-year-old man comes to the office because of weakness, tingling of his\nhands and feet, irritability, and forgetfulness for 4 months. Physical\nexamination shows pallor, weakness, and spasticity. Deep tendon reflexes\nare increased. Sensation to vibration is absent in the lower extremities.\nLaboratory studies show megaloblastic anemia, serum antiparietal cell\nantibodies, and increased serum concentrations of methylmalonic acid and\ntotal homocyst(e)ine. The synthesis of which of the following amino acids is\nmost likely impaired in this patient?",
+    "options ": {
+      "A": "Cysteine",
+      "B": "Glutamine",
+      "C": "Methionine",
+      "D": "Phenylalanine",
+      "E": "Tyrosine"
+    },
+    "golden_answer ": "C",
+    "model_name ": "phi4_mini",
+    "model_answer ": "C",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 12-year-old girl is brought to the office because of a 2-day history of\nchest pain. She also had a 3-day history of fever that has since resolved.\nWhen she lies down, the pain worsens and she has shortness of breath. Her\ntemperature is 37°C (98.6°F). A friction rub is heard. Which of the following\nis the most likely causal infectious agent?",
+    "options ": {
+      "A": "Coxsackievirus",
+      "B": "Mumps virus",
+      "C": "Staphylococcus aureus",
+      "D": "Staphylococcus epidermidis",
+      "E": "Viridans streptococcus"
+    },
+    "golden_answer ": "A",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 12-year-old girl is brought to the office because of a 2-day history of\nchest pain. She also had a 3-day history of fever that has since resolved.\nWhen she lies down, the pain worsens and she has shortness of breath. Her\ntemperature is 37°C (98.6°F). A friction rub is heard. Which of the following\nis the most likely causal infectious agent?",
+    "options ": {
+      "A": "Coxsackievirus",
+      "B": "Mumps virus",
+      "C": "Staphylococcus aureus",
+      "D": "Staphylococcus epidermidis",
+      "E": "Viridans streptococcus"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 12-year-old girl is brought to the office because of a 2-day history of\nchest pain. She also had a 3-day history of fever that has since resolved.\nWhen she lies down, the pain worsens and she has shortness of breath. Her\ntemperature is 37°C (98.6°F). A friction rub is heard. Which of the following\nis the most likely causal infectious agent?",
+    "options ": {
+      "A": "Coxsackievirus",
+      "B": "Mumps virus",
+      "C": "Staphylococcus aureus",
+      "D": "Staphylococcus epidermidis",
+      "E": "Viridans streptococcus"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi4_mini",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 32-year-old man comes to the office because of a 1-day history of cough\nproductive of small amounts of blood and a 2-day history of shortness of\nbreath and swelling of his ankles. He also has a 2-week history of\nprogressive fatigue and episodes of dark urine. He has no history of major\nmedical illness and takes no medications. His temperature is 37°C (98.6°F),\npulse is 90/min, respirations are 18/min, and blood pressure is 175/110 mm\nHg. Pulse oximetry on room air shows an oxygen saturation of 91%. Diffuse\ninspiratory crackles are heard over all lung bases. There is 2+ pitting edema\nof both ankles.\nResults of laboratory studies are shown:\nHemoglobin 8.9 g/dL\nHematocrit 27%\nSerum\nUrea nitrogen 55 mg/dL\nCreatinine 2.9 mg/dL\nUrine RBC 20–40/hpf\nUrinalysis also shows some dysmorphic RBCs and rare RBC casts.\nExamination of a kidney biopsy specimen shows crescentic\nglomerulonephritis and linear deposition of IgG along the glomerular\ncapillaries. This patient most likely has antibodies directed against which of\nthe following antigens?",
+    "options ": {
+      "A": "Collagen",
+      "B": "Double-stranded DNA",
+      "C": "Nucleolar protein",
+      "D": "Phospholipid",
+      "E": "Proteins in neutrophil cytoplasm"
+    },
+    "golden_answer ": "A",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 32-year-old man comes to the office because of a 1-day history of cough\nproductive of small amounts of blood and a 2-day history of shortness of\nbreath and swelling of his ankles. He also has a 2-week history of\nprogressive fatigue and episodes of dark urine. He has no history of major\nmedical illness and takes no medications. His temperature is 37°C (98.6°F),\npulse is 90/min, respirations are 18/min, and blood pressure is 175/110 mm\nHg. Pulse oximetry on room air shows an oxygen saturation of 91%. Diffuse\ninspiratory crackles are heard over all lung bases. There is 2+ pitting edema\nof both ankles.\nResults of laboratory studies are shown:\nHemoglobin 8.9 g/dL\nHematocrit 27%\nSerum\nUrea nitrogen 55 mg/dL\nCreatinine 2.9 mg/dL\nUrine RBC 20–40/hpf\nUrinalysis also shows some dysmorphic RBCs and rare RBC casts.\nExamination of a kidney biopsy specimen shows crescentic\nglomerulonephritis and linear deposition of IgG along the glomerular\ncapillaries. This patient most likely has antibodies directed against which of\nthe following antigens?",
+    "options ": {
+      "A": "Collagen",
+      "B": "Double-stranded DNA",
+      "C": "Nucleolar protein",
+      "D": "Phospholipid",
+      "E": "Proteins in neutrophil cytoplasm"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama3",
+    "model_answer ": "A",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 32-year-old man comes to the office because of a 1-day history of cough\nproductive of small amounts of blood and a 2-day history of shortness of\nbreath and swelling of his ankles. He also has a 2-week history of\nprogressive fatigue and episodes of dark urine. He has no history of major\nmedical illness and takes no medications. His temperature is 37°C (98.6°F),\npulse is 90/min, respirations are 18/min, and blood pressure is 175/110 mm\nHg. Pulse oximetry on room air shows an oxygen saturation of 91%. Diffuse\ninspiratory crackles are heard over all lung bases. There is 2+ pitting edema\nof both ankles.\nResults of laboratory studies are shown:\nHemoglobin 8.9 g/dL\nHematocrit 27%\nSerum\nUrea nitrogen 55 mg/dL\nCreatinine 2.9 mg/dL\nUrine RBC 20–40/hpf\nUrinalysis also shows some dysmorphic RBCs and rare RBC casts.\nExamination of a kidney biopsy specimen shows crescentic\nglomerulonephritis and linear deposition of IgG along the glomerular\ncapillaries. This patient most likely has antibodies directed against which of\nthe following antigens?",
+    "options ": {
+      "A": "Collagen",
+      "B": "Double-stranded DNA",
+      "C": "Nucleolar protein",
+      "D": "Phospholipid",
+      "E": "Proteins in neutrophil cytoplasm"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 58-year-old man with chronic obstructive pulmonary disease comes to\nthe clinic with his wife for a follow-up examination. He has smoked one\npack of cigarettes daily for 35 years. He has tried to quit smoking twice but\nwas unsuccessful both times. At today’s visit, when the physician asks the\npatient about smoking cessation, he says he is not ready to do so. The\npatient’s wife states her husband’s smoking makes her cough and gives her\nchest tightness. Which of the following is the most appropriate physician\nstatement?",
+    "options ": {
+      "A": "\"Are there",
+      "B": "\"Are you aware that your lung condition is chronic at this point?\"",
+      "C": "\"I'm sure you don't want your wife to suffer as a result of your smoking.\"",
+      "D": "\"The majority of your health issues would improve if you quit smoking.\"",
+      "E": "\"Why haven't you been able to stay off cigarettes?"
+    },
+    "golden_answer ": "A",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 58-year-old man with chronic obstructive pulmonary disease comes to\nthe clinic with his wife for a follow-up examination. He has smoked one\npack of cigarettes daily for 35 years. He has tried to quit smoking twice but\nwas unsuccessful both times. At today’s visit, when the physician asks the\npatient about smoking cessation, he says he is not ready to do so. The\npatient’s wife states her husband’s smoking makes her cough and gives her\nchest tightness. Which of the following is the most appropriate physician\nstatement?",
+    "options ": {
+      "A": "\"Are there",
+      "B": "\"Are you aware that your lung condition is chronic at this point?\"",
+      "C": "\"I'm sure you don't want your wife to suffer as a result of your smoking.\"",
+      "D": "\"The majority of your health issues would improve if you quit smoking.\"",
+      "E": "\"Why haven't you been able to stay off cigarettes?"
+    },
+    "golden_answer ": "A",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 58-year-old man with chronic obstructive pulmonary disease comes to\nthe clinic with his wife for a follow-up examination. He has smoked one\npack of cigarettes daily for 35 years. He has tried to quit smoking twice but\nwas unsuccessful both times. At today’s visit, when the physician asks the\npatient about smoking cessation, he says he is not ready to do so. The\npatient’s wife states her husband’s smoking makes her cough and gives her\nchest tightness. Which of the following is the most appropriate physician\nstatement?",
+    "options ": {
+      "A": "\"Are there",
+      "B": "\"Are you aware that your lung condition is chronic at this point?\"",
+      "C": "\"I'm sure you don't want your wife to suffer as a result of your smoking.\"",
+      "D": "\"The majority of your health issues would improve if you quit smoking.\"",
+      "E": "\"Why haven't you been able to stay off cigarettes?"
+    },
+    "golden_answer ": "A",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 26-year-old man comes to the office because of a 1-week history of\nincreased urinary frequency accompanied by excessive thirst. He says he\nhas been urinating hourly. Physical examination shows no abnormalities.\nSerum chemistry studies are within the reference ranges. Urine osmolality\nis 50 mOsmol/kg H2O. After administration of ADH (vasopressin), his urine\nosmolality is within the reference range. The most likely cause of this\npatient's symptoms is dysfunction of which of the following structures?",
+    "options ": {
+      "A": "Anterior pituitary gland",
+      "B": "Bowman capsule",
+      "C": "Glomerulus",
+      "D": "Hypophysial portal system",
+      "E": "Loop of Henle"
+    },
+    "golden_answer ": "E",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 26-year-old man comes to the office because of a 1-week history of\nincreased urinary frequency accompanied by excessive thirst. He says he\nhas been urinating hourly. Physical examination shows no abnormalities.\nSerum chemistry studies are within the reference ranges. Urine osmolality\nis 50 mOsmol/kg H2O. After administration of ADH (vasopressin), his urine\nosmolality is within the reference range. The most likely cause of this\npatient's symptoms is dysfunction of which of the following structures?",
+    "options ": {
+      "A": "Anterior pituitary gland",
+      "B": "Bowman capsule",
+      "C": "Glomerulus",
+      "D": "Hypophysial portal system",
+      "E": "Loop of Henle"
+    },
+    "golden_answer ": "E",
+    "model_name ": "llama3",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 26-year-old man comes to the office because of a 1-week history of\nincreased urinary frequency accompanied by excessive thirst. He says he\nhas been urinating hourly. Physical examination shows no abnormalities.\nSerum chemistry studies are within the reference ranges. Urine osmolality\nis 50 mOsmol/kg H2O. After administration of ADH (vasopressin), his urine\nosmolality is within the reference range. The most likely cause of this\npatient's symptoms is dysfunction of which of the following structures?",
+    "options ": {
+      "A": "Anterior pituitary gland",
+      "B": "Bowman capsule",
+      "C": "Glomerulus",
+      "D": "Hypophysial portal system",
+      "E": "Loop of Henle"
+    },
+    "golden_answer ": "E",
+    "model_name ": "phi4_mini",
+    "model_answer ": "E",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 19-year-old man who is in the US Army is brought to the emergency\ndepartment 45 minutes after he sustained a knife wound to the right side\nof his chest during an altercation. He has no history of major medical\nillness and takes no medications. His temperature is 36.9°C (98.4°F), pulse\nis 110/min, respirations are 24/min, and blood pressure is 114/76 mm Hg.\nPulse oximetry on room air shows an oxygen saturation of 94%. On\nphysical examination, the trachea appears to be shifted to the left.\nPulmonary examination of the right chest is most likely to show which of\nthe following findings?",
+    "options ": {
+      "A": "Decreased Fremitus, dull Percussion, decreased breath sounds",
+      "B": "Decreased Fremitus, hyperresonant Percussion, decreased breath sounds",
+      "C": "Decreased Fremitus, hyperresonant Percussion, dull breath sounds",
+      "D": "Increased Fremitus, dull Percussion, bronchial breath sounds",
+      "E": "Increased Fremitus, dull Percussion, decreased breath sounds"
+    },
+    "golden_answer ": "B",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 19-year-old man who is in the US Army is brought to the emergency\ndepartment 45 minutes after he sustained a knife wound to the right side\nof his chest during an altercation. He has no history of major medical\nillness and takes no medications. His temperature is 36.9°C (98.4°F), pulse\nis 110/min, respirations are 24/min, and blood pressure is 114/76 mm Hg.\nPulse oximetry on room air shows an oxygen saturation of 94%. On\nphysical examination, the trachea appears to be shifted to the left.\nPulmonary examination of the right chest is most likely to show which of\nthe following findings?",
+    "options ": {
+      "A": "Decreased Fremitus, dull Percussion, decreased breath sounds",
+      "B": "Decreased Fremitus, hyperresonant Percussion, decreased breath sounds",
+      "C": "Decreased Fremitus, hyperresonant Percussion, dull breath sounds",
+      "D": "Increased Fremitus, dull Percussion, bronchial breath sounds",
+      "E": "Increased Fremitus, dull Percussion, decreased breath sounds"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama3",
+    "model_answer ": "D",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 19-year-old man who is in the US Army is brought to the emergency\ndepartment 45 minutes after he sustained a knife wound to the right side\nof his chest during an altercation. He has no history of major medical\nillness and takes no medications. His temperature is 36.9°C (98.4°F), pulse\nis 110/min, respirations are 24/min, and blood pressure is 114/76 mm Hg.\nPulse oximetry on room air shows an oxygen saturation of 94%. On\nphysical examination, the trachea appears to be shifted to the left.\nPulmonary examination of the right chest is most likely to show which of\nthe following findings?",
+    "options ": {
+      "A": "Decreased Fremitus, dull Percussion, decreased breath sounds",
+      "B": "Decreased Fremitus, hyperresonant Percussion, decreased breath sounds",
+      "C": "Decreased Fremitus, hyperresonant Percussion, dull breath sounds",
+      "D": "Increased Fremitus, dull Percussion, bronchial breath sounds",
+      "E": "Increased Fremitus, dull Percussion, decreased breath sounds"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 45-year-old man comes to the office for a follow-up examination 1 month\nafter routine urinalysis showed an increased protein concentration. He has\na 15-year history of type 2 diabetes mellitus and a 10-year history of\nhypertension. Current medications include hydrochlorothiazide, insulin,\nand metformin. His blood pressure is 150/80 mm Hg. Physical examination\nshows no other abnormalities. Daily lisinopril therapy is started. Which of\nthe following sets of changes in glomerular hemodynamics is most likely to\noccur in this patient as a result of this pharmacotherapy?",
+    "options ": {
+      "A": "increased renal blood flow, increased ultrafiltration pressure, decreased",
+      "B": "increased renal blood flow, decreased ultrafiltration pressure, increased",
+      "C": "increased renal blood flow, decreased ultrafiltration pressure, decreased",
+      "D": "decreased renal blood flow, increased ultrafiltration pressure,",
+      "E": "decreased renal blood flow, decreased ultrafiltration pressure,"
+    },
+    "golden_answer ": "C",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "The analysis indicates that lisinopril, a diuretic, is used for high blood pressure, leading to increased renal blood flow and possibly increased ultrafiltration pressure due to higher fluid reabsorption. The decreased UFPU might result from increased water excretion as urine.\n\nAnswer: A",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 45-year-old man comes to the office for a follow-up examination 1 month\nafter routine urinalysis showed an increased protein concentration. He has\na 15-year history of type 2 diabetes mellitus and a 10-year history of\nhypertension. Current medications include hydrochlorothiazide, insulin,\nand metformin. His blood pressure is 150/80 mm Hg. Physical examination\nshows no other abnormalities. Daily lisinopril therapy is started. Which of\nthe following sets of changes in glomerular hemodynamics is most likely to\noccur in this patient as a result of this pharmacotherapy?",
+    "options ": {
+      "A": "increased renal blood flow, increased ultrafiltration pressure, decreased",
+      "B": "increased renal blood flow, decreased ultrafiltration pressure, increased",
+      "C": "increased renal blood flow, decreased ultrafiltration pressure, decreased",
+      "D": "decreased renal blood flow, increased ultrafiltration pressure,",
+      "E": "decreased renal blood flow, decreased ultrafiltration pressure,"
+    },
+    "golden_answer ": "C",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 45-year-old man comes to the office for a follow-up examination 1 month\nafter routine urinalysis showed an increased protein concentration. He has\na 15-year history of type 2 diabetes mellitus and a 10-year history of\nhypertension. Current medications include hydrochlorothiazide, insulin,\nand metformin. His blood pressure is 150/80 mm Hg. Physical examination\nshows no other abnormalities. Daily lisinopril therapy is started. Which of\nthe following sets of changes in glomerular hemodynamics is most likely to\noccur in this patient as a result of this pharmacotherapy?",
+    "options ": {
+      "A": "increased renal blood flow, increased ultrafiltration pressure, decreased",
+      "B": "increased renal blood flow, decreased ultrafiltration pressure, increased",
+      "C": "increased renal blood flow, decreased ultrafiltration pressure, decreased",
+      "D": "decreased renal blood flow, increased ultrafiltration pressure,",
+      "E": "decreased renal blood flow, decreased ultrafiltration pressure,"
+    },
+    "golden_answer ": "C",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3438-g (7-lb 9-oz) female newborn is delivered in the hospital at term to\na 24-year-old primigravid woman after an uncomplicated pregnancy. Apgar\nscores are 8 and 9 at 1 and 5 minutes, respectively. Examination of the\nnewborn shows ambiguous genitalia. Results of a blood analysis show\nmarkedly increased serum concentrations of 17- hydroxyprogesterone.\nGenetic analysis shows a karyotype of 46,XX. Further testing of this\nnewborn is most likely to show a deficiency of which of the following\nenzymes?",
+    "options ": {
+      "A": "11β-Hydroxylase",
+      "B": "21α-Hydroxylase",
+      "C": "3α-Hydroxysteroid dehydrogenase",
+      "D": "3β-Hydroxysteroid dehydrogenase",
+      "E": "5α-Reductase"
+    },
+    "golden_answer ": "B",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3438-g (7-lb 9-oz) female newborn is delivered in the hospital at term to\na 24-year-old primigravid woman after an uncomplicated pregnancy. Apgar\nscores are 8 and 9 at 1 and 5 minutes, respectively. Examination of the\nnewborn shows ambiguous genitalia. Results of a blood analysis show\nmarkedly increased serum concentrations of 17- hydroxyprogesterone.\nGenetic analysis shows a karyotype of 46,XX. Further testing of this\nnewborn is most likely to show a deficiency of which of the following\nenzymes?",
+    "options ": {
+      "A": "11β-Hydroxylase",
+      "B": "21α-Hydroxylase",
+      "C": "3α-Hydroxysteroid dehydrogenase",
+      "D": "3β-Hydroxysteroid dehydrogenase",
+      "E": "5α-Reductase"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3438-g (7-lb 9-oz) female newborn is delivered in the hospital at term to\na 24-year-old primigravid woman after an uncomplicated pregnancy. Apgar\nscores are 8 and 9 at 1 and 5 minutes, respectively. Examination of the\nnewborn shows ambiguous genitalia. Results of a blood analysis show\nmarkedly increased serum concentrations of 17- hydroxyprogesterone.\nGenetic analysis shows a karyotype of 46,XX. Further testing of this\nnewborn is most likely to show a deficiency of which of the following\nenzymes?",
+    "options ": {
+      "A": "11β-Hydroxylase",
+      "B": "21α-Hydroxylase",
+      "C": "3α-Hydroxysteroid dehydrogenase",
+      "D": "3β-Hydroxysteroid dehydrogenase",
+      "E": "5α-Reductase"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi4_mini",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 27-year-old woman comes to the emergency department because of a 1-\nhour history of severe shortness of breath. She has just returned from a\ncross-country flight. She has a history of borderline hypertension. Her\ntemperature is 36.9°C (98.5°F), pulse is 113/min, respirations are 28/min,\nand blood pressure is 138/85 mm Hg. Physical examination shows that the\nright calf has an increased circumference compared with the left calf, and\nthere is tenderness behind the right knee. Which of the following is the\nmost likely underlying cause of this patient's condition?",
+    "options ": {
+      "A": "Antithrombin III deficiency",
+      "B": "Factor V Leiden mutation",
+      "C": "Glanzmann thrombasthenia",
+      "D": "Protein C deficiency",
+      "E": "von Willebrand disease"
+    },
+    "golden_answer ": "B",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 27-year-old woman comes to the emergency department because of a 1-\nhour history of severe shortness of breath. She has just returned from a\ncross-country flight. She has a history of borderline hypertension. Her\ntemperature is 36.9°C (98.5°F), pulse is 113/min, respirations are 28/min,\nand blood pressure is 138/85 mm Hg. Physical examination shows that the\nright calf has an increased circumference compared with the left calf, and\nthere is tenderness behind the right knee. Which of the following is the\nmost likely underlying cause of this patient's condition?",
+    "options ": {
+      "A": "Antithrombin III deficiency",
+      "B": "Factor V Leiden mutation",
+      "C": "Glanzmann thrombasthenia",
+      "D": "Protein C deficiency",
+      "E": "von Willebrand disease"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 27-year-old woman comes to the emergency department because of a 1-\nhour history of severe shortness of breath. She has just returned from a\ncross-country flight. She has a history of borderline hypertension. Her\ntemperature is 36.9°C (98.5°F), pulse is 113/min, respirations are 28/min,\nand blood pressure is 138/85 mm Hg. Physical examination shows that the\nright calf has an increased circumference compared with the left calf, and\nthere is tenderness behind the right knee. Which of the following is the\nmost likely underlying cause of this patient's condition?",
+    "options ": {
+      "A": "Antithrombin III deficiency",
+      "B": "Factor V Leiden mutation",
+      "C": "Glanzmann thrombasthenia",
+      "D": "Protein C deficiency",
+      "E": "von Willebrand disease"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi4_mini",
+    "model_answer ": "F",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 17-year-old boy is brought to the clinic for a follow-up examination. He\nhas been evaluated for three episodes of full-body weakness at the ages of\n13, 16, and 17 years. Each episode occurred when he lay down after playing\nin a football scrimmage. The weakness improved spontaneously during the\nnext 6 hours; he was asymptomatic by the time he was evaluated by\nmedical personnel. The patient attributes the episodes to eating \"a lot of\npasta and salty foods\" prior to playing football. Results of a complete blood\ncount and comprehensive metabolic profile following each episode have\nbeen within the reference ranges. He has no history of serious illness and\ntakes no medications. Vital signs are within normal limits. Physical and\nneurologic examinations disclose no abnormalities. Which of the following\nserum concentrations is most likely to be abnormal if measured during one\nof this patient's episodes?",
+    "options ": {
+      "A": "Calcium",
+      "B": "Chloride",
+      "C": "Magnesium",
+      "D": "Potassium",
+      "E": "Sodium"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "E",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 17-year-old boy is brought to the clinic for a follow-up examination. He\nhas been evaluated for three episodes of full-body weakness at the ages of\n13, 16, and 17 years. Each episode occurred when he lay down after playing\nin a football scrimmage. The weakness improved spontaneously during the\nnext 6 hours; he was asymptomatic by the time he was evaluated by\nmedical personnel. The patient attributes the episodes to eating \"a lot of\npasta and salty foods\" prior to playing football. Results of a complete blood\ncount and comprehensive metabolic profile following each episode have\nbeen within the reference ranges. He has no history of serious illness and\ntakes no medications. Vital signs are within normal limits. Physical and\nneurologic examinations disclose no abnormalities. Which of the following\nserum concentrations is most likely to be abnormal if measured during one\nof this patient's episodes?",
+    "options ": {
+      "A": "Calcium",
+      "B": "Chloride",
+      "C": "Magnesium",
+      "D": "Potassium",
+      "E": "Sodium"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 17-year-old boy is brought to the clinic for a follow-up examination. He\nhas been evaluated for three episodes of full-body weakness at the ages of\n13, 16, and 17 years. Each episode occurred when he lay down after playing\nin a football scrimmage. The weakness improved spontaneously during the\nnext 6 hours; he was asymptomatic by the time he was evaluated by\nmedical personnel. The patient attributes the episodes to eating \"a lot of\npasta and salty foods\" prior to playing football. Results of a complete blood\ncount and comprehensive metabolic profile following each episode have\nbeen within the reference ranges. He has no history of serious illness and\ntakes no medications. Vital signs are within normal limits. Physical and\nneurologic examinations disclose no abnormalities. Which of the following\nserum concentrations is most likely to be abnormal if measured during one\nof this patient's episodes?",
+    "options ": {
+      "A": "Calcium",
+      "B": "Chloride",
+      "C": "Magnesium",
+      "D": "Potassium",
+      "E": "Sodium"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 20-year-old woman is brought to the urgent care center because of a 2-\nmonth history of progressive weakness of her arms. She also has a 1-week\nhistory of moderate back pain and headache. Her only medication is\nibuprofen as needed for pain. Muscle strength is 3/5 in the upper\nextremities. Sensation to pinprick is decreased over the upper extremities.\nMRI of the spine shows a central syrinx in the cervical spinal cord. It is\nmost appropriate to obtain specific additional history regarding which of\nthe following in this patient?",
+    "options ": {
+      "A": "Diet",
+      "B": "Family illness",
+      "C": "Recent travel",
+      "D": "Trauma",
+      "E": "Unintended weight loss"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "C",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 20-year-old woman is brought to the urgent care center because of a 2-\nmonth history of progressive weakness of her arms. She also has a 1-week\nhistory of moderate back pain and headache. Her only medication is\nibuprofen as needed for pain. Muscle strength is 3/5 in the upper\nextremities. Sensation to pinprick is decreased over the upper extremities.\nMRI of the spine shows a central syrinx in the cervical spinal cord. It is\nmost appropriate to obtain specific additional history regarding which of\nthe following in this patient?",
+    "options ": {
+      "A": "Diet",
+      "B": "Family illness",
+      "C": "Recent travel",
+      "D": "Trauma",
+      "E": "Unintended weight loss"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 20-year-old woman is brought to the urgent care center because of a 2-\nmonth history of progressive weakness of her arms. She also has a 1-week\nhistory of moderate back pain and headache. Her only medication is\nibuprofen as needed for pain. Muscle strength is 3/5 in the upper\nextremities. Sensation to pinprick is decreased over the upper extremities.\nMRI of the spine shows a central syrinx in the cervical spinal cord. It is\nmost appropriate to obtain specific additional history regarding which of\nthe following in this patient?",
+    "options ": {
+      "A": "Diet",
+      "B": "Family illness",
+      "C": "Recent travel",
+      "D": "Trauma",
+      "E": "Unintended weight loss"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old girl is brought to the rehabilitation facility for physical\ntherapy. Two months ago, she was involved in a motor vehicle collision in\nwhich she sustained a crush injury to the ulnar nerve at the right elbow.\nNeurologic examination shows severe weakness and atrophy of the\nintrinsic muscles of the right hand. When the patient is asked to grasp the\ntherapist’s fingers, right handgrip is noticeably weaker than left handgrip.\nSensation to pinprick and fine touch is decreased at the palmar aspect of\nthe ring and small fingers of the right hand. No other deficits are noted.\nWhich of the following cell types is critical for recovery of neurologic\nfunction in this patient?",
+    "options ": {
+      "A": "Astrocytes",
+      "B": "Oligodendrocytes",
+      "C": "Satellite cells",
+      "D": "Schwann cells",
+      "E": "Tanycytes"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old girl is brought to the rehabilitation facility for physical\ntherapy. Two months ago, she was involved in a motor vehicle collision in\nwhich she sustained a crush injury to the ulnar nerve at the right elbow.\nNeurologic examination shows severe weakness and atrophy of the\nintrinsic muscles of the right hand. When the patient is asked to grasp the\ntherapist’s fingers, right handgrip is noticeably weaker than left handgrip.\nSensation to pinprick and fine touch is decreased at the palmar aspect of\nthe ring and small fingers of the right hand. No other deficits are noted.\nWhich of the following cell types is critical for recovery of neurologic\nfunction in this patient?",
+    "options ": {
+      "A": "Astrocytes",
+      "B": "Oligodendrocytes",
+      "C": "Satellite cells",
+      "D": "Schwann cells",
+      "E": "Tanycytes"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 15-year-old girl is brought to the rehabilitation facility for physical\ntherapy. Two months ago, she was involved in a motor vehicle collision in\nwhich she sustained a crush injury to the ulnar nerve at the right elbow.\nNeurologic examination shows severe weakness and atrophy of the\nintrinsic muscles of the right hand. When the patient is asked to grasp the\ntherapist’s fingers, right handgrip is noticeably weaker than left handgrip.\nSensation to pinprick and fine touch is decreased at the palmar aspect of\nthe ring and small fingers of the right hand. No other deficits are noted.\nWhich of the following cell types is critical for recovery of neurologic\nfunction in this patient?",
+    "options ": {
+      "A": "Astrocytes",
+      "B": "Oligodendrocytes",
+      "C": "Satellite cells",
+      "D": "Schwann cells",
+      "E": "Tanycytes"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3-year-old boy is brought to the office because of a 2-day history of\nbulging of his left eye. He says his eye hurts. He has no history of major\nmedical illness or recent trauma to the area, and he receives no\nmedications. Vital signs are within normal limits. Physical examination\nshows exophthalmos of the left eye. MRI of the brain shows a 2-cm mass\ninvolving the ocular muscles of the left eye. A biopsy specimen of the mass\nshows malignant cells, some of which have striations. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Neuroblastoma",
+      "B": "Pheochromocytoma",
+      "C": "Retinoblastoma",
+      "D": "Rhabdomyosarcoma",
+      "E": "Thyroid cancer"
+    },
+    "golden_answer ": "D",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "B",
+    "is_correct ": false
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3-year-old boy is brought to the office because of a 2-day history of\nbulging of his left eye. He says his eye hurts. He has no history of major\nmedical illness or recent trauma to the area, and he receives no\nmedications. Vital signs are within normal limits. Physical examination\nshows exophthalmos of the left eye. MRI of the brain shows a 2-cm mass\ninvolving the ocular muscles of the left eye. A biopsy specimen of the mass\nshows malignant cells, some of which have striations. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Neuroblastoma",
+      "B": "Pheochromocytoma",
+      "C": "Retinoblastoma",
+      "D": "Rhabdomyosarcoma",
+      "E": "Thyroid cancer"
+    },
+    "golden_answer ": "D",
+    "model_name ": "llama3",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nA 3-year-old boy is brought to the office because of a 2-day history of\nbulging of his left eye. He says his eye hurts. He has no history of major\nmedical illness or recent trauma to the area, and he receives no\nmedications. Vital signs are within normal limits. Physical examination\nshows exophthalmos of the left eye. MRI of the brain shows a 2-cm mass\ninvolving the ocular muscles of the left eye. A biopsy specimen of the mass\nshows malignant cells, some of which have striations. Which of the\nfollowing is the most likely diagnosis?",
+    "options ": {
+      "A": "Neuroblastoma",
+      "B": "Pheochromocytoma",
+      "C": "Retinoblastoma",
+      "D": "Rhabdomyosarcoma",
+      "E": "Thyroid cancer"
+    },
+    "golden_answer ": "D",
+    "model_name ": "phi4_mini",
+    "model_answer ": "D",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 11-year-old girl is brought to the emergency department by her parents\nbecause of a 1-week history of breast enlargement. She has not had pain or\nnipple discharge. She has asthma treated with inhaled albuterol as needed.\nShe does not smoke cigarettes, drink alcoholic beverages, or use illicit\ndrugs. She is at the 50th percentile for height and weight. Vital signs are\nwithin normal limits. Examination of the breasts shows minimal\nenlargement under the areolae and mild enlargement of the diameter of\nthe areolae without nipple discharge; no masses are palpated. There is\nscant pubic hair. Which of the following best describes the sexual maturity\nrating for this patient?",
+    "options ": {
+      "A": "1",
+      "B": "2.",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "golden_answer ": "B",
+    "model_name ": "deepseek_r1_1dot5b",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 11-year-old girl is brought to the emergency department by her parents\nbecause of a 1-week history of breast enlargement. She has not had pain or\nnipple discharge. She has asthma treated with inhaled albuterol as needed.\nShe does not smoke cigarettes, drink alcoholic beverages, or use illicit\ndrugs. She is at the 50th percentile for height and weight. Vital signs are\nwithin normal limits. Examination of the breasts shows minimal\nenlargement under the areolae and mild enlargement of the diameter of\nthe areolae without nipple discharge; no masses are palpated. There is\nscant pubic hair. Which of the following best describes the sexual maturity\nrating for this patient?",
+    "options ": {
+      "A": "1",
+      "B": "2.",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "golden_answer ": "B",
+    "model_name ": "llama3",
+    "model_answer ": "B",
+    "is_correct ": true
+  },
+  {
+    "question ": "(MC-NJ) - Step 1\nAn 11-year-old girl is brought to the emergency department by her parents\nbecause of a 1-week history of breast enlargement. She has not had pain or\nnipple discharge. She has asthma treated with inhaled albuterol as needed.\nShe does not smoke cigarettes, drink alcoholic beverages, or use illicit\ndrugs. She is at the 50th percentile for height and weight. Vital signs are\nwithin normal limits. Examination of the breasts shows minimal\nenlargement under the areolae and mild enlargement of the diameter of\nthe areolae without nipple discharge; no masses are palpated. There is\nscant pubic hair. Which of the following best describes the sexual maturity\nrating for this patient?",
+    "options ": {
+      "A": "1",
+      "B": "2.",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "golden_answer ": "B",
+    "model_name ": "phi4_mini",
+    "model_answer ": "A",
+    "is_correct ": false
+  }
+]
