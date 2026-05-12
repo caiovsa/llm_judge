@@ -68,6 +68,26 @@ def load_media_consenso():
 
 
 @st.cache_data(ttl=60)
+def load_humano_vs_juiz():
+    conn = psycopg2.connect(**DB)
+    try:
+        df = pd.read_sql("""
+            SELECT
+                ah.id_resposta,
+                ah.nota                                       AS nota_humana,
+                m_juiz.nome_modelo || ' ' || m_juiz.versao    AS juiz,
+                aj.nota                                       AS nota_juiz
+            FROM avaliacoes_humanas ah
+            JOIN avaliacoes_juiz aj     ON aj.id_resposta    = ah.id_resposta
+            JOIN modelos        m_juiz  ON m_juiz.id_modelo  = aj.id_modelo_juiz
+        """, conn)
+    except Exception:
+        df = pd.DataFrame()
+    conn.close()
+    return df
+
+
+@st.cache_data(ttl=60)
 def load_avaliacoes_kqa():
     conn = psycopg2.connect(**DB)
     df = pd.read_sql("""
@@ -96,6 +116,7 @@ try:
     df_media = load_media_por_modelo()
     df_consenso = load_media_consenso()
     df_kqa = load_avaliacoes_kqa()
+    df_humano = load_humano_vs_juiz()
 except Exception as e:
     st.error(f"Erro ao conectar ao banco: {e}")
     st.stop()
@@ -110,7 +131,7 @@ dataset_sel = st.sidebar.selectbox("Dataset", datasets)
 df_media_f = df_media[df_media["nome_dataset"] == dataset_sel]
 df_consenso_f = df_consenso[df_consenso["nome_dataset"] == dataset_sel]
 
-tab1, tab2, tab3, tab4 = st.tabs(["Ranking", "Por Judge", "Distribuição", "Reference Judge"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Ranking", "Por Judge", "Distribuição", "Reference Judge", "Humano vs LLM"])
 
 # Ranking (consenso) 
 with tab1:
@@ -208,3 +229,40 @@ with tab4:
                 )
                 fig.update_layout(height=350)
                 col.plotly_chart(fig, use_container_width=True)
+
+# Humano vs LLM Judges
+with tab5:
+    st.subheader("Gabarito Humano vs LLM Judges — Correlação de Spearman")
+
+    if df_humano.empty:
+        st.info("Gabarito humano não disponível. Execute load_gabarito.py primeiro.")
+    else:
+        juizes = sorted(df_humano["juiz"].unique())
+        rows = []
+        for juiz in juizes:
+            subset = df_humano[df_humano["juiz"] == juiz][["nota_humana", "nota_juiz"]].dropna()
+            if len(subset) < 3:
+                continue
+            rho, pval = spearmanr(subset["nota_humana"], subset["nota_juiz"])
+            rows.append({"Judge": juiz, "ρ (Spearman)": round(rho, 4), "p-value": round(pval, 4), "n": len(subset)})
+
+        if rows:
+            st.dataframe(pd.DataFrame(rows), use_container_width=True)
+
+        cols = st.columns(max(len(juizes), 1))
+        for col, juiz in zip(cols, juizes):
+            subset = df_humano[df_humano["juiz"] == juiz][["nota_humana", "nota_juiz"]].dropna()
+            if len(subset) < 3:
+                continue
+            fig = px.scatter(
+                subset,
+                x="nota_humana",
+                y="nota_juiz",
+                trendline="ols",
+                range_x=[0.5, 5.5],
+                range_y=[0.5, 5.5],
+                labels={"nota_humana": "Nota Humana", "nota_juiz": "Nota LLM Judge"},
+                title=juiz,
+            )
+            fig.update_layout(height=350)
+            col.plotly_chart(fig, use_container_width=True)

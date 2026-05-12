@@ -50,3 +50,11 @@ CREATE TABLE avaliacoes_juiz (
     nota           SMALLINT NOT NULL CHECK (nota BETWEEN 1 AND 5),
     justificativa  TEXT     NOT NULL
 );
+
+
+CREATE TABLE avaliacoes_humanas (
+    id_avaliacao_humana SERIAL PRIMARY KEY,
+    id_resposta         INT    NOT NULL REFERENCES respostas_atividade_1(id_resposta) ON DELETE CASCADE,
+    nota                SMALLINT NOT NULL CHECK (nota BETWEEN 1 AND 5),
+    UNIQUE (id_resposta)
+);

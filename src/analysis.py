@@ -60,7 +60,32 @@ JOIN modelos         m_juiz ON m_juiz.id_modelo = a.id_modelo_juiz
 WHERE d.nome_dataset = 'Itaymanes K-QA'
 """
 
+QUERY_HUMANO_VS_JUIZ = """
+SELECT
+    ah.id_resposta,
+    ah.nota                                       AS nota_humana,
+    m_juiz.nome_modelo || ' ' || m_juiz.versao    AS juiz,
+    aj.nota                                       AS nota_juiz
+FROM avaliacoes_humanas ah
+JOIN avaliacoes_juiz aj ON aj.id_resposta    = ah.id_resposta
+JOIN modelos        m_juiz ON m_juiz.id_modelo = aj.id_modelo_juiz
+"""
+
 REFERENCE_JUDGE = "gpt 5.4-mini"
+
+
+def analisar_humano_vs_juiz(df: pd.DataFrame):
+    if df.empty:
+        print("  Sem dados de gabarito humano.")
+        return
+    print(f"  {df['id_resposta'].nunique()} respostas com avaliação humana\n")
+    for juiz in sorted(df["juiz"].unique()):
+        subset = df[df["juiz"] == juiz][["nota_humana", "nota_juiz"]].dropna()
+        if len(subset) < 3:
+            print(f"  vs {juiz}: dados insuficientes")
+            continue
+        rho, pval = spearmanr(subset["nota_humana"], subset["nota_juiz"])
+        print(f"  vs {juiz:42s} →  ρ = {rho:.4f}  (p = {pval:.4f},  n = {len(subset)})")
 
 
 def analisar_reference_judge(df_inter: pd.DataFrame):
@@ -104,6 +129,13 @@ def main():
         print("  Sem avaliações K-QA para análise de concordância.")
     else:
         analisar_reference_judge(df_inter)
+
+    print("\n\n=== K-QA: Gabarito Humano vs LLM Judges (Spearman) ===\n")
+    try:
+        df_humano = pd.read_sql(QUERY_HUMANO_VS_JUIZ, conn)
+        analisar_humano_vs_juiz(df_humano)
+    except Exception as e:
+        print(f"  Gabarito humano não disponível: {e}")
 
     conn.close()
 

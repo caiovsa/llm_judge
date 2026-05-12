@@ -1,0 +1,702 @@
+[
+    {
+        "Questão Aberta": 1,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 1,
+        "Llama3.1-8b": 3,
+        "question": "Alright so I dont know much about Lexapro would you tell me more about it?"
+    },
+    {
+        "Questão Aberta": 2,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 4,
+        "question": "Also what is the oral option to get rid of scabies?"
+    },
+    {
+        "Questão Aberta": 3,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 4,
+        "Llama3.1-8b": 4,
+        "question": "Am I contagious with respiratory infection?"
+    },
+    {
+        "Questão Aberta": 4,
+        "Phi3.5-3.8b": 3,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 2,
+        "question": "And how does Genital herpes and HPV differ?"
+    },
+    {
+        "Questão Aberta": 5,
+        "Phi3.5-3.8b": 3,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 3,
+        "question": "And is there any way I can get some medicine for a cold sore and a mouth ulcer that is killing me"
+    },
+    {
+        "Questão Aberta": 6,
+        "Phi3.5-3.8b": 2,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 2,
+        "question": "And what could be causing the white tongue?"
+    },
+    {
+        "Questão Aberta": 7,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 4,
+        "Llama3.1-8b": 2,
+        "question": "And what happens if I miss a dose of Saxenda?"
+    },
+    {
+        "Questão Aberta": 8,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 4,
+        "Llama3.1-8b": 4,
+        "question": "Any thoughts on a mild muscle relaxant?"
+    },
+    {
+        "Questão Aberta": 9,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 4,
+        "question": "Any thoughts on taking activated charcoal to help w stomach bug?"
+    },
+    {
+        "Questão Aberta": 10,
+        "Phi3.5-3.8b": 3,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 3,
+        "question": "Anything I can do for the congestion?"
+    },
+    {
+        "Questão Aberta": 11,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 4,
+        "Llama3.1-8b": 3,
+        "question": "Are lutein and omega 3 good for vision ?"
+    },
+    {
+        "Questão Aberta": 12,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 1,
+        "question": "Are the stomach flu and the flu the same thing?"
+    },
+    {
+        "Questão Aberta": 13,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 4,
+        "Llama3.1-8b": 1,
+        "question": "Are there any side affects from using Robaxin?"
+    },
+    {
+        "Questão Aberta": 14,
+        "Phi3.5-3.8b": 2,
+        "Mistral-7b": 2,
+        "Llama3.1-8b": 3,
+        "question": "Are there more than one type of nausea medication?"
+    },
+    {
+        "Questão Aberta": 15,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 3,
+        "Llama3.1-8b": 2,
+        "question": "Are there other medications similar to the buspirone?"
+    },
+    {
+        "Questão Aberta": 16,
+        "Phi3.5-3.8b": 4,
+        "Mistral-7b": 4,
+        "Llama3.1-8b": 3,
+        "question": "Back pain could be because Im starting my cycle in 2 days but I dont know?"
+    },
+    {
+        "Questão Aberta": 17,
+        "Phi3.5-3.8b": 3,
+        "Mistral-7b": 2,
+        "Llama3.1-8b": 3,
+        "question": "Because I have a fatty liver, can I safely take Imodium?"
+    },
+    {
+        "Questão Aberta": 18,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Benadryl makes me super sleepy can I take like Claritin during the day?"
+    },
+    {
+        "Questão Aberta": 19,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 2,
+        "deepseek-r1": 3,
+        "question": "But is testicular pain not a symptom of chlamydia?"
+    },
+    {
+        "Questão Aberta": 20,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 4,
+        "deepseek-r1": 4,
+        "question": "But what is colchicine"
+    },
+    {
+        "Questão Aberta": 21,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 4,
+        "question": "Can Clindamyam be used to treat a UTI"
+    },
+    {
+        "Questão Aberta": 22,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Can I take Zyrtec and benedryl at the same time?"
+    },
+    {
+        "Questão Aberta": 23,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Can I take anything with the antibiotic like pepto bismol or Tylenol as needed?"
+    },
+    {
+        "Questão Aberta": 24,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Can I take nyquil and benedryl at the same time?"
+    },
+    {
+        "Questão Aberta": 25,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Can a nausea prescription be taken at the same time as Dramamine?"
+    },
+    {
+        "Questão Aberta": 26,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 4,
+        "deepseek-r1": 4,
+        "question": "Can diabetics eat sweets?\n"
+    },
+    {
+        "Questão Aberta": 27,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Can i take the painkiller and the antibiotics at the same time or wait hours in between ?"
+    },
+    {
+        "Questão Aberta": 28,
+        "llama3.2-1b": 1,
+        "qwen3.5-27b": 4,
+        "deepseek-r1": 4,
+        "question": "Can sinus infections cause neck pain and neck vein distention?"
+    },
+    {
+        "Questão Aberta": 29,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 4,
+        "deepseek-r1": 4,
+        "question": "Can you provide a short term solution that is designed for insomnia?"
+    },
+    {
+        "Questão Aberta": 30,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 4,
+        "question": "Can you suggest something in addition that is natural that could help with anxiety?"
+    },
+    {
+        "Questão Aberta": 31,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 4,
+        "deepseek-r1": 4,
+        "question": "Can't you recommend me an antibiotic for sinusitis?"
+    },
+    {
+        "Questão Aberta": 32,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Corticosteroid is the same as clobetasol?"
+    },
+    {
+        "Questão Aberta": 33,
+        "llama3.2-1b": 3,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Could diabetes be so fast and onset?"
+    },
+    {
+        "Questão Aberta": 34,
+        "llama3.2-1b": 2,
+        "qwen3.5-27b": 3,
+        "deepseek-r1": 3,
+        "question": "Could esophagitis could like muscle stiffness in the neck when swallowing?"
+    },
+    {
+        "Questão Aberta": 35,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 2,
+        "phi4_mini": 1,
+        "question": "Could you tell me about the success rate of Sertraline for Premature Ejaculation"
+    },
+    {
+        "Questão Aberta": 36,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 5,
+        "phi4_mini": 5,
+        "question": "Depression has relation with memory loss?"
+    },
+    {
+        "Questão Aberta": 37,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 5,
+        "phi4_mini": 5,
+        "question": "Do I need to get test results before starting treatment for either chylamdia or the ghonerrea"
+    },
+    {
+        "Questão Aberta": 38,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 5,
+        "phi4_mini": 2,
+        "question": "Do bananas help with diarrhea?"
+    },
+    {
+        "Questão Aberta": 39,
+        "deepseek_r1_1dot5b": 3,
+        "llama3": 5,
+        "phi4_mini": 5,
+        "question": "Do cheap socks cause problems?"
+    },
+    {
+        "Questão Aberta": 40,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 1,
+        "phi4_mini": 5,
+        "question": "Do fissures and hemmroids heal on their own?"
+    },
+    {
+        "Questão Aberta": 41,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 2,
+        "phi4_mini": 1,
+        "question": "Do migraines always come with headaches because I dont have a headache right now"
+    },
+    {
+        "Questão Aberta": 42,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 1,
+        "phi4_mini": 2,
+        "question": "Do you recommend anything to avoid these migraines?"
+    },
+    {
+        "Questão Aberta": 43,
+        "deepseek_r1_1dot5b": 5,
+        "llama3": 2,
+        "phi4_mini": 2,
+        "question": "Doe the buspar cause sleepiness?"
+    },
+    {
+        "Questão Aberta": 44,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 2,
+        "phi4_mini": 2,
+        "question": "Does Allopurinal affect fertility?"
+    },
+    {
+        "Questão Aberta": 45,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 2,
+        "phi4_mini": 2,
+        "question": "Does a migraine last for days at a time?"
+    },
+    {
+        "Questão Aberta": 46,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 1,
+        "phi4_mini": 1,
+        "question": "Does bronchitis turn into pneumonia?"
+    },
+    {
+        "Questão Aberta": 47,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 1,
+        "phi4_mini": 1,
+        "question": "Does herpes have rectal discharge?"
+    },
+    {
+        "Questão Aberta": 48,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 5,
+        "phi4_mini": 5,
+        "question": "Does hydroxyzine have any affect on metabolism or weight gain?"
+    },
+    {
+        "Questão Aberta": 49,
+        "deepseek_r1_1dot5b": 1,
+        "llama3": 1,
+        "phi4_mini": 1,
+        "question": "Does low thyroid contribute to weight gain?"
+    },
+    {
+        "Questão Aberta": 50,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 5,
+        "phi4_mini": 1,
+        "question": "Does metformin generally work pretty well?"
+    },
+    {
+        "Questão Aberta": 51,
+        "deepseek_r1_1dot5b": 2,
+        "llama3": 2,
+        "phi4_mini": 2,
+        "question": "Does the CMP test or perhaps another test determine if I have or liked to get diabetes?"
+    },
+    {
+        "Questão Aberta": 52,
+        "Nova-Lite": 4,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "Does the bacteria determine the antibiotic?"
+    },
+    {
+        "Questão Aberta": 53,
+        "Nova-Lite": 5,
+        "Llama-3-8B": 5,
+        "Gemma3-4B": 2,
+        "question": "Engorged breast can cause chills?"
+    },
+    {
+        "Questão Aberta": 54,
+        "Nova-Lite": 5,
+        "Llama-3-8B": 3,
+        "Gemma3-4B": 1,
+        "question": "For instance, to check for Epididymitis, is it a urine test?"
+    },
+    {
+        "Questão Aberta": 55,
+        "Nova-Lite": 5,
+        "Llama-3-8B": 5,
+        "Gemma3-4B": 5,
+        "question": "Gabapentin isnt a controlled substance?"
+    },
+    {
+        "Questão Aberta": 56,
+        "Nova-Lite": 4,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 4,
+        "question": "How am I supposed to put ointment on my nipple if it's pierced"
+    },
+    {
+        "Questão Aberta": 57,
+        "Nova-Lite": 5,
+        "Llama-3-8B": 3,
+        "Gemma3-4B": 4,
+        "question": "How could I be the only person in the house with a viral infection?"
+    },
+    {
+        "Questão Aberta": 58,
+        "Nova-Lite": 3,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 5,
+        "question": "How do I know if its a canker sore versus herpes"
+    },
+    {
+        "Questão Aberta": 59,
+        "Nova-Lite": 4,
+        "Llama-3-8B": 5,
+        "Gemma3-4B": 5,
+        "question": "How do I measure blood pressure?"
+    },
+    {
+        "Questão Aberta": 60,
+        "Nova-Lite": 2,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How do I prevent post nasal drip?"
+    },
+    {
+        "Questão Aberta": 61,
+        "Nova-Lite": 4,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How do you get otitis externa?"
+    },
+    {
+        "Questão Aberta": 62,
+        "Nova-Lite": 3,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How is HRV different from heart rate?"
+    },
+    {
+        "Questão Aberta": 63,
+        "Nova-Lite": 2,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How is PID treated?"
+    },
+    {
+        "Questão Aberta": 64,
+        "Nova-Lite": 4,
+        "Llama-3-8B": 3,
+        "Gemma3-4B": 4,
+        "question": "How is saxenda different from Ozempic"
+    },
+    {
+        "Questão Aberta": 65,
+        "Nova-Lite": 3,
+        "Llama-3-8B": 3,
+        "Gemma3-4B": 3,
+        "question": "How long do I need to wait before starting naproxen since I took ibuprofen this morning?"
+    },
+    {
+        "Questão Aberta": 66,
+        "Nova-Lite": 4,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How long do shin splints last"
+    },
+    {
+        "Questão Aberta": 67,
+        "Nova-Lite": 3,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How long does it take to notice the effects of Wellbutrin?"
+    },
+    {
+        "Questão Aberta": 68,
+        "Nova-Lite": 3,
+        "Llama-3-8B": 4,
+        "Gemma3-4B": 3,
+        "question": "How long does this years flu usually last?"
+    },
+    {
+        "Questão Aberta": 69,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 3,
+        "question": "How long would I be on Saxenda before I could move to the next dose?"
+    },
+    {
+        "Questão Aberta": 70,
+        "DeepSeek-V3-0324": 2,
+        "Kimi-K2.5": 2,
+        "gpt-5-mini": 3,
+        "question": "How many pills of ibuprofen can I take?"
+    },
+    {
+        "Questão Aberta": 71,
+        "DeepSeek-V3-0324": 4,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 4,
+        "question": "How much melatonin should i take at night?"
+    },
+    {
+        "Questão Aberta": 72,
+        "DeepSeek-V3-0324": 3,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 5,
+        "question": "I am a 33 years old female with right lower abdominal pain , what could it be?"
+    },
+    {
+        "Questão Aberta": 73,
+        "DeepSeek-V3-0324": 2,
+        "Kimi-K2.5": 4,
+        "gpt-5-mini": 3,
+        "question": "I am a healthy adult but my ALT is elevated can this also cause diarrhea?"
+    },
+    {
+        "Questão Aberta": 74,
+        "DeepSeek-V3-0324": 4,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 4,
+        "question": "I am a young healthy adult, flying to Brazil next month. What vaccination should I take?"
+    },
+    {
+        "Questão Aberta": 75,
+        "DeepSeek-V3-0324": 3,
+        "Kimi-K2.5": 4,
+        "gpt-5-mini": 5,
+        "question": "I am only 22 so am I not a bit young to have an enlarged prostate?"
+    },
+    {
+        "Questão Aberta": 76,
+        "DeepSeek-V3-0324": 2,
+        "Kimi-K2.5": 2,
+        "gpt-5-mini": 2,
+        "question": "I believe Mounjaro is fda approved now?"
+    },
+    {
+        "Questão Aberta": 77,
+        "DeepSeek-V3-0324": 4,
+        "Kimi-K2.5": 3,
+        "gpt-5-mini": 5,
+        "question": "I dont believe the hydroxyzine is supposed to cure the poison Ivy, but maybe you could shed some light on that?"
+    },
+    {
+        "Questão Aberta": 78,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 5,
+        "question": "I have a fear of needles is there a way around the thyroid test?"
+    },
+    {
+        "Questão Aberta": 79,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 5,
+        "question": "I have a question, can you be diagnosed with shingles more than once?"
+    },
+    {
+        "Questão Aberta": 80,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 4,
+        "gpt-5-mini": 4,
+        "question": "I have gout and my doctor told me to take colchicine, how should I take it?"
+    },
+    {
+        "Questão Aberta": 81,
+        "DeepSeek-V3-0324": 3,
+        "Kimi-K2.5": 3,
+        "gpt-5-mini": 3,
+        "question": "I have one question If I take a probiotic Should it be taken at a different time of the antibiotic?"
+    },
+    {
+        "Questão Aberta": 82,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 5,
+        "question": "I started taking lisinopril yesterday. Should my blood pressure be normal by now?"
+    },
+    {
+        "Questão Aberta": 83,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 4,
+        "question": "I was going to get some hydrocortisone cream but i read online its not safe to to apply on face?"
+    },
+    {
+        "Questão Aberta": 84,
+        "DeepSeek-V3-0324": 2,
+        "Kimi-K2.5": 2,
+        "gpt-5-mini": 2,
+        "question": "If I took trazodone when would be the best time to take it?"
+    },
+    {
+        "Questão Aberta": 85,
+        "DeepSeek-V3-0324": 5,
+        "Kimi-K2.5": 5,
+        "gpt-5-mini": 5,
+        "question": "If it was Bv wouldnt the metrogel have worked?"
+    },
+    {
+        "Questão Aberta": 86,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "If the muscle aches continue without exercising, should I be concerned?"
+    },
+    {
+        "Questão Aberta": 87,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 3,
+        "GPT-5.4 Thinking": 5,
+        "question": "If the side effects of the Prozac become too much is there a wean down period I would have to go through or would I be able to stop it immediately?"
+    },
+    {
+        "Questão Aberta": 88,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "If this is just muscle strain, how many days should I expect the pain to go away?"
+    },
+    {
+        "Questão Aberta": 89,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Im confused what creatinine?"
+    },
+    {
+        "Questão Aberta": 90,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "In any case, is a product like abreva still good to use for cold sore treatment?"
+    },
+    {
+        "Questão Aberta": 91,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "In case it does turn out to be fungal, would it be bad to pick up an OTC anti-fungal like Tinactin to apply to the area or would that be a bad idea?"
+    },
+    {
+        "Questão Aberta": 92,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is Augmentin the same thing as Amoxcicilin?"
+    },
+    {
+        "Questão Aberta": 93,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is Buspar a good medicine to take with the Zoloft?"
+    },
+    {
+        "Questão Aberta": 94,
+        "Gemini 3.0": 4,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 3,
+        "question": "Is Saxenda a daily injection?"
+    },
+    {
+        "Questão Aberta": 95,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is Valtrex the same thing as valacyclovir?"
+    },
+    {
+        "Questão Aberta": 96,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is accutane like an antibiotic and would it affect a baby if I got pregnant?"
+    },
+    {
+        "Questão Aberta": 97,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is blepharitis contagious?"
+    },
+    {
+        "Questão Aberta": 98,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is flu test same as influenza test ?"
+    },
+    {
+        "Questão Aberta": 99,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is ibuprofen a part of tylenol?"
+    },
+    {
+        "Questão Aberta": 100,
+        "Gemini 3.0": 5,
+        "Claude 4.6 Sonnet": 5,
+        "GPT-5.4 Thinking": 5,
+        "question": "Is it common to have an abscess with no pain?"
+    }
+]
