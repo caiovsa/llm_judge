@@ -38,7 +38,7 @@ def parse_model(name: str) -> tuple[str, str]:
 
 
 def main():
-    with open("respostas_atividade_1.json", encoding="utf-8") as f:
+    with open("respostas_atividade_open_questions.json", encoding="utf-8") as f:
         raw = json.load(f)
 
     # Strip trailing spaces from keys

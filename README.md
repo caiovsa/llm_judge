@@ -2,10 +2,14 @@
 
 Implementação do pipeline de avaliação automática de respostas médicas usando um LLM como juiz.
 
+## Vídeo de Apresentação
+
+> Link: _a adicionar_
+
 ## Dependências
 
 ```bash
-pip install openai python-dotenv
+pip install openai psycopg2-binary python-dotenv pandas scipy streamlit plotly statsmodels
 ```
 
 ## Configuração
@@ -14,96 +18,75 @@ Crie um arquivo `.env` na raiz do projeto seguindo o exemplo do `.env.example`
 
 ---
 
-## Banco de dados
+## Pipeline completo com Docker Compose
 
-### Opção 1 — Com Docker Compose (recomendado)
+O docker-compose executa todo o pipeline em sequência:
 
-Sobe o PostgreSQL e executa a carga automaticamente:
-
-```bash
-docker compose up -d
+```
+db → loader → judge → analysis → dashboard
 ```
 
-O serviço `loader` aguarda o banco ficar disponível, cria as tabelas via `schema.sql` e carrega `respostas_atividade_1.json`.
+| Serviço    | O que faz                                              |
+|------------|--------------------------------------------------------|
+| `db`       | PostgreSQL com schema criado via `schema.sql`          |
+| `loader`   | Carrega `respostas_atividade_1.json` (K-QA)            |
+| `judge`    | Avalia respostas com 3 LLMs juízes                     |
+| `analysis` | Calcula médias e concordância entre juízes             |
+| `dashboard`| Interface web em http://localhost:8501                 |
 
-Para acompanhar os logs da carga:
-
-```bash
-docker compose logs -f loader
-```
-
-Para derrubar os containers mantendo os dados:
-
-```bash
-docker compose down
-```
-
-Para derrubar e apagar os dados:
+### Subir o pipeline completo
 
 ```bash
-docker compose down -v
+docker compose up
 ```
 
----
-
-### Opção 2 — Sem Docker (PostgreSQL local)
-
-**Pré-requisitos:** PostgreSQL instalado e rodando localmente.
-
-**1. Criar o banco e o usuário:**
-
-```sql
-CREATE USER llm_user WITH PASSWORD 'llm_pass';
-CREATE DATABASE llm_judge OWNER llm_user;
-```
-
-**2. Criar as tabelas:**
+Para apagar os dados e recomeçar do zero:
 
 ```bash
-psql -U llm_user -d llm_judge -f schema.sql
+docker compose down -v && docker compose up
 ```
 
-**3. Instalar dependência Python:**
+Para subir apenas o dashboard (com banco já populado):
 
 ```bash
-pip install psycopg2-binary
-```
-
-**4. Executar a carga:**
-
-```bash
-python load_data.py
-```
-
-Por padrão o script conecta em `localhost:5432`. Para usar outro host ou porta, defina as variáveis de ambiente antes de executar:
-
-```bash
-DB_HOST=localhost DB_PORT=5432 DB_NAME=llm_judge DB_USER=llm_user DB_PASSWORD=llm_pass python load_data.py
+docker compose up dashboard
 ```
 
 ---
 
 ## Restaurar a partir do dump
 
-O arquivo `dump.sql` contém um snapshot completo do banco (schema + dados).
+O arquivo `dump.sql` contém um snapshot completo do banco (schema + todos os dados).  
+Use esta opção para pular os loaders e ter o banco pronto imediatamente.
 
 ### Com Docker
 
-**1. Suba apenas o container do banco:**
+**1. Suba o banco com o dump:**
 
 ```bash
 docker compose up -d db
 ```
 
-**2. Restaure o dump:**
+O PostgreSQL carrega `dump.sql` automaticamente na primeira inicialização (via `docker-entrypoint-initdb.d`).
+
+> Se o volume `pgdata` já existir, o dump não é aplicado novamente. Para forçar:
+> ```bash
+> docker compose down -v && docker compose up -d db
+> ```
+
+**2. Suba o dashboard:**
 
 ```bash
-docker exec -i llm_judge_db psql -U llm_user -d llm_judge < dump.sql
+docker compose up dashboard
 ```
+
+Acesse **http://localhost:8501**.
+
+---
 
 ### Sem Docker (PostgreSQL local)
 
-**1. Crie o banco e o usuário** (se ainda não existirem):
+**1. Crie o banco e o usuário:**
 
 ```sql
 CREATE USER llm_user WITH PASSWORD 'llm_pass';
@@ -116,4 +99,46 @@ CREATE DATABASE llm_judge OWNER llm_user;
 psql -U llm_user -d llm_judge -f dump.sql
 ```
 
-> Usar o dump é a forma mais rápida de ter o banco pronto — não é necessário rodar `load_data.py` depois.
+**3. Execute a análise:**
+
+```bash
+DB_HOST=localhost python src/analysis.py
+```
+
+**4. Suba o dashboard:**
+
+```bash
+DB_HOST=localhost streamlit run src/dashboard.py
+```
+
+---
+
+## Criar o banco manualmente (sem dump)
+
+### Com Docker
+
+```bash
+docker compose up db loader
+```
+
+### Sem Docker
+
+**1. Crie o banco e o usuário:**
+
+```sql
+CREATE USER llm_user WITH PASSWORD 'llm_pass';
+CREATE DATABASE llm_judge OWNER llm_user;
+```
+
+**2. Crie as tabelas:**
+
+```bash
+psql -U llm_user -d llm_judge -f schema.sql
+```
+
+**3. Carregue os dados:**
+
+```bash
+pip install psycopg2-binary
+python load_open_questions.py
+```

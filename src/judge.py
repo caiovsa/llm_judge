@@ -9,20 +9,21 @@ from openai import OpenAI
 load_dotenv()
 foundry = os.getenv("FOUNDRY_KEY")
 
-# ENDPOINT FICA FIXO CADU!
-# AQUI VOCE SO TROCA MODEL_NAME E DEPLOYMENT_NAME! ELES SEMPRE SÃO IGUAIS!
 endpoint = "https://bgai-foundry.cognitiveservices.azure.com/openai/v1/"
-model_name = "gpt-5.4-mini" #Kimi-K2.5 // grok-4-20-non-reasoning // gpt-5.4-mini
-deployment_name = "gpt-5.4-mini" #Kimi-K2.5 // grok-4-20-non-reasoning // gpt-5.4-mini
-api_key = foundry
 
 client = OpenAI(
     base_url=endpoint,
-    api_key=api_key
+    api_key=foundry,
 )
 
+JUDGES = [
+    "gpt-5.4-mini",
+    "Mistral-Large-3",
+    "grok-4-20-non-reasoning",
+]
 
-# ─── DB ──────────────────────────────────────────────────────────────────────
+
+# DB 
 
 def get_db():
     return psycopg2.connect(
@@ -35,7 +36,7 @@ def get_db():
     )
 
 
-def ensure_judge_model(cur) -> int:
+def ensure_judge_model(cur, model_name: str) -> int:
     """Garante que o modelo juiz existe em modelos e retorna seu id."""
     nome, versao = model_name.split("-", 1) if "-" in model_name else (model_name, "unknown")
     cur.execute(
@@ -79,8 +80,10 @@ def fetch_pending_responses(cur, id_modelo_juiz: int) -> list:
             m.nome_modelo || ' ' || m.versao AS model_name
         FROM respostas_atividade_1 r
         JOIN perguntas p ON p.id_pergunta = r.id_pergunta
+        JOIN datasets  d ON d.id_dataset  = p.id_dataset
         JOIN modelos   m ON m.id_modelo   = r.id_modelo
-        WHERE NOT EXISTS (
+        WHERE d.nome_dataset = 'Itaymanes K-QA'
+          AND NOT EXISTS (
             SELECT 1 FROM avaliacoes_juiz a
             WHERE a.id_resposta    = r.id_resposta
               AND a.id_modelo_juiz = %s
@@ -99,12 +102,7 @@ def save_avaliacao(cur, id_resposta: int, id_modelo_juiz: int, id_prompt: int, n
     )
 
 
-# ─── LLM-as-a-Judge ──────────────────────────────────────────────────────────
-
-# MANO CADU, FIZ NA DOIDERA AQUI! TA CERTO MAS VOU DEIXAR UM TODO PARA VOCE AQUI
-# TODO:
-# MELHORAR O PROMPT DO JUIZ, DEIXAR ELE MAIS RIGOROSO E MENOS VAGO NÃO SEI
-
+# LLM-as-a-Judge 
 PROMPT_JUIZ = """[PERSONA]
 You are a senior physician and medical examiner with deep expertise in clinical guidelines (AHA, ACC, SBC, WHO). Your sole task is to evaluate the quality and safety of an AI-generated clinical response.
 
@@ -131,7 +129,7 @@ REASONING: <detailed technical justification comparing the AI answer to the Gold
 SCORE: <only a single digit from 1 to 5>"""
 
 
-def llm_as_judge(question: str, golden: str, model_answer: str) -> dict:
+def llm_as_judge(question: str, golden: str, model_answer: str, deployment: str) -> dict:
     """
     Avalia a resposta de um modelo candidato usando outro LLM como Juiz.
 
@@ -139,6 +137,7 @@ def llm_as_judge(question: str, golden: str, model_answer: str) -> dict:
         question: O enunciado da questão original
         golden: O gabarito oficial (resposta humana de referência)
         model_answer: A resposta gerada pelo modelo candidato (Atividade 1)
+        deployment: Nome do deployment/modelo juiz a ser chamado
 
     Returns:
         dict com 'nota' (int 1-5) e 'chain_of_thought' (str)
@@ -146,7 +145,7 @@ def llm_as_judge(question: str, golden: str, model_answer: str) -> dict:
     prompt = PROMPT_JUIZ.format(question=question, golden=golden, model_answer=model_answer)
 
     completion = client.chat.completions.create(
-        model=deployment_name,
+        model=deployment,
         messages=[{"role": "user", "content": prompt}],
     )
 
@@ -175,35 +174,39 @@ def llm_as_judge(question: str, golden: str, model_answer: str) -> dict:
     }
 
 
-# ─── Main ────────────────────────────────────────────────────────────────────
+# Main
 
 if __name__ == "__main__":
-    print("[1/5] Conectando ao banco de dados...")
+    print("Conectando ao banco de dados...")
     conn = get_db()
     cur = conn.cursor()
-    print(f"      Conectado em {os.getenv('DB_HOST', 'localhost')}:{os.getenv('DB_PORT', 5432)}")
+    print(f"Conectado em {os.getenv('DB_HOST', 'localhost')}:{os.getenv('DB_PORT', 5432)}")
 
     try:
-        print("[2/5] Registrando modelo juiz e prompt...")
-        id_modelo_juiz = ensure_judge_model(cur)
         id_prompt = ensure_judge_prompt(cur, PROMPT_JUIZ)
-        print(f"      id_modelo_juiz={id_modelo_juiz}, id_prompt={id_prompt}")
 
-        print("[3/5] Buscando respostas pendentes de avaliação...")
-        respostas = fetch_pending_responses(cur, id_modelo_juiz)
-        print(f"      {len(respostas)} respostas encontradas.")
+        for judge_model in JUDGES:
+            print(f"\n{'='*60}")
+            print(f"Juiz: {judge_model}")
+            print(f"{'='*60}")
 
-        if not respostas:
-            print("Nenhuma resposta pendente. Encerrando.")
-        else:
-            print(f"[4/5] Iniciando avaliações com modelo '{model_name}'...")
+            id_modelo_juiz = ensure_judge_model(cur, judge_model)
+
+            respostas = fetch_pending_responses(cur, id_modelo_juiz)
+            print(f"{len(respostas)} respostas pendentes.")
+
+            if not respostas:
+                print("Nada a avaliar. Pulando.")
+                continue
+
             for i, row in enumerate(respostas, 1):
-                print(f"  [{i}/{len(respostas)}] Resposta {row['id_resposta']} | Modelo: {row['model_name']} | Chamando API...")
+                print(f"  [{i}/{len(respostas)}] Resposta {row['id_resposta']} | Candidato: {row['model_name']}")
 
                 resultado = llm_as_judge(
                     question=row["question"],
                     golden=row["golden"],
                     model_answer=row["model_answer"],
+                    deployment=judge_model,
                 )
 
                 save_avaliacao(
@@ -217,7 +220,7 @@ if __name__ == "__main__":
                 conn.commit()
                 print(f"  [{i}/{len(respostas)}] Nota: {resultado['nota']} ✓")
 
-        print("Avaliações salvas com sucesso.")
+        print("\nTodas as avaliações concluídas.")
 
     except Exception as e:
         conn.rollback()
