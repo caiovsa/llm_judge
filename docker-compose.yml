@@ -11,7 +11,7 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U llm_user -d llm_judge"]
       interval: 5s
@@ -28,14 +28,101 @@ services:
       - .:/app
     working_dir: /app
     command: >
-      bash -c "pip install psycopg2-binary -q && python load_data.py"
+      bash -c "pip install psycopg2-binary -q && python load_open_questions.py"
     environment:
       DB_HOST: db
-      DB_PORT: 5432
-      DB_NAME: llm_judge
-      DB_USER: llm_user
-      DB_PASSWORD: llm_pass
+      PYTHONUNBUFFERED: "1"
     restart: "no"
+
+  loader_mcq:
+    image: python:3.12-slim
+    container_name: llm_judge_loader_mcq
+    depends_on:
+      loader:
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install psycopg2-binary -q && python load_mcq.py"
+    environment:
+      DB_HOST: db
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  loader_gabarito:
+    image: python:3.12-slim
+    container_name: llm_judge_loader_gabarito
+    depends_on:
+      loader:
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install psycopg2-binary -q && python load_gabarito.py"
+    environment:
+      DB_HOST: db
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  judge:
+    image: python:3.12-slim
+    container_name: llm_judge_runner
+    depends_on:
+      loader_mcq:
+        condition: service_completed_successfully
+      loader_gabarito:
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install psycopg2-binary openai python-dotenv && python src/judge.py"
+    env_file: .env
+    environment:
+      DB_HOST: db
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  analysis:
+    image: python:3.12-slim
+    container_name: llm_judge_analysis
+    depends_on:
+      judge:
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install psycopg2-binary pandas scipy python-dotenv -q && python src/analysis.py"
+    env_file: .env
+    environment:
+      DB_HOST: db
+      PYTHONUNBUFFERED: "1"
+    restart: "no"
+
+  dashboard:
+    image: python:3.12-slim
+    container_name: llm_judge_dashboard
+    depends_on:
+      db:
+        condition: service_healthy
+      judge:                                                           
+        condition: service_completed_successfully
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install psycopg2-binary pandas streamlit plotly scipy statsmodels python-dotenv -q &&
+               streamlit run src/dashboard.py --server.port 8501 --server.address 0.0.0.0"
+    env_file: .env
+    environment:
+      DB_HOST: db
+      PYTHONUNBUFFERED: "1"
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
 
 volumes:
   pgdata:

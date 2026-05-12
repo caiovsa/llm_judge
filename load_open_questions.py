@@ -38,7 +38,7 @@ def parse_model(name: str) -> tuple[str, str]:
 
 
 def main():
-    with open("respostas_atividade_1.json", encoding="utf-8") as f:
+    with open("respostas_atividade_open_questions.json", encoding="utf-8") as f:
         raw = json.load(f)
 
     # Strip trailing spaces from keys
@@ -48,6 +48,11 @@ def main():
     cur = conn.cursor()
 
     try:
+        cur.execute("SELECT COUNT(*) FROM respostas_atividade_1")
+        if cur.fetchone()[0] > 0:
+            print("Dados já carregados. Nada a fazer.")
+            return
+
         # 1. Dataset
         cur.execute(
             "INSERT INTO datasets (nome_dataset, descricao) VALUES (%s, %s) "
