@@ -88,6 +88,61 @@ def load_humano_vs_juiz():
 
 
 @st.cache_data(ttl=60)
+def load_rag_comparativo():
+    conn = psycopg2.connect(**DB)
+    try:
+        df = pd.read_sql("""
+            SELECT
+                p.id_pergunta,
+                m_cand.nome_modelo || ' ' || m_cand.versao AS candidato,
+                m_juiz.nome_modelo || ' ' || m_juiz.versao AS juiz,
+                a_sem.nota AS nota_sem_rag,
+                a_com.nota AS nota_com_rag
+            FROM avaliacoes_juiz a_sem
+            JOIN avaliacoes_juiz a_com
+                ON a_com.id_modelo_juiz = a_sem.id_modelo_juiz
+               AND a_com.rag = TRUE
+            JOIN respostas_atividade_1 r_sem ON r_sem.id_resposta = a_sem.id_resposta AND r_sem.rag = FALSE
+            JOIN respostas_atividade_1 r_com ON r_com.id_pergunta = r_sem.id_pergunta
+               AND r_com.id_modelo = r_sem.id_modelo
+               AND r_com.rag = TRUE
+            JOIN perguntas p ON p.id_pergunta = r_sem.id_pergunta
+            JOIN modelos m_cand ON m_cand.id_modelo = r_sem.id_modelo
+            JOIN modelos m_juiz ON m_juiz.id_modelo = a_sem.id_modelo_juiz
+            WHERE a_sem.rag = FALSE
+            ORDER BY m_cand.nome_modelo, m_juiz.nome_modelo, p.id_pergunta
+        """, conn)
+    except Exception:
+        df = pd.DataFrame()
+    conn.close()
+    return df
+
+
+@st.cache_data(ttl=60)
+def load_rag_consenso():
+    conn = psycopg2.connect(**DB)
+    try:
+        df = pd.read_sql("""
+            SELECT
+                d.nome_dataset,
+                m_cand.nome_modelo || ' ' || m_cand.versao AS candidato,
+                ROUND(AVG(CASE WHEN a.rag = FALSE THEN a.nota END)::numeric, 2) AS media_sem_rag,
+                ROUND(AVG(CASE WHEN a.rag = TRUE  THEN a.nota END)::numeric, 2) AS media_com_rag
+            FROM avaliacoes_juiz a
+            JOIN respostas_atividade_1 r ON r.id_resposta = a.id_resposta
+            JOIN perguntas p ON p.id_pergunta = r.id_pergunta
+            JOIN datasets d ON d.id_dataset = p.id_dataset
+            JOIN modelos m_cand ON m_cand.id_modelo = r.id_modelo
+            GROUP BY d.nome_dataset, candidato
+            ORDER BY d.nome_dataset, media_com_rag DESC
+        """, conn)
+    except Exception:
+        df = pd.DataFrame()
+    conn.close()
+    return df
+
+
+@st.cache_data(ttl=60)
 def load_avaliacoes_kqa():
     conn = psycopg2.connect(**DB)
     df = pd.read_sql("""
@@ -117,6 +172,8 @@ try:
     df_consenso = load_media_consenso()
     df_kqa = load_avaliacoes_kqa()
     df_humano = load_humano_vs_juiz()
+    df_rag = load_rag_comparativo()
+    df_rag_consenso = load_rag_consenso()
 except Exception as e:
     st.error(f"Erro ao conectar ao banco: {e}")
     st.stop()
@@ -131,7 +188,9 @@ dataset_sel = st.sidebar.selectbox("Dataset", datasets)
 df_media_f = df_media[df_media["nome_dataset"] == dataset_sel]
 df_consenso_f = df_consenso[df_consenso["nome_dataset"] == dataset_sel]
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Ranking", "Por Judge", "Distribuição", "Reference Judge", "Humano vs LLM"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "Ranking", "Por Judge", "Distribuição", "Reference Judge", "Humano vs LLM", "RAG vs Sem RAG",
+])
 
 # Ranking (consenso) 
 with tab1:
@@ -264,5 +323,86 @@ with tab5:
                 labels={"nota_humana": "Nota Humana", "nota_juiz": "Nota LLM Judge"},
                 title=juiz,
             )
+            fig.update_layout(height=350)
+            col.plotly_chart(fig, use_container_width=True)
+
+# RAG vs Sem RAG
+with tab6:
+    st.subheader("Comparação: RAG vs Sem RAG")
+
+    if df_rag.empty or df_rag_consenso.empty:
+        st.info("Dados RAG não disponíveis. Execute generate_rag.py e judge_rag.py primeiro.")
+    else:
+        col_left, col_right = st.columns(2)
+
+        with col_left:
+            st.metric("Respostas comparadas", f"{df_rag['id_pergunta'].nunique():,}")
+        with col_right:
+            delta_medio = df_rag["nota_com_rag"].mean() - df_rag["nota_sem_rag"].mean()
+            st.metric("Δ médio (RAG - Sem RAG)", f"{delta_medio:+.3f}")
+
+        df_rag_consenso_f = df_rag_consenso[df_rag_consenso["nome_dataset"] == dataset_sel] if "nome_dataset" in df_rag_consenso.columns else df_rag_consenso
+
+        st.subheader("Média por modelo: Sem RAG vs Com RAG")
+        df_plot = df_rag_consenso_f.melt(
+            id_vars=["candidato"],
+            value_vars=["media_sem_rag", "media_com_rag"],
+            var_name="tipo", value_name="media",
+        ).dropna()
+        fig = px.bar(
+            df_plot,
+            x="media",
+            y="candidato",
+            color="tipo",
+            orientation="h",
+            barmode="group",
+            range_x=[1, 5],
+            text="media",
+            color_discrete_map={"media_sem_rag": "#4A90D9", "media_com_rag": "#50C878"},
+            labels={"media": "Média (1–5)", "candidato": "Modelo", "tipo": "Tipo"},
+        )
+        fig.update_traces(textposition="outside")
+        fig.update_layout(height=max(400, len(df_rag_consenso_f) * 40))
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.subheader("Correlação de Spearman: nota Sem RAG vs Com RAG")
+        juizes_rag = sorted(df_rag["juiz"].unique())
+        rows = []
+        for juiz in juizes_rag:
+            subset = df_rag[df_rag["juiz"] == juiz][["nota_sem_rag", "nota_com_rag"]].dropna()
+            if len(subset) < 3:
+                continue
+            rho, pval = spearmanr(subset["nota_sem_rag"], subset["nota_com_rag"])
+            rows.append({"Judge": juiz, "ρ (Spearman)": round(rho, 4), "p-value": round(pval, 4), "n": len(subset)})
+        if rows:
+            st.dataframe(pd.DataFrame(rows), use_container_width=True)
+
+        st.subheader("Impacto do RAG por modelo (consenso entre judges)")
+        df_rag["delta"] = df_rag["nota_com_rag"] - df_rag["nota_sem_rag"]
+        impacto = df_rag.groupby("candidato").agg(
+            melhorou=("delta", lambda x: (x > 0).sum()),
+            piorou=("delta", lambda x: (x < 0).sum()),
+            manteve=("delta", lambda x: (x == 0).sum()),
+            delta_medio=("delta", "mean"),
+        ).reset_index().sort_values("delta_medio", ascending=False)
+        st.dataframe(impacto, use_container_width=True)
+
+        st.subheader("Scatter: Sem RAG vs Com RAG (por judge)")
+        cols_rag = st.columns(min(len(juizes_rag), 3))
+        for col, juiz in zip(cols_rag * (len(juizes_rag) // 3 + 1), juizes_rag):
+            if col is None:
+                continue
+            subset = df_rag[df_rag["juiz"] == juiz][["nota_sem_rag", "nota_com_rag"]].dropna()
+            if len(subset) < 3:
+                col.info(f"{juiz}: dados insuficientes")
+                continue
+            fig = px.scatter(
+                subset, x="nota_sem_rag", y="nota_com_rag",
+                trendline="ols", range_x=[0.5, 5.5], range_y=[0.5, 5.5],
+                labels={"nota_sem_rag": "Sem RAG", "nota_com_rag": "Com RAG"},
+                title=juiz,
+            )
+            fig.add_shape(type="line", x0=0.5, y0=0.5, x1=5.5, y1=5.5,
+                          line=dict(dash="dash", color="gray", width=1))
             fig.update_layout(height=350)
             col.plotly_chart(fig, use_container_width=True)

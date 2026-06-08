@@ -1,0 +1,10 @@
+{
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "top_k": 5,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "chroma_collection": "rag_medical_knowledge",
+  "chroma_persist_dir": "chroma_db",
+  "batch_size": 10
+}

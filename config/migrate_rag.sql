@@ -1,0 +1,8 @@
+ALTER TABLE respostas_atividade_1
+  ADD COLUMN IF NOT EXISTS rag         BOOLEAN NOT NULL DEFAULT FALSE;
+
+ALTER TABLE respostas_atividade_1
+  ADD COLUMN IF NOT EXISTS contexto_rag TEXT;
+
+ALTER TABLE avaliacoes_juiz
+  ADD COLUMN IF NOT EXISTS rag         BOOLEAN NOT NULL DEFAULT FALSE;
