@@ -25,20 +25,23 @@ SELECT
     a_sem.nota            AS nota_sem_rag,
     a_com.nota            AS nota_com_rag,
     a_com.justificativa   AS justificativa_rag
-FROM avaliacoes_juiz a_sem
-JOIN avaliacoes_juiz a_com
-    ON a_com.id_resposta    != a_sem.id_resposta
-   AND a_com.id_modelo_juiz  = a_sem.id_modelo_juiz
-   AND a_com.rag             = TRUE
-JOIN respostas_atividade_1 r_sem ON r_sem.id_resposta  = a_sem.id_resposta  AND r_sem.rag = FALSE
-JOIN respostas_atividade_1 r_com ON r_com.id_pergunta   = r_sem.id_pergunta
-   AND r_com.id_modelo    = r_sem.id_modelo
-   AND r_com.rag          = TRUE
+FROM respostas_atividade_1 r_sem
+JOIN respostas_atividade_1 r_com
+    ON r_com.id_pergunta = r_sem.id_pergunta
+   AND r_com.id_modelo   = r_sem.id_modelo
+   AND r_com.rag         = TRUE
 JOIN perguntas p ON p.id_pergunta = r_sem.id_pergunta
-JOIN datasets d ON d.id_dataset = p.id_dataset
+JOIN datasets  d ON d.id_dataset  = p.id_dataset
 JOIN modelos m_cand ON m_cand.id_modelo = r_sem.id_modelo
+JOIN avaliacoes_juiz a_sem
+    ON a_sem.id_resposta   = r_sem.id_resposta
+   AND a_sem.rag           = FALSE
+JOIN avaliacoes_juiz a_com
+    ON a_com.id_resposta    = r_com.id_resposta
+   AND a_com.id_modelo_juiz = a_sem.id_modelo_juiz
+   AND a_com.rag            = TRUE
 JOIN modelos m_juiz ON m_juiz.id_modelo = a_sem.id_modelo_juiz
-WHERE a_sem.rag = FALSE
+WHERE r_sem.rag = FALSE
 ORDER BY d.nome_dataset, candidato, juiz
 """
 

@@ -38,7 +38,9 @@ CREATE TABLE respostas_atividade_1 (
     id_pergunta    INT    NOT NULL REFERENCES perguntas(id_pergunta) ON DELETE CASCADE,
     id_modelo      INT    NOT NULL REFERENCES modelos(id_modelo),
     id_prompt      INT    REFERENCES prompts(id_prompt),
-    texto_resposta TEXT   NOT NULL
+    texto_resposta TEXT   NOT NULL,
+    rag            BOOLEAN NOT NULL DEFAULT FALSE,
+    contexto_rag   TEXT
 );
 
 
@@ -48,7 +50,8 @@ CREATE TABLE avaliacoes_juiz (
     id_modelo_juiz INT      NOT NULL REFERENCES modelos(id_modelo),
     id_prompt      INT      NOT NULL REFERENCES prompts(id_prompt),
     nota           SMALLINT NOT NULL CHECK (nota BETWEEN 1 AND 5),
-    justificativa  TEXT     NOT NULL
+    justificativa  TEXT     NOT NULL,
+    rag            BOOLEAN NOT NULL DEFAULT FALSE
 );
 
 

@@ -38,6 +38,7 @@ def load_media_por_modelo():
         JOIN datasets              d ON d.id_dataset    = p.id_dataset
         JOIN modelos         m_cand ON m_cand.id_modelo = r.id_modelo
         JOIN modelos         m_juiz ON m_juiz.id_modelo = a.id_modelo_juiz
+        WHERE a.rag = FALSE
         GROUP BY d.nome_dataset, candidato, juiz
         ORDER BY d.nome_dataset, media_nota DESC
     """, conn)
@@ -60,6 +61,7 @@ def load_media_consenso():
         JOIN perguntas             p ON p.id_pergunta   = r.id_pergunta
         JOIN datasets              d ON d.id_dataset    = p.id_dataset
         JOIN modelos         m_cand ON m_cand.id_modelo = r.id_modelo
+        WHERE a.rag = FALSE
         GROUP BY d.nome_dataset, candidato
         ORDER BY d.nome_dataset, media_consenso DESC
     """, conn)
@@ -80,6 +82,7 @@ def load_humano_vs_juiz():
             FROM avaliacoes_humanas ah
             JOIN avaliacoes_juiz aj     ON aj.id_resposta    = ah.id_resposta
             JOIN modelos        m_juiz  ON m_juiz.id_modelo  = aj.id_modelo_juiz
+            WHERE aj.rag = FALSE
         """, conn)
     except Exception:
         df = pd.DataFrame()
@@ -98,18 +101,22 @@ def load_rag_comparativo():
                 m_juiz.nome_modelo || ' ' || m_juiz.versao AS juiz,
                 a_sem.nota AS nota_sem_rag,
                 a_com.nota AS nota_com_rag
-            FROM avaliacoes_juiz a_sem
-            JOIN avaliacoes_juiz a_com
-                ON a_com.id_modelo_juiz = a_sem.id_modelo_juiz
-               AND a_com.rag = TRUE
-            JOIN respostas_atividade_1 r_sem ON r_sem.id_resposta = a_sem.id_resposta AND r_sem.rag = FALSE
-            JOIN respostas_atividade_1 r_com ON r_com.id_pergunta = r_sem.id_pergunta
-               AND r_com.id_modelo = r_sem.id_modelo
-               AND r_com.rag = TRUE
+            FROM respostas_atividade_1 r_sem
+            JOIN respostas_atividade_1 r_com
+                ON r_com.id_pergunta = r_sem.id_pergunta
+               AND r_com.id_modelo   = r_sem.id_modelo
+               AND r_com.rag         = TRUE
             JOIN perguntas p ON p.id_pergunta = r_sem.id_pergunta
             JOIN modelos m_cand ON m_cand.id_modelo = r_sem.id_modelo
+            JOIN avaliacoes_juiz a_sem
+                ON a_sem.id_resposta   = r_sem.id_resposta
+               AND a_sem.rag           = FALSE
+            JOIN avaliacoes_juiz a_com
+                ON a_com.id_resposta    = r_com.id_resposta
+               AND a_com.id_modelo_juiz = a_sem.id_modelo_juiz
+               AND a_com.rag            = TRUE
             JOIN modelos m_juiz ON m_juiz.id_modelo = a_sem.id_modelo_juiz
-            WHERE a_sem.rag = FALSE
+            WHERE r_sem.rag = FALSE
             ORDER BY m_cand.nome_modelo, m_juiz.nome_modelo, p.id_pergunta
         """, conn)
     except Exception:
@@ -158,7 +165,58 @@ def load_avaliacoes_kqa():
         JOIN modelos         m_cand ON m_cand.id_modelo = r.id_modelo
         JOIN modelos         m_juiz ON m_juiz.id_modelo = a.id_modelo_juiz
         WHERE d.nome_dataset = 'Itaymanes K-QA'
+          AND a.rag = FALSE
     """, conn)
+    conn.close()
+    return df
+
+
+@st.cache_data(ttl=60)
+def load_kqa_rag():
+    conn = psycopg2.connect(**DB)
+    try:
+        df = pd.read_sql("""
+            SELECT
+                a.id_resposta,
+                m_cand.nome_modelo || ' ' || m_cand.versao AS candidato,
+                m_juiz.nome_modelo || ' ' || m_juiz.versao AS juiz,
+                a.nota
+            FROM avaliacoes_juiz a
+            JOIN respostas_atividade_1 r ON r.id_resposta  = a.id_resposta
+            JOIN perguntas             p ON p.id_pergunta  = r.id_pergunta
+            JOIN datasets              d ON d.id_dataset   = p.id_dataset
+            JOIN modelos         m_cand ON m_cand.id_modelo = r.id_modelo
+            JOIN modelos         m_juiz ON m_juiz.id_modelo = a.id_modelo_juiz
+            WHERE d.nome_dataset = 'Itaymanes K-QA'
+              AND a.rag = TRUE
+        """, conn)
+    except Exception:
+        df = pd.DataFrame()
+    conn.close()
+    return df
+
+
+@st.cache_data(ttl=60)
+def load_consenso_rag():
+    conn = psycopg2.connect(**DB)
+    try:
+        df = pd.read_sql("""
+            SELECT
+                d.nome_dataset,
+                m_cand.nome_modelo || ' ' || m_cand.versao AS candidato,
+                ROUND(AVG(a.nota)::numeric, 2)             AS media_consenso,
+                COUNT(*)                                   AS total_avaliacoes
+            FROM avaliacoes_juiz a
+            JOIN respostas_atividade_1 r ON r.id_resposta  = a.id_resposta
+            JOIN perguntas             p ON p.id_pergunta  = r.id_pergunta
+            JOIN datasets              d ON d.id_dataset   = p.id_dataset
+            JOIN modelos         m_cand ON m_cand.id_modelo = r.id_modelo
+            WHERE a.rag = TRUE
+            GROUP BY d.nome_dataset, candidato
+            ORDER BY d.nome_dataset, media_consenso DESC
+        """, conn)
+    except Exception:
+        df = pd.DataFrame()
     conn.close()
     return df
 
@@ -174,6 +232,8 @@ try:
     df_humano = load_humano_vs_juiz()
     df_rag = load_rag_comparativo()
     df_rag_consenso = load_rag_consenso()
+    df_kqa_rag = load_kqa_rag()
+    df_consenso_rag = load_consenso_rag()
 except Exception as e:
     st.error(f"Erro ao conectar ao banco: {e}")
     st.stop()
@@ -189,7 +249,7 @@ df_media_f = df_media[df_media["nome_dataset"] == dataset_sel]
 df_consenso_f = df_consenso[df_consenso["nome_dataset"] == dataset_sel]
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    "Ranking", "Por Judge", "Distribuição", "Reference Judge", "Humano vs LLM", "RAG vs Sem RAG",
+    "Ranking (Sem RAG)", "Por Judge (Sem RAG)", "Distribuição (Sem RAG)", "Reference Judge (Sem RAG)", "Humano vs LLM (Sem RAG)", "RAG vs Sem RAG",
 ])
 
 # Ranking (consenso) 
@@ -406,3 +466,66 @@ with tab6:
                           line=dict(dash="dash", color="gray", width=1))
             fig.update_layout(height=350)
             col.plotly_chart(fig, use_container_width=True)
+
+        st.divider()
+
+        # ── Consenso (RAG) ──
+        st.subheader("Consenso (RAG) — Ranking dos modelos")
+        if df_consenso_rag.empty:
+            st.info("Sem dados de consenso RAG.")
+        else:
+            df_consenso_rag_f = df_consenso_rag[df_consenso_rag["nome_dataset"] == dataset_sel] if "nome_dataset" in df_consenso_rag.columns else df_consenso_rag
+            fig = px.bar(
+                df_consenso_rag_f.sort_values("media_consenso"),
+                x="media_consenso",
+                y="candidato",
+                orientation="h",
+                text="media_consenso",
+                color="media_consenso",
+                color_continuous_scale="Greens",
+                range_x=[1, 5],
+                labels={"media_consenso": "Média (1–5)", "candidato": "Modelo"},
+            )
+            fig.update_traces(textposition="outside")
+            fig.update_layout(coloraxis_showscale=False, height=max(400, len(df_consenso_rag_f) * 40))
+            st.plotly_chart(fig, use_container_width=True)
+            st.dataframe(df_consenso_rag_f.sort_values("media_consenso", ascending=False), use_container_width=True)
+
+        st.divider()
+
+        # ── Reference Judge (RAG) ──
+        st.subheader("Reference Judge (RAG) — Concordância entre judges")
+        if df_kqa_rag.empty:
+            st.info("Sem dados RAG K-QA para Reference Judge.")
+        else:
+            pivot_rj_rag = df_kqa_rag.pivot_table(index="id_resposta", columns="juiz", values="nota")
+            if REFERENCE_JUDGE not in pivot_rj_rag.columns:
+                st.warning(f"Judge de referência '{REFERENCE_JUDGE}' não encontrado nos dados RAG.")
+            else:
+                outros_rag = [c for c in pivot_rj_rag.columns if c != REFERENCE_JUDGE]
+                rows_rag = []
+                for juiz in outros_rag:
+                    subset = pivot_rj_rag[[REFERENCE_JUDGE, juiz]].dropna()
+                    if len(subset) < 3:
+                        continue
+                    rho, pval = spearmanr(subset[REFERENCE_JUDGE], subset[juiz])
+                    rows_rag.append({"Judge": juiz, "ρ (Spearman)": round(rho, 4), "p-value": round(pval, 4), "n": len(subset)})
+                if rows_rag:
+                    st.dataframe(pd.DataFrame(rows_rag), use_container_width=True)
+
+                cols_rag_rj = st.columns(min(len(outros_rag), 3))
+                for col, juiz in zip(cols_rag_rj * (len(outros_rag) // 3 + 1), outros_rag):
+                    if col is None:
+                        continue
+                    subset = pivot_rj_rag[[REFERENCE_JUDGE, juiz]].dropna()
+                    if len(subset) < 3:
+                        col.info(f"{juiz}: dados insuficientes")
+                        continue
+                    fig = px.scatter(
+                        subset, x=REFERENCE_JUDGE, y=juiz,
+                        trendline="ols", range_x=[0.5, 5.5], range_y=[0.5, 5.5],
+                        labels={REFERENCE_JUDGE: f"Ref ({REFERENCE_JUDGE})", juiz: juiz},
+                        title=juiz,
+                    )
+                    fig.update_layout(height=350)
+                    col.plotly_chart(fig, use_container_width=True)
